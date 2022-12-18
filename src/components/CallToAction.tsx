@@ -1,6 +1,7 @@
 
 import Form from "./Form"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Link from "next/link";
 
 import {
   faEnvelope,
@@ -18,11 +19,11 @@ export default function CallToAction(){
         <div className="">
           <div className="flex flex-col md:flex-row items-center justify-center gap-4">
             <div className="text-5xl font-semibold sm:text-6xl md:text-7xl">
-              Let's<span className="text-blue-400"> Do</span> This!
+              Lets<span className="text-blue-400"> Do</span> This!
             </div>
 
             <div>
-              <a
+              <Link
                 target="_blank"
                 href="mailto:info@ruggeddevelopment.com"
               >
@@ -34,7 +35,7 @@ export default function CallToAction(){
 									</span>
                   Email Us
                 </button>
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -43,7 +44,7 @@ export default function CallToAction(){
           <div className="flex justify-center">
             <div className="w-full py-5 md:max-w-xl lg:w-1/2">
               <p>
-                "Every organization is unique. Our experts are committed to helping you select a solution that matches your specific needs – from warehouse equipment to rugged computing and scanning."
+                We are always looking for new opportunities to work with
               </p>
             </div>
           </div>
