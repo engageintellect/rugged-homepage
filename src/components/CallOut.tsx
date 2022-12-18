@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default function CallOut(){
 	return(
 		<>
@@ -7,9 +9,9 @@ export default function CallOut(){
       >
         <div className="h-96 flex flex-col xl:flex-row gap-2 xl:gap-20 items-center justify-center">
           <div className="pb-5 md:pb-0 text-5xl sm:text-6xl md:text-7xl font-semibold text-white flex justify-center" id="about">
-            <a href="/">
+            <Link href="/">
               Our<span className="text-blue-400"> Partners</span>
-            </a>
+            </Link>
           </div>
 
           <div className="grid grid-cols-4 gap-4">

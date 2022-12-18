@@ -1,4 +1,5 @@
 import { type PropsWithChildren } from "react";
+import Link from "next/link";
 
 type HeroProps = {
   title: string;
@@ -6,7 +7,7 @@ type HeroProps = {
 };
 
 export default function Hero({
-  title,
+  // title,
   description,
 }: PropsWithChildren<HeroProps>) {
   return (
@@ -20,26 +21,26 @@ export default function Hero({
       <div className="text-center text-white">
         <div className="my-2 md:my-5 text-4xl sm:text-5xl font-semibold tracking-tighter md:text-7xl">
           {/* {title} */}
-          <a href="/">
+          <Link href="/">
             Rugged<span className="text-blue-400"></span> Development
-          </a>
+          </Link>
         </div>
         <div className="text-md md:text-xl tracking-tighter xl:text-2xl px-5 md:px-20">
           {description}
         </div>
 
         <div className="flex items-center justify-center gap-4">
-          <a href="/#learn_more">
+          <Link href="/#learn_more">
             <button className="mt-4 rounded-lg bg-blue-800 p-4 text-white shadow-lg hover:scale-105 hover:bg-blue-700">
               Learn More
             </button>
-          </a>
+          </Link>
 
-          <a href="/#contribute">
+          <Link href="/#contribute">
             <button className="mt-4 rounded-lg bg-blue-800 p-4 text-white shadow-lg hover:scale-105 hover:bg-blue-700">
               Get a Quote
             </button>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
