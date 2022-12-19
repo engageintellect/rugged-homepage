@@ -32,7 +32,7 @@ export default function CallToAction(){
                     <FontAwesomeIcon
                       icon={faEnvelope}
                       className="mr-2"
-                      />
+                    />
                   </span>
 
                   <span>
