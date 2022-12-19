@@ -1,4 +1,3 @@
-
 // IMPORTS
 import { type NextPage } from "next";
 // import { signIn, signOut, useSession } from "next-auth/react";
@@ -13,10 +12,11 @@ import Hero from "../components/Hero";
 import TeamSection from "../components/TeamSection";
 import CardStack from "../components/CardStack";
 import Footer from "../components/Footer";
-import CallOut from "../components/CallOut";
+import Partners from "../components/Partners";
 import HeroCards from "../components/HeroCards";
 import CallToAction from "../components/CallToAction";
 import TwitterFeed from "../components/TwitterFeed";
+import Testing from "../components/Testing";
 
 
 
@@ -38,6 +38,7 @@ const Home: NextPage = (props) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+
       <div className="bg-neutral-800">
 				<Alert 
           title={trpcMessage.data?.title ?? 'loading...'} 
@@ -53,7 +54,7 @@ that will optimize efficiency and increase profitability."
 				<TeamSection/>
       </div>
 			<CardStack />
-      <CallOut/>
+      <Partners/>
       <TwitterFeed/>
       <CallToAction/>
 			<Footer />
