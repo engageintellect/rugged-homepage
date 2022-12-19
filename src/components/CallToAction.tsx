@@ -1,6 +1,5 @@
 
 import Form from "./Form"
-import Link from "next/link";
 
 
 export default function CallToAction(){
@@ -17,14 +16,14 @@ export default function CallToAction(){
             </div>
 
             <div>
-              <Link
+              <a
                 target="_blank"
                 href="mailto:info@ruggeddevelopment.com"
               >
                 <button className="text-sm rounded-lg bg-blue-800 p-4 text-white shadow-lg hover:bg-blue-700">
                   Email Us
                 </button>
-              </Link>
+              </a>
             </div>
           </div>
 
