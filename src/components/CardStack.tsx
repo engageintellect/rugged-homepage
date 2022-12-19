@@ -3,12 +3,12 @@ import CardStackCard from "./CardStackCard";
 
 export default function CardStack() {
 	const cardClass = {
-		"card1": "h-64 sm:h-52 md:h-56 xl:h-full bg-neutral-800 rounded-lg p-4 lg:p-10 xl:shadow-lg border border-neutral-700 xl:hover:z-50 xl:hover:scale-105 xl:transition-transform xl:duration-300 overflow-hidden",
-		"card2": "h-64 sm:h-52 md:h-56 xl:h-full bg-neutral-800 rounded-lg p-4 lg:p-10 xl:shadow-lg xl:translate-y-10 border border-neutral-700 xl:hover:z-50 xl:hover:scale-105 xl:transition-transform xl:duration-300 overflow-hidden",
-		"card3": "h-64 sm:h-52 md:h-56 xl:h-full bg-neutral-800 rounded-lg p-4 lg:p-10 lg:shadow-lg xl:translate-x-1/2 border border-neutral-700 xl:z-40 xl:hover:scale-105 xl:transition-transform xl:duration-300 overflow-hidden",
+		"card1": "h-64 sm:h-52 md:h-56 xl:h-full bg-neutral-800 hover:bg-blue-800 rounded-lg p-4 lg:p-10 xl:shadow-lg border border-neutral-700 xl:hover:z-50 xl:hover:scale-105 xl:transition-transform xl:duration-300 overflow-hidden",
+		"card2": "h-64 sm:h-52 md:h-56 xl:h-full bg-neutral-800 hover:bg-blue-800 rounded-lg p-4 lg:p-10 xl:shadow-lg xl:translate-y-10 border border-neutral-700 xl:hover:z-50 xl:hover:scale-105 xl:transition-transform xl:duration-300 overflow-hidden",
+		"card3": "h-64 sm:h-52 md:h-56 xl:h-full bg-neutral-800 hover:bg-blue-800 rounded-lg p-4 lg:p-10 lg:shadow-lg xl:translate-x-1/2 border border-neutral-700 xl:z-40 xl:hover:scale-105 xl:transition-transform xl:duration-300 overflow-hidden",
 		"hidden": "h-64 sm:h-52 md:h-56 xl:h-full hidden xl:flex rounded-lg p-4 lg:p-10 overflow-hidden",
-		"card4": "h-64 sm:h-52 md:h-56 xl:h-full bg-neutral-800 rounded-lg p-4 lg:p-10 xl:shadow-lg xl:-translate-y-10 border border-neutral-700 xl:hover:z-50 xl:hover:scale-105 xl:transition-transform xl:duration-300 overflow-hidden",
-		"card5": "h-64 sm:h-52 md:h-56 xl:h-full bg-neutral-800 rounded-lg p-4 lg:p-10 xl:shadow-lg border border-neutral-700 xl:hover:z-50 xl:hover:scale-105 xl:transition-transform xl:duration-300 overflow-hidden",
+		"card4": "h-64 sm:h-52 md:h-56 xl:h-full bg-neutral-800 hover:bg-blue-800 rounded-lg p-4 lg:p-10 xl:shadow-lg xl:-translate-y-10 border border-neutral-700 xl:hover:z-50 xl:hover:scale-105 xl:transition-transform xl:duration-300 overflow-hidden",
+		"card5": "h-64 sm:h-52 md:h-56 xl:h-full bg-neutral-800 hover:bg-blue-800 rounded-lg p-4 lg:p-10 xl:shadow-lg border border-neutral-700 xl:hover:z-50 xl:hover:scale-105 xl:transition-transform xl:duration-300 overflow-hidden",
 		"rainbow": "h-64 sm:h-52 md:h-56 xl:h-full rounded-lg p-4 lg:p-10 lg:shadow-lg xl:translate-x-1/2 border border-neutral-700 xl:z-40 xl:hover:scale-105 xl:transition-transform  bg-neutral-800  xl:bg-gradient-to-r xl:from-blue-500 xl:to-orange-500 xl:via-blue-500 xl:animate-gradient-x xl:bg-cover xl:bg-center xl:shadow-lg xl:duration-300 overflow-hidden",
 	}
 
