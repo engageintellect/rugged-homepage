@@ -27,13 +27,18 @@ export default function CallToAction(){
                 target="_blank"
                 href="mailto:info@ruggeddevelopment.com"
               >
-                <button className="text-xs rounded-lg bg-blue-800 p-4 text-white shadow-lg hover:bg-blue-700">
-									<span className="pr-2">
-      							<FontAwesomeIcon
-        							icon={faEnvelope}
-      							/>
-									</span>
-                  Email Us
+                <button className="text-sm rounded-lg bg-blue-800 p-4 text-white shadow-lg hover:bg-blue-700">
+                  <span>
+                    <FontAwesomeIcon
+                      icon={faEnvelope}
+                      className="mr-2"
+                      />
+                  </span>
+
+                  <span>
+                    Email Us
+                  </span>
+                  
                 </button>
               </Link>
             </div>

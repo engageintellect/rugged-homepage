@@ -18,6 +18,8 @@ import HeroCards from "../components/HeroCards";
 import CallToAction from "../components/CallToAction";
 import TwitterFeed from "../components/TwitterFeed";
 
+import Testing from "../components/testing";
+
 
 
 const Home: NextPage = (props) => {
@@ -55,6 +57,7 @@ that will optimize efficiency and increase profitability."
       <CallOut/>
       <TwitterFeed/>
       <CallToAction/>
+      <Testing/>
 			<Footer />
     </>
   );
