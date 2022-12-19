@@ -6,13 +6,13 @@ export default function CallToAction(){
 	return(
 		<>
       <div
-        className="bg-neutral-800 p-5 md:p-10 py-20 text-white"
+        className="bg-neutral-800 p-5 md:p-20 py-20 text-white"
         id="contribute"
       >
         <div className="">
           <div className="flex flex-col md:flex-row items-center justify-center gap-4">
             <div className="text-5xl font-semibold sm:text-6xl md:text-7xl">
-              Lets<span className="text-blue-400"> Do</span> This!
+              Let's<span className="text-blue-400"> Do</span> This!
             </div>
 
             <div>

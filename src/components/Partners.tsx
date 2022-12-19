@@ -9,6 +9,9 @@ import proclip from '/public/images/partners/procliplogo.png'
 import ruggon from '/public/images/partners/ruggon.png'
 
 
+import Partner from './Partner'
+
+
 
 
 
@@ -18,7 +21,7 @@ export default function Parnters(){
 	return(
 		<>
       <div
-        className="py-10 bg-blue-900 xl:bg-gradient-to-r xl:from-blue-500 xl:to-orange-500 xl:via-blue-500 xl:animate-gradient-x xl:bg-cover xl:bg-center xl:shadow-lg"
+        className="py-10 md:py-40 xl:py-10 bg-blue-900 xl:bg-gradient-to-r xl:from-blue-500 xl:to-orange-500 xl:via-blue-500 xl:animate-gradient-x xl:bg-cover xl:bg-center xl:shadow-lg"
         id="getting_started"
       >
         <div className="h-96 flex flex-col xl:flex-row gap-2 xl:gap-20 items-center justify-center">
@@ -29,64 +32,29 @@ export default function Parnters(){
           </div>
 
           <div className="grid grid-cols-3 gap-4">
-            <div className="h-40 w-40 relative">
-              <Image
-                src={zebra}
-                alt="Picture of the author"
-                layout="fill" // required
-                objectFit="cover" // change to suit your needs
-                className="rounded-full bg-white" // just an example
-              />
+
+            <div>
+              <Partner title="Zebra" description="cool man" url="https://www.zebra.com/us/en.html" img={zebra} />
             </div>
 
-            <div className="h-40 w-40 relative">
-              <Image
-                src={panasonic}
-                alt="Picture of the author"
-                layout="fill" // required
-                objectFit="cover" // change to suit your needs
-                className="rounded-full bg-white" // just an example
-              />
+            <div>
+              <Partner title="Panasonic" description="cool man" url="https://www.na.panasonic.com/" img={panasonic} />
             </div>
 
-            <div className="h-40 w-40 relative">
-              <Image
-                src={getac}
-                alt="Picture of the author"
-                layout="fill" // required
-                objectFit="cover" // change to suit your needs
-                className="rounded-full" // just an example
-              />
+            <div>
+              <Partner title="Getac" description="cool man" url="https://www.getac.com/" img={getac} />
             </div>
 
-            <div className="h-40 w-40 relative">
-              <Image
-                src={v5}
-                alt="Picture of the author"
-                layout="fill" // required
-                objectFit="cover" // change to suit your needs
-                className="rounded-full" // just an example
-              />
+            <div>
+              <Partner title="V5" description="cool man" url="https://v5systems.us/" img={v5} />
             </div>
 
-            <div className="h-40 w-40 relative">
-              <Image
-                src={proclip}
-                alt="Picture of the author"
-                layout="fill" // required
-                objectFit="cover" // change to suit your needs
-                className="rounded-full" // just an example
-              />
+            <div>
+              <Partner title="Proclip" description="cool man" url="https://proclipusa.com" img={proclip} />
             </div>
 
-            <div className="h-40 w-40 relative">
-              <Image
-                src={ruggon}
-                alt="Picture of the author"
-                layout="fill" // required
-                objectFit="cover" // change to suit your needs
-                className="rounded-full" // just an example
-              />
+            <div>
+              <Partner title="Ruggon" description="cool man" url="https://ruggon.com" img={ruggon} />
             </div>
 
 

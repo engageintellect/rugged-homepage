@@ -22,7 +22,7 @@ export default function CardStack() {
 						{/* CARD 1 */}
 						<CardStackCard 
 						card_class={cardClass.card1}
-						title={'Improve Collaboration'} 
+						title={'Asset Tracking & Inventory Management'} 
 						msg={
 							'Do do anim sint adipisicing duis cupidatat. Ut anim consequat culpa cupidatat et esse ex ullamco non dolor reprehenderit exercitation aliqua eiusmod. Qui veniam enim enim minim occaecat fugiat fugiat eu. Anim exercitation aliqua aliquip dolore ex ad reprehenderit magna Lorem amet ut sint.'
 						} 
@@ -31,7 +31,7 @@ export default function CardStack() {
 						{/* CARD 2 */}
 						<CardStackCard 
 						card_class={cardClass.card2}
-						title={'Increasing Knowledge'} 
+						title={'Video Surveillance'} 
 						msg={
 							'Do do anim sint consfugiat. Laboris laboris id commodo ullamco Lorem amet velit duis eu mollit adipisicing duis cupidatat. Ut anim consequat culpa cupidatat et esse ex ullamco non dolor reprehenderit exercitation aliqua eiusmod. Qui veniam enim enim minim occaecat fugiat fugiat eu. Anim exercitation aliqua aliquip dolore ex ad reprehenderit magna Lorem amet ut sint.'
 						} 
@@ -40,7 +40,7 @@ export default function CardStack() {
 						{/* CARD 3 */}
 						<CardStackCard 
 						card_class={cardClass.card3}
-						title={'Connecting People'} 
+						title={'Rugged Computing'} 
 						msg={
 							'Do do anim sint consequat est ad qui consectetur nostrud. Duis minim non laborum nulla fugiat. Laboris laboris id commodo ullamco Lorem amet velit duis eu mollit adipisicing duis cupidatat. Ut anim consequat culpa cupidatat et esse ex ullamco non dolor reprehenderit exercitation aliqua eiusmod. Qui veniam enim enim minim occaecat fugiat fugiat eu. Anim exercitation aliqua aliquip dolore ex ad reprehenderit magna Lorem amet ut sint.'
 						} 
@@ -58,7 +58,7 @@ export default function CardStack() {
 						{/* CARD 4 */}
 						<CardStackCard 
 						card_class={cardClass.card4}
-						title={'Consolidating Data'} 
+						title={'Wearable Technology'} 
 						msg={
 							'Do do anim sint mollit adipisicing duis cupidatat. Ut anim consequat culpa cupidatat et esse ex ullamco non dolor reprehenderit exercitation aliqua eiusmod. Qui veniam enim enim minim occaecat fugiat fugiat eu. Anim exercitation aliqua aliquip dolore ex ad reprehenderit magna Lorem amet ut sint.'
 						} 
@@ -67,7 +67,7 @@ export default function CardStack() {
 						{/* CARD 5 */}
 						<CardStackCard 
 						card_class={cardClass.card5}
-						title={'Improve DX'} 
+						title={'RFID & Barcode Scanning'} 
 						msg={
 							'Do do anim sint consequat est ad qui consectetur nostrud. Duis minim non laborum nulla fugiat. Laboris laboris id commodo ullamco Lorem amet velit duis eu mollit adipisicing duis cupidatat. Ut anim consequat culpa cupidatat et esse ex ullamco non dolor reprehenderit exercitation aliqua eiusmod. Qui veniam enim enim minim occaecat fugiat fugiat eu. Anim exercitation aliqua aliquip dolore ex ad reprehenderit magna Lorem amet ut sint.'
 						} 
