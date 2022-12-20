@@ -68,7 +68,7 @@ export default function Form () {
 
         <button
           onClick={(e) => handleSubmit(e)}
-          className="mt-4 rounded-lg bg-blue-800 p-4 text-white shadow-lg hover:bg-blue-700"
+          className="mt-4 rounded-lg bg-blue-800 p-4 text-white shadow-lg hover:bg-blue-700 active:scale-95 transition-transform duration-200"
         >
           Submit
         </button>

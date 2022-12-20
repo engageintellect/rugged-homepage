@@ -11,9 +11,9 @@ export default function Hero({
 }: PropsWithChildren<HeroProps>) {
   return (
     <div className=" bg-hero flex h-64 md:h-96 items-center justify-center bg-gradient-to-r 
-		from-neutral-500 
-		to-neutral-500 
-		via-neutral-500 
+		from-red-500 
+		to-red-500 
+		via-blue-500 
 		animate-gradient-x
 		bg-cover bg-center shadow-lg
 		">
