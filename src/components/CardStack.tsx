@@ -41,7 +41,7 @@ export default function CardStack() {
 							/>
 						</div>
 
-						<div className="xl:z-50">
+						<div className="z-50">
 							{/* CARD 3 */}
 							<CardStackCard 
 							card_class={cardClass.card3}

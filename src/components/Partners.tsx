@@ -21,7 +21,7 @@ export default function Parnters(){
 	return(
 		<>
       <div
-        className="py-10 md:py-40 xl:py-10 bg-blue-900 xl:bg-gradient-to-r xl:from-blue-500 xl:to-orange-500 xl:via-blue-500 xl:animate-gradient-x xl:bg-cover xl:bg-center xl:shadow-lg"
+        className="py-10 md:py-40 xl:py-10 bg-blue-900 xl:bg-gradient-to-r xl:from-purple-500 xl:to-purple-500 xl:via-blue-500 xl:animate-gradient-x xl:bg-cover xl:bg-center xl:shadow-lg"
         id="getting_started"
       >
         <div className="h-96 flex flex-col xl:flex-row gap-2 xl:gap-20 items-center justify-center">
