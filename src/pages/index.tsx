@@ -19,17 +19,11 @@ import TwitterFeed from "../components/TwitterFeed";
 import Testing from "../components/Testing";
 import Industries from "../components/Industries";
 
-
-
-
 const Home: NextPage = (props) => {
-  const trpcMessage = trpc.api.alert.useQuery(
-		{
-			title: "Alert:",
-			msg: "This is an alert, driven by tRPC.",
-		}
-
-	);
+  const trpcMessage = trpc.api.alert.useQuery({
+    title: "Alert:",
+    msg: "This is an alert, driven by tRPC.",
+  });
 
   return (
     <>
@@ -39,31 +33,28 @@ const Home: NextPage = (props) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-
       <div className="bg-neutral-800">
-				<Alert 
-          title={trpcMessage.data?.title ?? 'loading...'} 
-          msg={trpcMessage.data?.msg} 
+        <Alert
+          title={trpcMessage.data?.title ?? "loading..."}
+          msg={trpcMessage.data?.msg}
         />
-				<Navbar />
+        <Navbar />
         <Hero
           title="Titlei"
           description="We supply, deploy, and support innovative technology
 that will optimize efficiency and increase profitability."
         />
-				<HeroCards/>
-				<TeamSection/>
+        <HeroCards />
+        <TeamSection />
       </div>
-			<CardStack />
-      <Industries/>
-      <Partners/>
-      <TwitterFeed/>
-      <CallToAction/>
-			<Footer />
+      <CardStack />
+      <Industries />
+      <Partners />
+      <TwitterFeed />
+      <CallToAction />
+      <Footer />
     </>
   );
 };
 
 export default Home;
-
-

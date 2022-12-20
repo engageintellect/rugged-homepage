@@ -10,21 +10,23 @@ export default function Hero({
   description,
 }: PropsWithChildren<HeroProps>) {
   return (
-    <div className=" bg-hero flex h-64 md:h-96 items-center justify-center bg-gradient-to-r 
+    <div
+      className=" bg-hero flex h-64 animate-gradient-x items-center justify-center bg-gradient-to-r 
 		from-purple-500 
-		to-purple-500 
 		via-blue-500 
-		animate-gradient-x
-		bg-cover bg-center shadow-lg
-		">
+		to-purple-500 
+		bg-cover
+		bg-center shadow-lg md:h-96
+		"
+    >
       <div className="text-center text-white">
-        <div className="my-2 md:my-5 text-4xl sm:text-5xl font-semibold tracking-tighter md:text-7xl">
+        <div className="my-2 text-4xl font-semibold tracking-tighter sm:text-5xl md:my-5 md:text-7xl">
           {/* {title} */}
           <a href="/">
             Rugged<span className="text-blue-400"></span> Development
           </a>
         </div>
-        <div className="text-md md:text-xl tracking-tighter xl:text-2xl px-5 md:px-20">
+        <div className="text-md px-5 tracking-tighter md:px-20 md:text-xl xl:text-2xl">
           {description}
         </div>
 

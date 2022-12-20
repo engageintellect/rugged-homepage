@@ -4,12 +4,14 @@ import { router, publicProcedure } from "../trpc";
 
 export const apiRouter = router({
   alert: publicProcedure
-    .input(z.object(
-			{ 
-				title: z.string().nullish(),
-				msg: z.string().nullish(),
-			}
-			).nullish())
+    .input(
+      z
+        .object({
+          title: z.string().nullish(),
+          msg: z.string().nullish(),
+        })
+        .nullish()
+    )
     .query(({ input }) => {
       return {
         title: `${input?.title ?? "hello"}`,

@@ -1,9 +1,8 @@
 import { motion, Variants } from "framer-motion";
 
-
 const cardVariants: Variants = {
   offscreen: {
-    y: 300
+    y: 300,
   },
   onscreen: {
     y: 0,
@@ -11,33 +10,27 @@ const cardVariants: Variants = {
     transition: {
       type: "spring",
       bounce: 0.1,
-      duration: 1
-    }
-  }
+      duration: 1,
+    },
+  },
 };
 
-
-export default function Slider () {
-	return (
-		<>
-			<motion.div
-			className="card-container"
-      initial="offscreen"
-      whileInView="onscreen"
-      viewport={{ once: true, amount: 0.8 }}
-			>
-				<motion.div className="" variants={cardVariants}>
-					
-					{/* PAYLOAD */}
-					<>
-						<div className="bg-red-500 h-48">
-							hello there world
-						</div>
-					</>
-
-      	</motion.div>
-    	</motion.div>
-		</>
-	)
+export default function Slider() {
+  return (
+    <>
+      <motion.div
+        className="card-container"
+        initial="offscreen"
+        whileInView="onscreen"
+        viewport={{ once: true, amount: 0.8 }}
+      >
+        <motion.div className="" variants={cardVariants}>
+          {/* PAYLOAD */}
+          <>
+            <div className="h-48 bg-red-500">hello there world</div>
+          </>
+        </motion.div>
+      </motion.div>
+    </>
+  );
 }
-
