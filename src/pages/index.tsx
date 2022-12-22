@@ -18,6 +18,7 @@ import CallToAction from "../components/CallToAction";
 import TwitterFeed from "../components/TwitterFeed";
 import Testing from "../components/Testing";
 import Industries from "../components/Industries";
+import Hey from "../components/Hey";
 
 const Home: NextPage = (props) => {
   const trpcMessage = trpc.api.alert.useQuery({
@@ -52,6 +53,7 @@ that will optimize efficiency and increase profitability."
       <Partners />
       <TwitterFeed />
       <CallToAction />
+      <Hey />
       <Footer />
     </>
   );

@@ -14,9 +14,9 @@ export default async function getData(req: NextApiRequest, res: NextApiResponse)
         body: `
         {
           "properties": {
-            "firstname": "Joiwn",
-            "lastname": "Doe",
-            "email": "jdsdh@dhskdjh.com",
+            "firstname": "2te3sting",
+            "lastname": "smith",
+            "email": "jdsdh@d3333hskdjh.com",
             "phone": "1234567890"
           }
         }`
