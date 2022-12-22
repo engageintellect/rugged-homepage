@@ -1,18 +1,12 @@
+// Hey Page
 
-
-
-
-
-
-
-
-export default function Hey(){
+export default function Hey() {
 
 	const data = {
 		properties: {
-			firstname: 'heiyheran',
-			lastname: 'smith',
-			email: 'hhhhhh@hey.com',
+			firstname: 'Josharooo2',
+			lastname: 'Patel',
+			email: 'josharoo2@gmail.com',
 			phone: '555-555-5555'
 		}
 	}
@@ -26,14 +20,14 @@ export default function Hey(){
 			},
 			body: JSON.stringify(data)
 	})
-		const res = await response.json()
-		console.log(res)
+		const res = await response.json();
+		console.log(res);
 	}
 
 return (
 	<>
 	<div>
-		hello there world
+		Testing POST request to internal API
 	</div>
 
 	<button onClick={submitForm}>
