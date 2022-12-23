@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 export default function Form() {
+
   interface FormData {
     firstname: string;
     lastname: string;
@@ -24,37 +25,33 @@ export default function Form() {
 
   //! TODO: This could be cleaner...
 
-  const handleSubmit = (e: React.FormEvent<any>) => {
-    // e.preventDefault();
-    // console.log(formData);
-    postData();
-  };
+  const handleSubmit = async (e: React.FormEvent<any>) => {
+    e.preventDefault();
+    console.log(formData);
 
 
+	  const data = {
+		  properties: {
+			  firstname: formData.firstname,
+			  lastname: formData.lastname,
+			  email: formData.email,
+			  phone: formData.phone,
+		  }
+	  }
 
-  const postData = async () => {
-    const data = {
-      firstname: formData.firstname,
-      lastname: formData.lastname,
-      email: formData.email,
-      phone: formData.phone,
-    };
 
-    const response = await fetch("/api/submitForm", {
-      method: "POST",
-      headers: {"Content-Type": "application/json",
-      "Authorization": `Bearer ${process.env.NEXT_PUBLIC_API_KEY}`},
-      body: `
-      properties: {
-        'firstname': ${data.firstname},
-        'lastname': ${data.lastname},
-        'email': ${data.email},
-        'phone': ${data.phone},
-      }`,
-    });
-    console.log('hello world')
-    const res = response.json();
-    console.log(res)
+		  const response = await fetch('/api/submitForm', {
+			  method: 'POST',
+			  headers: {
+				  'Content-Type': 'application/json',
+				  'Authorization': `Bearer ${process.env.NEXT_PUBLIC_API_KEY}`
+			  },
+			  body: JSON.stringify(data)
+	  })
+		  const res = await response.json();
+		  console.log(res);
+
+
   };
 
 
@@ -82,7 +79,7 @@ export default function Form() {
         />
         <input
           className="rounded-md p-2 text-neutral-900 placeholder-neutral-700 outline-none focus:outline-blue-700"
-          type="text"
+          type="email"
           placeholder="Email"
           name="email"
           onChange={(e) => handleChange(e)}
@@ -90,7 +87,7 @@ export default function Form() {
         <input
           className="rounded-md p-2 text-neutral-900 placeholder-neutral-700 outline-none focus:outline-blue-700"
           type="textarea"
-          placeholder="Phone"
+          placeholder="Phone Number"
           name="phone"
           onChange={(e) => handleChange(e)}
         />

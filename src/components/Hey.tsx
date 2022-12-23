@@ -4,9 +4,9 @@ export default function Hey() {
 
 	const data = {
 		properties: {
-			firstname: 'Josharooo2',
+			firstname: 'Josharooo3',
 			lastname: 'Patel',
-			email: 'josharoo2@gmail.com',
+			email: 'josharoo4@gmail.com',
 			phone: '555-555-5555'
 		}
 	}
