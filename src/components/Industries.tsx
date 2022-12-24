@@ -16,7 +16,7 @@ export default function Industries() {
             to the unique needs of your business."
           </div>
         </div> */}
-      <div className="bg-neutral-800">
+      <div className="bg-neutral-900">
         <div className="bg-neutral-800 px-2 md:px-10 xl:px-60" id="learn_more">
           <div className="flex h-96 items-center justify-center">
             <WideCard

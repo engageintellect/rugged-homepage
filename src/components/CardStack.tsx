@@ -15,7 +15,7 @@ export default function CardStack() {
     card5:
       "h-96 w-80 sm:h-96 xl:w-full md:h-96 md:w-96 xl:h-full bg-neutral-800 hover:bg-blue-800 rounded-lg p-4 lg:p-10 xl:shadow-lg border border-neutral-700 xl:hover:z-50 xl:hover:scale-105 transition-all duration-300 overflow-hidden",
     rainbow:
-      "h-96 w-80 sm:h-96 xl:w-full md:h-96 md:w-96 xl:h-full rounded-lg p-4 lg:p-10 lg:shadow-lg xl:translate-x-1/2 border border-neutral-700 xl:z-40 xl:hover:scale-105 transition-transform  bg-neutral-800  xl:bg-gradient-to-r xl:from-blue-500 xl:to-orange-500 xl:via-blue-500 xl:animate-gradient-x xl:bg-cover xl:bg-center xl:shadow-lg xl:duration-300 overflow-hidden",
+      "h-96 w-80 sm:h-96 xl:w-full md:h-96 md:w-96 xl:h-full rounded-lg p-4 lg:p-10 lg:shadow-lg xl:translate-x-1/2 border border-neutral-700 xl:z-50 xl:hover:scale-105 transition-transform  bg-neutral-800  xl:bg-gradient-to-r xl:from-purple-500 xl:to-purple-500 xl:via-blue-500 xl:animate-gradient-x xl:bg-cover xl:bg-center xl:shadow-lg xl:duration-300 overflow-hidden",
   };
 
   return (
@@ -46,10 +46,10 @@ export default function CardStack() {
               />
             </div>
 
-            <div className="z-50">
+            <div className="z-40">
               {/* CARD 3 */}
               <CardStackCard
-                card_class={cardClass.card3}
+                card_class={cardClass.rainbow}
                 title={"Rugged Computing"}
                 msg={
                   "Do do anim sint consequat est ad qui consectetur nostrud. Duis minim non laborum nulla fugiat. Laboris laboris id commodo ullamco Lorem amet velit duis eu mollit adipisicing duis cupidatat. Ut anim consequat culpa cupidatat et esse ex ullamco non dolor reprehenderit exercitation aliqua eiusmod. Qui veniam enim enim minim occaecat fugiat fugiat eu. Anim exercitation aliqua aliquip dolore ex ad reprehenderit magna Lorem amet ut sint."

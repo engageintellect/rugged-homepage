@@ -2,7 +2,7 @@ import Tweet from "./Tweet.tsx";
 
 export default function TwitterFeed() {
   return (
-    <div className="h-1/2 bg-neutral-800">
+    <div className="h-1/2 bg-neutral-900">
       <div className="scroll-hide flex h-1/2 gap-2 overflow-x-auto p-2 xl:gap-4 xl:p-4">
         <Tweet
           title="@twitterhandle"
