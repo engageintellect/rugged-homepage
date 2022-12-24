@@ -20,17 +20,16 @@ export default function Alert({ title, msg }: PropsWithChildren<AlertProps>) {
   return (
     <>
       <div>
-        <div className="bg-emerald-700 text-white">
-          <div className="grid grid-cols-2 pl-2 md:pl-10">
+        <div className="bg-emerald-700 py-2 text-white">
+          <div className="flex items-center px-2 md:px-10">
             <div className="md:text-md text-sm">
               {title}
               <span className="pl-2">{msg}</span>
             </div>
-
-            <div className="ml-auto px-2 uppercase md:px-10">
+            <div className="ml-auto uppercase">
               <button
                 onClick={() => closeAlert()}
-                className="px-2 uppercase hover:bg-emerald-500"
+                className="rounded-full bg-emerald-600 px-2 uppercase hover:bg-emerald-500"
               >
                 close
               </button>

@@ -21,23 +21,30 @@ export default function HeroCards() {
           // stiffness: 100,
         }}
       >
-        <div className="bg-neutral-900 p-2 md:p-4">
+        <div className="bg-neutral-800 p-2 md:bg-neutral-900 md:p-4">
           <div className="grid grid-cols-1 gap-2 md:grid-cols-3 md:gap-4">
             <Card
               title="About Us"
               description="What is T3d , and how can it help me or my team?"
-              url="/"
+              url="#about"
             />
             <Card
               title="Our Services"
               description="Everything you need to get started with T3D."
-              url="/"
+              url="#industries"
             />
             <Card
               title="Contact Us"
               description="Get in touch with our team."
-              url="mailto:josh.chadwick@protonmail.com"
+              url="mailto:info@ruggeddevelopment.com"
             />
+            <div className="flex h-full items-center justify-center overflow-hidden rounded-md p-4 text-white transition-colors duration-300 md:hidden lg:h-32 xl:h-24">
+              <div className="text-xl font-semibold md:text-xl">
+                <a href="#about">
+                  <button>V</button>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </motion.nav>

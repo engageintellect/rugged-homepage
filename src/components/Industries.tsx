@@ -16,7 +16,7 @@ export default function Industries() {
             to the unique needs of your business."
           </div>
         </div> */}
-      <div className="bg-neutral-900">
+      <div className="bg-neutral-900" id="industries">
         <div className="bg-neutral-800 px-2 md:px-10 xl:px-60" id="learn_more">
           <div className="flex h-96 items-center justify-center">
             <WideCard
@@ -31,7 +31,39 @@ export default function Industries() {
           <div>
             <Indusrty
               title="Cannabis"
-              description="Description"
+              description="Cultivation, Manufacturing, Distribution, Retail."
+              url="https://www.google.com"
+              img={forest}
+            />
+          </div>
+          <div>
+            <Indusrty
+              title="Fire"
+              description="Cultivation, Manufacturing, Distribution, Retail."
+              url="https://www.google.com"
+              img={forest}
+            />
+          </div>
+          <div>
+            <Indusrty
+              title="Police"
+              description="Cultivation, Manufacturing, Distribution, Retail."
+              url="https://www.google.com"
+              img={forest}
+            />
+          </div>
+          <div>
+            <Indusrty
+              title="Distribution & Warehousing"
+              description="Cultivation, Manufacturing, Distribution, Retail."
+              url="https://www.google.com"
+              img={forest}
+            />
+          </div>
+          <div>
+            <Indusrty
+              title="Transportation & Logistics"
+              description="Cultivation, Manufacturing, Distribution, Retail."
               url="https://www.google.com"
               img={forest}
             />
@@ -39,8 +71,32 @@ export default function Industries() {
 
           <div>
             <Indusrty
-              title="Racing"
-              description="Description"
+              title="Construction"
+              description="Cultivation, Manufacturing, Distribution, Retail."
+              url="https://www.google.com"
+              img={forest}
+            />
+          </div>
+          <div>
+            <Indusrty
+              title="Oil & Gas"
+              description="Cultivation, Manufacturing, Distribution, Retail."
+              url="https://www.google.com"
+              img={forest}
+            />
+          </div>
+          <div>
+            <Indusrty
+              title="EMS"
+              description="Cultivation, Manufacturing, Distribution, Retail."
+              url="https://www.google.com"
+              img={forest}
+            />
+          </div>
+          <div>
+            <Indusrty
+              title="Utilities"
+              description="Cultivation, Manufacturing, Distribution, Retail."
               url="https://www.google.com"
               img={forest}
             />
@@ -48,44 +104,8 @@ export default function Industries() {
 
           <div>
             <Indusrty
-              title="Aerospace"
-              description="Description"
-              url="https://www.google.com"
-              img={forest}
-            />
-          </div>
-
-          <div>
-            <Indusrty
-              title="Title"
-              description="Description"
-              url="https://www.google.com"
-              img={forest}
-            />
-          </div>
-
-          <div>
-            <Indusrty
-              title="Title"
-              description="Description"
-              url="https://www.google.com"
-              img={forest}
-            />
-          </div>
-
-          <div>
-            <Indusrty
-              title="Title"
-              description="Description"
-              url="https://www.google.com"
-              img={forest}
-            />
-          </div>
-
-          <div>
-            <Indusrty
-              title="Title"
-              description="Description"
+              title="Retail"
+              description="Cultivation, Manufacturing, Distribution, Retail."
               url="https://www.google.com"
               img={forest}
             />

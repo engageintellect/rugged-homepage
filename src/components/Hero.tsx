@@ -11,22 +11,22 @@ export default function Hero({
 }: PropsWithChildren<HeroProps>) {
   return (
     <div
-      className=" bg-hero flex h-80 animate-gradient-x items-center justify-center bg-gradient-to-r 
-		from-purple-500 
+      className="bg-hero flex h-80 animate-gradient-x items-center justify-center bg-gradient-to-r from-purple-500 
 		via-blue-500 
 		to-purple-500 
-		bg-cover
-		bg-center shadow-lg md:h-96
+		bg-cover 
+		bg-center
+		shadow-lg backdrop-blur-3xl md:h-96
 		"
     >
       <div className="text-center text-white">
-        <div className="py-2 font-semibold tracking-tighter text-5xl md:my-5 md:text-7xl">
+        <div className="py-2 text-5xl font-semibold tracking-tighter md:my-5 md:text-7xl">
           {/* {title} */}
           <a href="/">
             Rugged<span className="text-blue-400"></span> Development
           </a>
         </div>
-        <div className="text-md px-5 sm:w-2/3 mx-auto tracking-tighter md:text-xl xl:text-2xl">
+        <div className="text-md mx-auto px-5 tracking-tighter sm:w-2/3 md:text-xl xl:text-2xl">
           {description}
         </div>
 

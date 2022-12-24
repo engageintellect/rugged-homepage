@@ -3,7 +3,7 @@ import WideCard from "./WideCard";
 export default function TeamSection() {
   return (
     <>
-      <div className="bg-neutral-800 px-2 md:px-10 xl:px-60" id="learn_more">
+      <div className="bg-neutral-800 px-2 md:px-10 xl:px-60" id="about">
         <div className="flex h-96 items-center">
           <WideCard
             title="Rugged Solutions"

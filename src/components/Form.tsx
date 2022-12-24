@@ -169,9 +169,9 @@ const ContactForm = () => {
                     onClick={() => displayResponse}
                     type="submit"
                     disabled={isSubmitting}
-                    className="w-full rounded-lg bg-blue-800 p-4 text-white shadow-lg transition-transform duration-200 hover:bg-blue-700 active:scale-95"
+                    className="transition-color w-full animate-gradient-x rounded-lg bg-gradient-to-r from-purple-700 to-blue-500 p-4 text-white shadow-xl duration-500 hover:from-purple-500 hover:via-blue-500 hover:to-purple-500 active:scale-95"
                   >
-                    Submit
+                    <div className="font-bold">Submit</div>
                   </button>
                 </a>
               </div>

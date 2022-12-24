@@ -15,7 +15,7 @@ export default function CardStack() {
     card5:
       "h-96 w-80 sm:h-96 xl:w-full md:h-96 md:w-96 xl:h-full bg-neutral-800 hover:bg-neutral-700 rounded-lg p-4 lg:p-10 xl:shadow-lg border border-neutral-700 xl:hover:z-50 xl:hover:scale-105 transition-all duration-300 overflow-hidden",
     rainbow:
-      "h-96 w-80 sm:h-96 xl:w-full md:h-96 md:w-96 xl:h-full rounded-lg p-4 lg:p-10 lg:shadow-lg xl:translate-x-1/2 border border-neutral-700 xl:z-50 xl:hover:scale-105 transition-transform  bg-neutral-800  xl:bg-gradient-to-r xl:from-purple-500 xl:to-purple-500 xl:via-blue-500 xl:animate-gradient-x xl:bg-cover xl:bg-center xl:shadow-lg xl:duration-300 overflow-hidden",
+      "h-96 w-80 sm:h-96 xl:w-full md:h-96 md:w-96 xl:h-full rounded-lg p-4 lg:p-10 lg:shadow-lg xl:translate-x-1/2 border border-neutral-700 hover:bg-neutral-700 xl:z-50 xl:hover:scale-105 transition-transform  bg-neutral-800  xl:bg-gradient-to-r xl:from-purple-500 xl:to-purple-500 xl:via-blue-500 xl:animate-gradient-x xl:bg-cover xl:bg-center xl:shadow-lg xl:duration-300 overflow-hidden",
   };
 
   return (

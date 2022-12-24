@@ -7,7 +7,12 @@ export default function CallToAction() {
         <div id="contribute">
           <div className="flex flex-col items-center justify-center gap-4 md:flex-row">
             <div className="text-5xl font-semibold sm:text-6xl md:text-7xl">
-              Let's<span className="text-blue-400"> Do</span> This!
+              Let's
+              <span className="bg-gradient-to-r from-purple-500 via-blue-500 to-purple-500 bg-clip-text text-transparent">
+                {" "}
+                Do
+              </span>{" "}
+              This!
             </div>
 
             {/* <div>

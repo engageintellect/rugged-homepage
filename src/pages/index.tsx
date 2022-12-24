@@ -23,7 +23,7 @@ import Industries from "../components/Industries";
 const Home: NextPage = (props) => {
   const trpcMessage = trpc.api.alert.useQuery({
     title: "Alert:",
-    msg: "This is an alert, driven by tRPC.",
+    msg: "Hello World, from tRPC.",
   });
 
   return (

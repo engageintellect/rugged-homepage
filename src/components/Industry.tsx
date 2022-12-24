@@ -24,12 +24,12 @@ export default function Indusrty({
             alt="Picture of the author"
             // objectFit="cover" // change to suit your needs
             layout="fill"
-            className="absolute top-0 left-0 z-10 object-cover opacity-10 hover:opacity-25" // just an example
+            className="absolute top-0 left-0 z-10 object-cover opacity-20 transition-opacity duration-500 hover:opacity-10" // just an example
           />
 
-          <div className="relative">
+          <div className="relative mx-auto w-2/3">
             <div className="text-xl font-semibold md:text-2xl">{title}</div>
-            <div className="md:text-md text-sm">{description}</div>
+            <div className="md:text-md text-sm">Description:{description}</div>
             <div className="md:text-md text-sm">{url}</div>
             {/* <div className="md:text-md text-sm">{img}</div> */}
           </div>
