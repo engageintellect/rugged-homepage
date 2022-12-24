@@ -3,17 +3,17 @@ import CardStackCard from "./CardStackCard";
 export default function CardStack() {
   const cardClass = {
     card1:
-      "h-96 w-80 sm:h-96 xl:w-full md:h-96 md:w-96 xl:h-full bg-neutral-800 hover:bg-blue-800 rounded-lg p-4 lg:p-10 xl:shadow-lg border border-neutral-700 xl:translate-y-0 xl:hover:z-50 xl:hover:scale-105 transition-all duration-300 overflow-hidden",
+      "h-96 w-80 sm:h-96 xl:w-full md:h-96 md:w-96 xl:h-full bg-neutral-800 hover:bg-neutral-700 rounded-lg p-4 lg:p-10 xl:shadow-lg border border-neutral-700 xl:translate-y-0 xl:hover:z-50 xl:hover:scale-105 transition-all duration-300 overflow-hidden",
     card2:
-      "h-96 w-80 sm:h-96 xl:w-full md:h-96 md:w-96 xl:h-full bg-neutral-800 hover:bg-blue-800 rounded-lg p-4 lg:p-10 xl:shadow-lg border border-neutral-700 xl:translate-y-10 xl:hover:z-50 xl:hover:scale-105 transition-all duration-300 overflow-hidden",
+      "h-96 w-80 sm:h-96 xl:w-full md:h-96 md:w-96 xl:h-full bg-neutral-800 hover:bg-neutral-700 rounded-lg p-4 lg:p-10 xl:shadow-lg border border-neutral-700 xl:translate-y-10 xl:hover:z-50 xl:hover:scale-105 transition-all duration-300 overflow-hidden",
     card3:
-      "h-96 w-80 sm:h-96 xl:w-full md:h-96 md:w-96 xl:h-full bg-neutral-800 hover:bg-blue-800 rounded-lg p-4 lg:p-10 lg:shadow-lg xl:translate-x-1/2 border border-neutral-700 xl:z-40 xl:hover:scale-105 transition-all duration-300 overflow-hidden",
+      "h-96 w-80 sm:h-96 xl:w-full md:h-96 md:w-96 xl:h-full bg-neutral-800 hover:bg-neutral-700 rounded-lg p-4 lg:p-10 lg:shadow-lg xl:translate-x-1/2 border border-neutral-700 xl:z-40 xl:hover:scale-105 transition-all duration-300 overflow-hidden",
     hidden:
       "h-96 w-80 sm:h-96 xlm :w-full md:h-96 md:w-96 xl:h-full hidden xl:flex rounded-lg p-4 lg:p-10 overflow-hidden",
     card4:
-      "h-96 w-80 sm:h-96 xl:w-full md:h-96 md:w-96 xl:h-full bg-neutral-800 hover:bg-blue-800 rounded-lg p-4 lg:p-10 xl:shadow-lg xl:-translate-y-10 border border-neutral-700 xl:hover:z-50 xl:hover:scale-105 transition-all duration-300 overflow-hidden",
+      "h-96 w-80 sm:h-96 xl:w-full md:h-96 md:w-96 xl:h-full bg-neutral-800 hover:bg-neutral-700 rounded-lg p-4 lg:p-10 xl:shadow-lg xl:-translate-y-10 border border-neutral-700 xl:hover:z-50 xl:hover:scale-105 transition-all duration-300 overflow-hidden",
     card5:
-      "h-96 w-80 sm:h-96 xl:w-full md:h-96 md:w-96 xl:h-full bg-neutral-800 hover:bg-blue-800 rounded-lg p-4 lg:p-10 xl:shadow-lg border border-neutral-700 xl:hover:z-50 xl:hover:scale-105 transition-all duration-300 overflow-hidden",
+      "h-96 w-80 sm:h-96 xl:w-full md:h-96 md:w-96 xl:h-full bg-neutral-800 hover:bg-neutral-700 rounded-lg p-4 lg:p-10 xl:shadow-lg border border-neutral-700 xl:hover:z-50 xl:hover:scale-105 transition-all duration-300 overflow-hidden",
     rainbow:
       "h-96 w-80 sm:h-96 xl:w-full md:h-96 md:w-96 xl:h-full rounded-lg p-4 lg:p-10 lg:shadow-lg xl:translate-x-1/2 border border-neutral-700 xl:z-50 xl:hover:scale-105 transition-transform  bg-neutral-800  xl:bg-gradient-to-r xl:from-purple-500 xl:to-purple-500 xl:via-blue-500 xl:animate-gradient-x xl:bg-cover xl:bg-center xl:shadow-lg xl:duration-300 overflow-hidden",
   };
