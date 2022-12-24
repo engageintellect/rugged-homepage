@@ -20,11 +20,13 @@
     "@trpc/next": "10.5.0",
     "@trpc/react-query": "10.5.0",
     "@trpc/server": "10.5.0",
+    "formik": "^2.2.9",
     "framer-motion": "^7.9.1",
     "next": "13.0.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "superjson": "1.9.1",
+    "yup": "^0.32.11",
     "zod": "^3.18.0"
   },
   "devDependencies": {

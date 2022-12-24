@@ -18,6 +18,7 @@ import CallToAction from "../components/CallToAction";
 import TwitterFeed from "../components/TwitterFeed";
 import Testing from "../components/Testing";
 import Industries from "../components/Industries";
+import Formik from "../components/Formik";
 
 const Home: NextPage = (props) => {
   const trpcMessage = trpc.api.alert.useQuery({

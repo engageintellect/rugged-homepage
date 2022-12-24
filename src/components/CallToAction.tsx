@@ -1,4 +1,5 @@
 import Form from "./Form";
+import Formik from "./Formik";
 
 export default function CallToAction() {
   return (
@@ -34,7 +35,8 @@ export default function CallToAction() {
           </div>
 
           {/* //!--------------------------------------------- */}
-          <Form />
+          {/* <Form /> */}
+          <Formik />
         </div>
       </div>
     </>
