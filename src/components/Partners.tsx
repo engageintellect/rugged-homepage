@@ -18,7 +18,7 @@ export default function Parnters() {
       >
         <div className="flex h-96 flex-col items-center justify-center gap-2 xl:flex-row xl:gap-20">
           <div
-            className="flex justify-center pb-5 text-5xl font-semibold text-white sm:text-6xl md:text-7xl"
+            className="flex justify-center pb-5 text-4xl font-semibold text-white"
             id="about"
           >
             <a href="/">

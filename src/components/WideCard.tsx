@@ -15,9 +15,7 @@ export default function WideCard({
     <>
       <a href={url}>
         <div className="flex h-full flex-col items-center justify-center overflow-hidden rounded-lg bg-neutral-800 p-4 text-white lg:px-40 xl:h-48 xl:transition-transform xl:hover:scale-105">
-          <div className="pb-2 text-xl font-semibold md:text-2xl lg:text-4xl">
-            {title}
-          </div>
+          <div className="pb-2 text-4xl font-semibold">{title}</div>
           <div className="text-center text-neutral-400 md:text-xl">
             "{description}"
           </div>
