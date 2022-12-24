@@ -78,7 +78,7 @@ const ContactForm = () => {
       >
         {({ isSubmitting, touched, errors }) => (
           <div className="flex items-center justify-center">
-            <Form className="grid w-full grid-cols-1 gap-4 md:max-w-xl">
+            <Form className="grid w-full grid-cols-1 gap-2 md:max-w-xl">
               <div className="">
                 {(touched.firstName && errors.firstName && (
                   <div className="text-red-500">{errors.firstName}</div>
