@@ -3,9 +3,9 @@ import CardStackCard from "./CardStackCard";
 export default function CardStack() {
   const cardClass = {
     card1:
-      "h-96 w-80 sm:h-96 xl:w-full md:h-96 md:w-96 xl:h-full bg-neutral-800 hover:bg-blue-800 rounded-lg p-4 lg:p-10 xl:shadow-lg border border-neutral-700 xl:hover:z-50 xl:hover:scale-105 transition-all duration-300 overflow-hidden",
+      "h-96 w-80 sm:h-96 xl:w-full md:h-96 md:w-96 xl:h-full bg-neutral-800 hover:bg-blue-800 rounded-lg p-4 lg:p-10 xl:shadow-lg border border-neutral-700 xl:translate-y-0 xl:hover:z-50 xl:hover:scale-105 transition-all duration-300 overflow-hidden",
     card2:
-      "h-96 w-80 sm:h-96 xl:w-full md:h-96 md:w-96 xl:h-full bg-neutral-800 hover:bg-blue-800 rounded-lg p-4 lg:p-10 xl:shadow-lg xl:translate-y-10 border border-neutral-700 xl:hover:z-50 xl:hover:scale-105 transition-all duration-300 overflow-hidden",
+      "h-96 w-80 sm:h-96 xl:w-full md:h-96 md:w-96 xl:h-full bg-neutral-800 hover:bg-blue-800 rounded-lg p-4 lg:p-10 xl:shadow-lg border border-neutral-700 xl:translate-y-10 xl:hover:z-50 xl:hover:scale-105 transition-all duration-300 overflow-hidden",
     card3:
       "h-96 w-80 sm:h-96 xl:w-full md:h-96 md:w-96 xl:h-full bg-neutral-800 hover:bg-blue-800 rounded-lg p-4 lg:p-10 lg:shadow-lg xl:translate-x-1/2 border border-neutral-700 xl:z-40 xl:hover:scale-105 transition-all duration-300 overflow-hidden",
     hidden:
@@ -24,12 +24,13 @@ export default function CardStack() {
         <div className="xl:mx-40">
           <div className="scroll-hide flex gap-2 overflow-x-auto p-2 md:gap-4 md:p-10 xl:grid xl:grid-cols-2 xl:p-20">
             {/* CARD 1 */}
+
             <div>
               <CardStackCard
                 card_class={cardClass.card1}
                 title={"Asset Tracking & Inventory Management"}
                 msg={
-                  "Do do anim sint adipisicing duis cupidatat. Ut anim consequat culpa cupidatat et esse ex ullamco non dolor reprehenderit exercitation aliqua eiusmod. Qui veniam enim enim minim occaecat fugiat fugiat eu. Anim exercitation aliqua aliquip dolore ex ad reprehenderit magna Lorem amet ut sint."
+                  "Do do anim s. QQui veniam enim enim minim occaecat fQui veniam enim enim minim occaecat fQui veniam enim enim minim occaecat fQui veniam enim enim minim occaecat fQui veniam enim enim minim occaecat fui veniam enim enim minim occaecat fugiat fugiat eu. Anim exercitation aliqua aliquip dolore ex ad reprehenderit magna Lorem amet ut sint."
                 }
               />
             </div>

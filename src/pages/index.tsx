@@ -2,7 +2,6 @@
 import { type NextPage } from "next";
 // import { signIn, signOut, useSession } from "next-auth/react";
 import { trpc } from "../utils/trpc";
-// import Link from "next/link";
 
 // COMPONENTS
 import Head from "next/head";
@@ -16,9 +15,10 @@ import Partners from "../components/Partners";
 import HeroCards from "../components/HeroCards";
 import CallToAction from "../components/CallToAction";
 import TwitterFeed from "../components/TwitterFeed";
-import Testing from "../components/Testing";
 import Industries from "../components/Industries";
-import Formik from "../components/Formik";
+
+// TEST
+// import Testing from "../components/Testing";
 
 const Home: NextPage = (props) => {
   const trpcMessage = trpc.api.alert.useQuery({

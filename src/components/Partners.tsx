@@ -13,7 +13,7 @@ export default function Parnters() {
   return (
     <>
       <div
-        className="bg-blue-900 py-10 md:py-40 xl:animate-gradient-x xl:bg-gradient-to-r xl:from-purple-500 xl:via-blue-500 xl:to-purple-500 xl:bg-cover xl:bg-center xl:py-10 xl:shadow-lg"
+        className="animate-gradient-x bg-gradient-to-r from-purple-500 via-blue-500 to-purple-500 bg-cover bg-center py-10 md:py-40 xl:py-10 xl:shadow-lg"
         id="getting_started"
       >
         <div className="flex h-96 flex-col items-center justify-center gap-2 xl:flex-row xl:gap-20">
