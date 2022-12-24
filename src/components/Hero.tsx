@@ -20,7 +20,7 @@ export default function Hero({
 		"
     >
       <div className="text-center text-white">
-        <div className="py-2 text-5xl font-semibold tracking-tighter md:my-5 md:text-7xl">
+        <div className="py-2 text-5xl font-bold tracking-tighter md:my-5 md:text-7xl">
           {/* {title} */}
           <a href="/">
             Rugged<span className="text-blue-400"></span> Development

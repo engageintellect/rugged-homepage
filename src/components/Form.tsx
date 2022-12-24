@@ -81,7 +81,7 @@ const ContactForm = () => {
             <Form className="grid w-full grid-cols-1 gap-2 md:max-w-xl">
               <div className="">
                 {(touched.firstName && errors.firstName && (
-                  <div className="text-red-500">{errors.firstName}</div>
+                  <label className="text-red-500">{errors.firstName}</label>
                 )) || <label>First Name*</label>}
                 <Field
                   type="text"
@@ -93,7 +93,7 @@ const ContactForm = () => {
 
               <div className="">
                 {(touched.lastName && errors.lastName && (
-                  <div className="text-red-500">{errors.lastName}</div>
+                  <label className="text-red-500">{errors.lastName}</label>
                 )) || <label>Last Name*</label>}
                 <Field
                   type="text"
@@ -105,7 +105,7 @@ const ContactForm = () => {
 
               <div className="">
                 {(touched.company && errors.company && (
-                  <div className="text-red-500">{errors.company}</div>
+                  <label className="text-red-500">{errors.company}</label>
                 )) || <label>Company</label>}
                 <Field
                   type="text"
@@ -117,7 +117,7 @@ const ContactForm = () => {
 
               <div className="">
                 {(touched.email && errors.email && (
-                  <div className="text-red-500">{errors.email}</div>
+                  <label className="text-red-500">{errors.email}</label>
                 )) || <label>E-Mail*</label>}
                 <Field
                   type="email"
@@ -129,7 +129,7 @@ const ContactForm = () => {
 
               <div className="">
                 {(touched.phone && errors.phone && (
-                  <div className="text-red-500">{errors.phone}</div>
+                  <label className="text-red-500">{errors.phone}</label>
                 )) || <label>Phone*</label>}
                 <Field
                   type="text"

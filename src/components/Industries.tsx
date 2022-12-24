@@ -2,6 +2,14 @@ import Indusrty from "./Industry";
 import WideCard from "./WideCard";
 
 import forest from "/public/images/cards/forest.jpg";
+import police from "/public/images/industries/police.jpg";
+import cannabis from "/public/images/industries/cannabis.jpg";
+import construction from "/public/images/industries/construction.jpg";
+import fire from "/public/images/industries/fire.jpg";
+import oil_gas from "/public/images/industries/oil_gas.jpg";
+import transportation from "/public/images/industries/transportation.jpg";
+import utilities from "/public/images/industries/utilities.jpg";
+import ems from "/public/images/industries/ems.jpg";
 
 export default function Industries() {
   return (
@@ -33,48 +41,7 @@ export default function Industries() {
               title="Cannabis"
               description="Cultivation, Manufacturing, Distribution, Retail."
               url="https://www.google.com"
-              img={forest}
-            />
-          </div>
-          <div>
-            <Indusrty
-              title="Fire"
-              description="Cultivation, Manufacturing, Distribution, Retail."
-              url="https://www.google.com"
-              img={forest}
-            />
-          </div>
-          <div>
-            <Indusrty
-              title="Police"
-              description="Cultivation, Manufacturing, Distribution, Retail."
-              url="https://www.google.com"
-              img={forest}
-            />
-          </div>
-          <div>
-            <Indusrty
-              title="Distribution & Warehousing"
-              description="Cultivation, Manufacturing, Distribution, Retail."
-              url="https://www.google.com"
-              img={forest}
-            />
-          </div>
-          <div>
-            <Indusrty
-              title="Transportation & Logistics"
-              description="Cultivation, Manufacturing, Distribution, Retail."
-              url="https://www.google.com"
-              img={forest}
-            />
-          </div>
-
-          <div>
-            <Indusrty
-              title="Construction"
-              description="Cultivation, Manufacturing, Distribution, Retail."
-              url="https://www.google.com"
-              img={forest}
+              img={cannabis}
             />
           </div>
           <div>
@@ -82,7 +49,48 @@ export default function Industries() {
               title="Oil & Gas"
               description="Cultivation, Manufacturing, Distribution, Retail."
               url="https://www.google.com"
-              img={forest}
+              img={oil_gas}
+            />
+          </div>
+          <div>
+            <Indusrty
+              title="Transportation & Logistics"
+              description="Cultivation, Manufacturing, Distribution, Retail."
+              url="https://www.google.com"
+              img={transportation}
+            />
+          </div>
+          <div>
+            <Indusrty
+              title="Fire"
+              description="Cultivation, Manufacturing, Distribution, Retail."
+              url="https://www.google.com"
+              img={fire}
+            />
+          </div>
+          <div>
+            <Indusrty
+              title="Police"
+              description="Cultivation, Manufacturing, Distribution, Retail."
+              url="https://www.google.com"
+              img={police}
+            />
+          </div>
+          <div>
+            <Indusrty
+              title="Construction"
+              description="Cultivation, Manufacturing, Distribution, Retail."
+              url="https://www.google.com"
+              img={construction}
+            />
+          </div>
+
+          <div>
+            <Indusrty
+              title="Utilities"
+              description="Cultivation, Manufacturing, Distribution, Retail."
+              url="https://www.google.com"
+              img={utilities}
             />
           </div>
           <div>
@@ -90,24 +98,7 @@ export default function Industries() {
               title="EMS"
               description="Cultivation, Manufacturing, Distribution, Retail."
               url="https://www.google.com"
-              img={forest}
-            />
-          </div>
-          <div>
-            <Indusrty
-              title="Utilities"
-              description="Cultivation, Manufacturing, Distribution, Retail."
-              url="https://www.google.com"
-              img={forest}
-            />
-          </div>
-
-          <div>
-            <Indusrty
-              title="Retail"
-              description="Cultivation, Manufacturing, Distribution, Retail."
-              url="https://www.google.com"
-              img={forest}
+              img={ems}
             />
           </div>
         </div>
