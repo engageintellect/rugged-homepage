@@ -22,7 +22,7 @@ export default function HeroCards() {
         }}
       >
         <div className="p-2 md:p-4">
-          <div className="grid grid-cols-1 gap-1 md:grid-cols-3 md:gap-4">
+          <div className="grid grid-cols-1 gap-2 md:grid-cols-3 md:gap-4">
             <Card
               title="About Us"
               description="What is T3d , and how can it help me or my team?"
