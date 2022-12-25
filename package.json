@@ -22,7 +22,9 @@
     "@trpc/server": "10.5.0",
     "formik": "^2.2.9",
     "framer-motion": "^7.9.1",
+    "isomorphic-fetch": "^3.0.0",
     "next": "13.0.2",
+    "next-sanity": "^3.1.8",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "superjson": "1.9.1",
@@ -30,6 +32,7 @@
     "zod": "^3.18.0"
   },
   "devDependencies": {
+    "@types/isomorphic-fetch": "^0.0.36",
     "@types/node": "^18.0.0",
     "@types/react": "^18.0.14",
     "@types/react-dom": "^18.0.5",

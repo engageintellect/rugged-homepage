@@ -16,6 +16,7 @@ import HeroCards from "../components/HeroCards";
 import CallToAction from "../components/CallToAction";
 import TwitterFeed from "../components/TwitterFeed";
 import Industries from "../components/Industries";
+import SanityAPI from "../components/SanityAPI";
 
 // TEST
 // import Testing from "../components/Testing";
@@ -54,6 +55,7 @@ that will optimize efficiency and increase profitability."
       <TwitterFeed />
       <CallToAction />
       <Footer />
+      <SanityAPI />
     </>
   );
 };
