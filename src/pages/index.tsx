@@ -42,12 +42,12 @@ const Home: NextPage = (props) => {
           msg={trpcMessage.data?.msg}
         />
         <Navbar />
-
         <Hero
           title="Titlei"
           description="We supply, deploy, and support innovative technology
 that will optimize efficiency and increase profitability."
         />
+
         <HeroCards />
         <TeamSection />
       </div>

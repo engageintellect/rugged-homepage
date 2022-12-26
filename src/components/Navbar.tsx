@@ -17,7 +17,7 @@ export default function Navbar() {
               {/* <a href="/contribute">Contribute</a> */}
             </div>
             <div className="flex justify-end">
-              <div className="cursor-pointer rounded-full bg-blue-700 px-4 hover:scale-105 hover:bg-blue-600">
+              <div className="cursor-pointer rounded-full bg-blue-700 px-4 transition-transform duration-200 hover:scale-105 hover:bg-blue-600">
                 JC
               </div>
             </div>

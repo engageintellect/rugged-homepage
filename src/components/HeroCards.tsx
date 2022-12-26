@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Card from "./Card";
+import { ChevronDownIcon } from "@heroicons/react/24/solid";
 
 export default function HeroCards() {
   return (
@@ -41,7 +42,9 @@ export default function HeroCards() {
             <div className="flex h-full items-center justify-center overflow-hidden rounded-md p-4 text-white transition-colors duration-300 md:hidden lg:h-32 xl:h-24">
               <div className="text-xl font-semibold md:text-xl">
                 <a href="#about">
-                  <button>V</button>
+                  <button>
+                    <ChevronDownIcon className="h-6 w-6" />
+                  </button>
                 </a>
               </div>
             </div>

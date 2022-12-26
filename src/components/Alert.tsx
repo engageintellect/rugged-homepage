@@ -1,5 +1,6 @@
 import { type PropsWithChildren } from "react";
 import { useState } from "react";
+import { XCircleIcon } from "@heroicons/react/24/outline";
 
 type AlertProps = {
   title: any;
@@ -26,12 +27,12 @@ export default function Alert({ title, msg }: PropsWithChildren<AlertProps>) {
               {title}
               <span className="pl-2">{msg}</span>
             </div>
-            <div className="ml-auto uppercase">
+            <div className="ml-auto flex items-center uppercase">
               <button
                 onClick={() => closeAlert()}
-                className="rounded-full bg-emerald-600 px-2 uppercase hover:bg-emerald-500"
+                className="rounded-full bg-emerald-700 hover:bg-emerald-500"
               >
-                close
+                <XCircleIcon className="w-8 text-white transition-transform duration-200 hover:scale-105" />
               </button>
             </div>
           </div>

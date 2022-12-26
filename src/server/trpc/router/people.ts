@@ -3,7 +3,7 @@ import { router, publicProcedure } from "../trpc";
 
 export const peopleRouter = router({
   getPeople: publicProcedure.query(({ ctx }) => {
-    return ctx.prisma.people.findMany();
+    return ctx.prisma.people.findMany({where: {lastName: {contains: "o"}}});
   }),
 
 
