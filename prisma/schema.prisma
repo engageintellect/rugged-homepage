@@ -6,12 +6,18 @@ generator client {
 }
 
 datasource db {
-  provider = "sqlite"
+  provider = "mysql"
   url      = env("DATABASE_URL")
 }
 
-model Example {
-  id        String   @id @default(cuid())
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+model example {
+  id String @id @default(cuid())
+  // createdAt DateTime @default(now())
+  // updatedAt DateTime @updatedAt
+}
+
+model users {
+  id       String @id @default(cuid())
+  userName String
+  password String
 }

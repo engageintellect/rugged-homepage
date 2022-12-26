@@ -18,13 +18,28 @@ export const apiRouter = router({
         msg: `${input?.msg ?? "world"}`,
       };
     }),
-  getAll: publicProcedure.query(({ ctx }) => {
-    return ctx.prisma.example.findMany();
+  
+  getUsers: publicProcedure.query(({ ctx }) => {
+    return ctx.prisma.users.findMany();
   }),
 
-  hi: publicProcedure.query(() => {
-    return {
-      greeting: `Hello from tRPC.`,
-    };
-  }),
+
+  createUser: publicProcedure
+    .input(
+      z
+        .object({
+          userName: z.string().nullish(),
+          password: z.string().nullish(),
+        })
+        .nullish()
+    )
+    .query(({ ctx, input }) => {
+      return ctx.prisma.users.create({
+        data: {
+          userName: `${input?.userName ?? "jim"}`,
+          password: `${input?.password ?? "morrison"}`,
+        }
+      });
+    })
+
 });

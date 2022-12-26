@@ -26,6 +26,8 @@ const Home: NextPage = (props) => {
     msg: "Hello World, from tRPC.",
   });
 
+  const showUsers = trpc.prisma.getUsers.useQuery();
+
   return (
     <>
       <Head>
@@ -40,6 +42,9 @@ const Home: NextPage = (props) => {
           msg={trpcMessage.data?.msg}
         />
         <Navbar />
+
+        <div className="text-white">{JSON.stringify(showUsers)}</div>
+
         <Hero
           title="Titlei"
           description="We supply, deploy, and support innovative technology
