@@ -17,6 +17,8 @@ import CallToAction from "../components/CallToAction";
 import TwitterFeed from "../components/TwitterFeed";
 import Industries from "../components/Industries";
 
+import Testing from "../components/Testing";
+
 // TEST
 // import Testing from "../components/Testing";
 
@@ -25,8 +27,6 @@ const Home: NextPage = (props) => {
     title: "Alert:",
     msg: "Hello World, from tRPC.",
   });
-
-  const showUsers = trpc.prisma.getUsers.useQuery();
 
   return (
     <>
@@ -43,8 +43,6 @@ const Home: NextPage = (props) => {
         />
         <Navbar />
 
-        <div className="text-white">{JSON.stringify(showUsers)}</div>
-
         <Hero
           title="Titlei"
           description="We supply, deploy, and support innovative technology
@@ -59,6 +57,7 @@ that will optimize efficiency and increase profitability."
       <TwitterFeed />
       <CallToAction />
       <Footer />
+      {/* <Testing /> */}
     </>
   );
 };
