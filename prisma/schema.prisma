@@ -21,3 +21,21 @@ model users {
   userName String
   password String
 }
+
+model people {
+  id        String   @id @default(cuid())
+  createdAt DateTime @default(now())
+  firstName String
+  lastName  String
+  company   String
+  email     String
+  phone     String
+}
+
+model testimonials {
+  id          String @id @default(cuid())
+  name        String
+  position    String
+  company     String
+  testimonial String
+}

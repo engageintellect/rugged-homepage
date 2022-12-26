@@ -1,8 +1,7 @@
 import { z } from "zod";
 import { router, publicProcedure } from "../trpc";
 
-export const prismaRouter = router({
- 
+export const usersRouter = router({
   getUsers: publicProcedure.query(({ ctx }) => {
     return ctx.prisma.users.findMany();
   }),

@@ -1,12 +1,14 @@
 import { router } from "../trpc";
 import { exampleRouter } from "./example";
 import { apiRouter } from "./api";
-import { prismaRouter } from "./prisma";
+import { usersRouter } from "./users";
+import { peopleRouter } from "./people";
 
 export const appRouter = router({
   example: exampleRouter,
   api: apiRouter,
-  prisma: prismaRouter,
+  users: usersRouter,
+  people: peopleRouter,
 });
 
 // export type definition of API

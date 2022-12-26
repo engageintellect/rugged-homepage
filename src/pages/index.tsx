@@ -57,7 +57,7 @@ that will optimize efficiency and increase profitability."
       <TwitterFeed />
       <CallToAction />
       <Footer />
-      {/* <Testing /> */}
+      <Testing />
     </>
   );
 };

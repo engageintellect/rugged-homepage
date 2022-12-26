@@ -11,10 +11,10 @@ export default function Navbar() {
             </div>
 
             <div className="hidden justify-center gap-4 xl:flex">
-              <a href="/about">About</a>
-              <a href="/news">News</a>
-              <a href="/contact">Contact Us</a>
-              <a href="/contribute">Contribute</a>
+              {/* <a href="/about">About</a> */}
+              {/* <a href="/news">News</a> */}
+              {/* <a href="/contact">Contact Us</a> */}
+              {/* <a href="/contribute">Contribute</a> */}
             </div>
             <div className="flex justify-end">
               <div className="cursor-pointer rounded-full bg-blue-700 px-4 hover:scale-105 hover:bg-blue-600">
