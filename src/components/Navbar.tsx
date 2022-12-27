@@ -14,7 +14,7 @@ export default function Navbar() {
               {/* <a href="/about">About</a> */}
               {/* <a href="/news">News</a> */}
               {/* <a href="/contact">Contact Us</a> */}
-              {/* <a href="/contribute">Contribute</a> */}
+              {/* <a href="/form">Contribute</a> */}
             </div>
             <div className="flex justify-end">
               <div className="cursor-pointer rounded-full bg-blue-700 px-4 transition-transform duration-200 hover:scale-105 hover:bg-blue-600">

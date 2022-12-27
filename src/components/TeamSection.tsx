@@ -8,7 +8,7 @@ export default function TeamSection() {
           <WideCard
             title="Rugged Solutions"
             description="Every organization is unique. Our experts are committed to helping you select a solution that matches your specific needs – from warehouse equipment to rugged computing and scanning."
-            url="/"
+            url="/#solutions"
           />
         </div>
       </div>

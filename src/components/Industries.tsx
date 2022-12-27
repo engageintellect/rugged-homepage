@@ -30,13 +30,16 @@ export default function Industries() {
             <WideCard
               title="Industries"
               description="We serve a wide range of industries, we're confident we can cater to the unique needs of your business."
-              url="/"
+              url="/#industries"
             />
           </div>
         </div>
 
-        <div className="scroll-hide flex h-1/2 gap-2 overflow-x-auto p-2 md:gap-4 md:p-4">
-          <div>
+        <div
+          id="industries"
+          className="scroll-hide flex h-1/2 gap-2 overflow-x-auto p-2 md:gap-4 md:p-4"
+        >
+          <div id="industries">
             <Indusrty
               title="Cannabis"
               description="Cultivation, Manufacturing, Distribution, Retail."

@@ -3,8 +3,11 @@ import Form from "./Form";
 export default function CallToAction() {
   return (
     <>
-      <div className="bg-neutral-800 p-5 py-20 text-white md:p-20">
-        <div id="contribute">
+      <div
+        id="form"
+        className="flex min-h-screen items-center justify-center bg-neutral-800 p-5 py-20 text-white md:p-20"
+      >
+        <div>
           <div className="flex flex-col items-center justify-center gap-4 md:flex-row">
             <div className="text-5xl font-semibold sm:text-6xl md:text-7xl">
               Let's

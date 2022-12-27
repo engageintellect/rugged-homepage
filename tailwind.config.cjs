@@ -6,6 +6,7 @@ module.exports = {
     extend: {
       animation: {
         "gradient-x": "gradient-x 20s ease infinite",
+        "pulse": "pulse 5s ease infinite",
         "gradient-y": "gradient-y 20s ease infinite",
         "gradient-xy": "gradient-xy 20s ease infinite",
       },

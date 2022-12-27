@@ -13,21 +13,21 @@ import Partner from "./Partner";
 export default function Parnters() {
   return (
     <>
-      <div className="animate-gradient-x bg-gradient-to-r from-purple-500 via-blue-500 to-purple-500 bg-cover bg-center py-10 md:py-40 xl:py-10 xl:shadow-lg">
+      <div className="animate-gradient-x bg-gradient-to-r from-purple-500 via-blue-500 to-purple-500 bg-cover bg-center py-10 px-2 md:py-40 md:px-10 xl:py-10 xl:shadow-lg">
         <div className="flex h-96 flex-col items-center justify-center gap-2 xl:flex-row xl:gap-20">
           <div className="flex justify-center pb-5 text-4xl font-semibold text-white">
             <a href="/">
-              <div className="flex h-full flex-col items-center justify-center overflow-hidden rounded-lg p-4 text-white lg:px-40 xl:h-48 xl:transition-transform xl:hover:scale-105">
+              <div className="flex h-full flex-col items-center justify-center overflow-hidden rounded-lg p-4 text-white xl:h-48 xl:transition-transform xl:hover:scale-105">
                 <div className="pb-2 text-4xl font-semibold">Our Partners</div>
                 <div className="text-center text-lg text-neutral-300 md:text-xl">
-                  "Hello world, how are you?"
+                  "We've partnered with the best brands in the industry."
                 </div>
               </div>
             </a>
           </div>
 
-          <div className="grid grid-cols-3 gap-4">
-            <div className="md:-translate-x-10 md:-translate-y-10">
+          <div className="grid grid-cols-3 gap-4 xl:-translate-x-10">
+            <div className="xl:-translate-x-10 xl:-translate-y-10">
               <Partner
                 title="Zebra"
                 description="cool man"
@@ -45,7 +45,7 @@ export default function Parnters() {
               />
             </div>
 
-            <div className="md:translate-x-10 md:-translate-y-10">
+            <div className="xl:translate-x-10 xl:-translate-y-10">
               <Partner
                 title="Getac"
                 description="cool man"
@@ -54,7 +54,7 @@ export default function Parnters() {
               />
             </div>
 
-            <div className="md:-translate-x-10 md:translate-y-10">
+            <div className="xl:-translate-x-10 xl:translate-y-10">
               <Partner
                 title="V5"
                 description="cool man"
@@ -72,7 +72,7 @@ export default function Parnters() {
               />
             </div>
 
-            <div className="md:translate-x-10 md:translate-y-10">
+            <div className="xl:translate-x-10 xl:translate-y-10">
               <Partner
                 title="Ruggon"
                 description="cool man"

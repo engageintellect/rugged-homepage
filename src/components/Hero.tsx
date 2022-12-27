@@ -37,7 +37,7 @@ export default function Hero({
             </button>
           </a>
 
-          <a href="/#contribute">
+          <a href="/#form">
             <button className="mt-4 rounded-lg bg-neutral-900 p-4 text-white shadow-lg transition-all duration-200 hover:scale-105 hover:bg-neutral-800">
               Get a Quote
             </button>

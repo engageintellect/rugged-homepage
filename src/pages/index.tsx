@@ -36,7 +36,7 @@ const Home: NextPage = (props) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="bg-neutral-800">
+      <div id="top" className="bg-neutral-800">
         <Alert
           title={trpcMessage.data?.title ?? "loading..."}
           msg={trpcMessage.data?.msg}

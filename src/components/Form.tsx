@@ -1,6 +1,10 @@
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import { useState } from "react";
+import {
+  CheckCircleIcon,
+  ExclamationCircleIcon,
+} from "@heroicons/react/24/solid";
 
 const ContactForm = () => {
   const [formSubmitted, setFormSubmitted] = useState(false);
@@ -136,6 +140,7 @@ const ContactForm = () => {
                   name="phone"
                   placeholder=""
                   className="w-full rounded-md p-2 text-neutral-900 placeholder-neutral-700 outline-none focus:outline-blue-700"
+                  helperText="hello world"
                 />
               </div>
 
@@ -143,23 +148,29 @@ const ContactForm = () => {
                 {/* MAKE FORM FEEDBACK RED IF ERROR, ELSE, MAKE GREEN */}
                 <div className="pb-3">
                   {(formResponse.status == "error" && (
-                    <div className="rounded-md bg-red-600 p-2 text-center">
-                      <div className="font-bold uppercase">
-                        {formResponse.status}
+                    <div className="flex items-center justify-center gap-4 rounded-md bg-red-600 p-2 text-center text-sm">
+                      <div className="pulse animate-pulse">
+                        <ExclamationCircleIcon className="w-10 text-white" />
                       </div>
+                      <div className="font-bold uppercase"></div>
                       <div>
                         <div>{formResponse.message}</div>
                       </div>
                     </div>
                   )) ||
                     (formResponse.status == "success" && (
-                      <div className="rounded-md bg-green-600 p-2 text-center">
-                        <div className="font-bold uppercase text-green-500">
-                          {formResponse.status}
+                      <div className="flex items-center justify-center gap-4 rounded-md bg-green-600 p-2 text-center text-sm">
+                        <div className="pulse animate-pulse">
+                          <CheckCircleIcon className="w-10 text-white" />
                         </div>
                         <div>
                           <div>{formResponse.message}</div>
                         </div>
+                        <a href="/">
+                          <div className="">
+                            <div className="underline">Back to Home</div>
+                          </div>
+                        </a>
                       </div>
                     ))}
                 </div>
@@ -169,7 +180,7 @@ const ContactForm = () => {
                     onClick={() => displayResponse}
                     type="submit"
                     disabled={isSubmitting}
-                    className="transition-color w-full animate-gradient-x rounded-lg bg-gradient-to-r from-purple-700 to-blue-500 p-4 text-white shadow-xl duration-500 hover:from-purple-500 hover:via-blue-500 hover:to-purple-500 active:scale-95"
+                    className="transition-color w-full animate-gradient-x rounded-lg bg-gradient-to-r from-purple-700 to-blue-500 p-4 text-white shadow-xl duration-200 hover:from-purple-500 hover:via-blue-500 hover:to-purple-500 active:scale-95"
                   >
                     <div className="font-bold">Submit</div>
                   </button>
