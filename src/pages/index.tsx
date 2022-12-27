@@ -16,6 +16,7 @@ import HeroCards from "../components/HeroCards";
 import CallToAction from "../components/CallToAction";
 import TwitterFeed from "../components/TwitterFeed";
 import Industries from "../components/Industries";
+import Modal from "../components/Modal";
 
 import Testing from "../components/Testing";
 
@@ -42,6 +43,11 @@ const Home: NextPage = (props) => {
           msg={trpcMessage.data?.msg}
         />
         <Navbar />
+
+        <div className="flex items-center justify-center">
+          <Modal />
+        </div>
+
         <Hero
           title="Titlei"
           description="We supply, deploy, and support innovative technology

@@ -16,7 +16,7 @@ export default function Indusrty({
   img,
 }: PropsWithChildren<IndustryProps>) {
   return (
-    <div className="transition-color h-64 w-64 overflow-hidden rounded-lg bg-neutral-700 text-white shadow-lg duration-300 hover:bg-neutral-600 md:h-64 md:w-64 xl:h-96 xl:w-96">
+    <div className="transition-color h-64 w-64 overflow-hidden rounded-lg bg-neutral-700 text-white shadow-lg duration-300 group-hover:bg-neutral-600 md:h-64 md:w-64 xl:h-96 xl:w-96">
       <div className="relative flex h-full flex-col items-center justify-center transition-transform duration-300 hover:scale-110">
         <a href="/#form">
           <div>
