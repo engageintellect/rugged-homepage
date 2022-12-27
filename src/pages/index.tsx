@@ -44,9 +44,9 @@ const Home: NextPage = (props) => {
         />
         <Navbar />
 
-        <div className="flex items-center justify-center">
+        {/* <div className="flex items-center justify-center">
           <Modal />
-        </div>
+        </div> */}
 
         <Hero
           title="Titlei"

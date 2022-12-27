@@ -24,7 +24,7 @@ export default function Modal() {
 
   return (
     <>
-      <div className="fixed top-56 z-50 w-1/2 items-center justify-center rounded-lg bg-neutral-900 p-5 shadow-lg transition-transform duration-200 hover:shadow-2xl">
+      <div className="fixed top-56 z-50 w-1/2 items-center justify-center rounded-lg bg-neutral-900 p-5 shadow-md transition-transform duration-200 hover:shadow-lg">
         <div className="flex justify-end">
           <button onClick={() => alert("hello world")}>
             <XCircleIcon className="w-7 rounded-full text-white hover:scale-105 hover:bg-neutral-900" />
