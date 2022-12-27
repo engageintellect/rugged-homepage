@@ -32,13 +32,13 @@ export default function Hero({
 
         <div className="flex items-center justify-center gap-4">
           <a href="/#learn_more">
-            <button className="mt-4 rounded-lg bg-purple-800 p-4 text-white shadow-lg transition-all duration-200 hover:scale-105 hover:bg-purple-700">
+            <button className="transition-color mt-4 rounded-lg bg-purple-700 p-4 text-white shadow-lg duration-200 hover:scale-105 hover:bg-purple-600">
               Learn More
             </button>
           </a>
 
           <a href="/#form">
-            <button className="mt-4 rounded-lg bg-neutral-900 p-4 text-white shadow-lg transition-all duration-200 hover:scale-105 hover:bg-neutral-800">
+            <button className="transition-color mt-4 rounded-lg bg-neutral-900 p-4 text-white shadow-lg duration-200 hover:scale-105 hover:bg-neutral-800">
               Get a Quote
             </button>
           </a>
