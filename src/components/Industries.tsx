@@ -15,16 +15,6 @@ import distribution from "/public/images/industries/distribution.jpg";
 export default function Industries() {
   return (
     <>
-      {/* <div className="bg-neutral-800" id="learn_more">
-        <div className="p-2 py-20 md:px-10 xl:px-60">
-          <div className="pb-2 text-center text-5xl font-semibold text-white sm:text-6xl md:text-7xl">
-            Industries
-          </div>
-          <div className="text-center text-neutral-400 md:text-xl xl:px-60">
-            "We serve a wide range of industries, we're confident we can cater
-            to the unique needs of your business."
-          </div>
-        </div> */}
       <div className="bg-neutral-900" id="industries">
         <div className="bg-neutral-800 px-2 md:px-10 xl:px-60" id="learn_more">
           <div className="flex h-96 items-center justify-center">
@@ -38,9 +28,9 @@ export default function Industries() {
 
         <div
           id="industries"
-          className="scroll-hide flex h-1/2 gap-2 overflow-x-auto p-2 md:gap-4 md:p-4"
+          className="scroll-hide flex h-1/2 snap-x snap-mandatory gap-2 overflow-x-auto p-2 md:gap-4 md:p-4"
         >
-          <div id="Distribution & Warehousing">
+          <div id="Distribution & Warehousing" className="snap-always">
             <Indusrty
               title="Distribution & Warehousing"
               description="Cultivation, Manufacturing, Distribution, Retail."
@@ -48,7 +38,7 @@ export default function Industries() {
               img={distribution}
             />
           </div>
-          <div id="industries">
+          <div id="industries" className="snap-always">
             <Indusrty
               title="Cannabis"
               description="Cultivation, Manufacturing, Distribution, Retail."
@@ -56,7 +46,7 @@ export default function Industries() {
               img={cannabis}
             />
           </div>
-          <div>
+          <div className="snap-always">
             <Indusrty
               title="Oil & Gas"
               description="Cultivation, Manufacturing, Distribution, Retail."
@@ -64,7 +54,7 @@ export default function Industries() {
               img={oil_gas}
             />
           </div>
-          <div>
+          <div className="snap-always">
             <Indusrty
               title="Transportation & Logistics"
               description="Cultivation, Manufacturing, Distribution, Retail."
@@ -72,7 +62,7 @@ export default function Industries() {
               img={transportation}
             />
           </div>
-          <div>
+          <div className="snap-always">
             <Indusrty
               title="Fire"
               description="Cultivation, Manufacturing, Distribution, Retail."
@@ -80,7 +70,7 @@ export default function Industries() {
               img={fire}
             />
           </div>
-          <div>
+          <div className="snap-always">
             <Indusrty
               title="Police"
               description="Cultivation, Manufacturing, Distribution, Retail."
@@ -88,7 +78,7 @@ export default function Industries() {
               img={police}
             />
           </div>
-          <div>
+          <div className="snap-always">
             <Indusrty
               title="Construction"
               description="Cultivation, Manufacturing, Distribution, Retail."
@@ -97,7 +87,7 @@ export default function Industries() {
             />
           </div>
 
-          <div>
+          <div className="snap-always">
             <Indusrty
               title="Utilities"
               description="Cultivation, Manufacturing, Distribution, Retail."
@@ -105,7 +95,7 @@ export default function Industries() {
               img={utilities}
             />
           </div>
-          <div>
+          <div className="snap-always">
             <Indusrty
               title="EMS"
               description="Cultivation, Manufacturing, Distribution, Retail."

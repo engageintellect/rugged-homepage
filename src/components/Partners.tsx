@@ -13,8 +13,8 @@ import Partner from "./Partner";
 export default function Parnters() {
   return (
     <>
-      <div className="animate-gradient-x bg-gradient-to-r from-purple-500 via-blue-500 to-purple-500 bg-cover bg-center py-10 px-2 md:py-40 md:px-10 xl:py-10 xl:shadow-lg">
-        <div className="flex h-96 flex-col items-center justify-center gap-2 xl:flex-row xl:gap-20">
+      <div className="flex h-1/2 animate-gradient-x items-center justify-center bg-gradient-to-r from-purple-500 via-blue-500 to-purple-500 bg-cover bg-center py-40 px-2 md:px-10 xl:shadow-lg">
+        <div className="flex h-96 flex-col items-center justify-center gap-2 py-40 xl:flex-row xl:gap-20">
           <div className="flex justify-center pb-5 text-4xl font-semibold text-white">
             <a href="/">
               <div className="flex h-full flex-col items-center justify-center overflow-hidden rounded-lg p-4 text-white xl:h-48 xl:transition-transform xl:hover:scale-105">
@@ -26,7 +26,7 @@ export default function Parnters() {
             </a>
           </div>
 
-          <div className="grid grid-cols-3 gap-4 xl:-translate-x-10">
+          <div className="grid grid-cols-3 gap-4">
             <div className="xl:-translate-x-10 xl:-translate-y-10">
               <Partner
                 title="Zebra"

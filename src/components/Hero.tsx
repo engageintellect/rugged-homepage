@@ -32,7 +32,7 @@ export default function Hero({
           </div>
 
           <a href="/">
-            <div className="flex flex-col items-start justify-start text-6xl font-extrabold text-neutral-900 md:text-7xl">
+            <div className="flex flex-col items-start justify-start bg-gradient-to-l from-neutral-900 via-neutral-700 to-neutral-900 bg-clip-text text-6xl font-extrabold text-transparent md:text-7xl">
               <div>Rugged</div>
               <div>Development</div>
             </div>
@@ -52,7 +52,7 @@ export default function Hero({
           {description}
         </div>
 
-        <div className="flex items-center justify-center gap-4">
+        <div className="text-md flex items-center justify-center gap-4 font-semibold">
           <a href="/#learn_more">
             <button className="transition-color rounded-lg bg-purple-700 p-4 text-white shadow-lg duration-200 hover:scale-105 hover:bg-purple-600">
               Learn More
