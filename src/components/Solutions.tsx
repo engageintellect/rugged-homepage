@@ -21,7 +21,7 @@ export default function TeamSection() {
           </div>
         </div>
         <div className="z-50 flex items-center justify-center bg-neutral-800">
-          <Image src={laptop} alt="Picture of the author" className="w-full" />
+          <Image src={laptop} alt="Picture of the author" className="w-full md:w-1/2" />
         </div>
       </div>
     </>
