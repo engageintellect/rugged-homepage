@@ -19,10 +19,10 @@ export default function Partner({
     <>
       <a target="_blank" href={url}>
         <div className="">
-          <div className="relative flex h-28 w-28 items-center justify-center rounded-full bg-white transition-transform hover:scale-105 hover:shadow-xl sm:h-36 sm:w-36 md:h-40 md:w-40">
-            {/* <div className="text-xl md:text-2xl font-semibold lg:text-4xl pb-2 z-10">{title}</div> */}
-            {/* <div className="text-neutral-800 font-bold md:text-xl text-center absolute z-50">{description}</div> */}
-            <div className="relative">
+          <div className="relative flex h-28 w-28 items-center justify-center rounded-full bg-purple-600 transition-transform hover:scale-105 hover:shadow-xl sm:h-36 sm:w-36 md:h-40 md:w-40">
+            <div className="relative text-lg font-bold text-white">{title}</div>
+
+            <div className="absolute z-20 flex h-28 w-28 items-center justify-center rounded-full bg-white transition-opacity duration-300 hover:scale-105 hover:opacity-0 hover:shadow-xl sm:h-36 sm:w-36 md:h-40 md:w-40">
               <Image
                 src={img}
                 alt="Picture of the author"
