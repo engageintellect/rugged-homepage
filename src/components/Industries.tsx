@@ -16,7 +16,10 @@ export default function Industries() {
   return (
     <>
       <div className="bg-neutral-900" id="industries">
-        <div className="bg-neutral-800 px-2 md:px-10 xl:px-60" id="learn_more">
+        <div
+          className="bg-neutral-800 px-2 py-40 md:px-10 xl:px-60"
+          id="learn_more"
+        >
           <div className="flex h-96 items-center justify-center">
             <WideCard
               title="Industries"

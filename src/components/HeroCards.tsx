@@ -17,7 +17,7 @@ export default function HeroCards() {
           scale: 1,
         }}
         transition={{
-          duration: 2,
+          duration: 1,
           type: "spring",
           // stiffness: 100,
         }}
@@ -39,15 +39,6 @@ export default function HeroCards() {
               description="Get in touch with our team."
               url="/#form"
             />
-            {/* <div className="flex h-full items-center justify-center overflow-hidden rounded-md p-4 text-white transition-colors duration-300 md:hidden lg:h-32 xl:h-24"> */}
-            {/* <div className="text-xl font-semibold md:text-xl"> */}
-            {/* <a href="#about"> */}
-            {/* <button> */}
-            {/* <ChevronDownIcon className="h-6 w-6" /> */}
-            {/* </button> */}
-            {/* </a> */}
-            {/* </div> */}
-            {/* </div> */}
           </div>
         </div>
       </motion.nav>
