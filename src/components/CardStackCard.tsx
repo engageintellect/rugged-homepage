@@ -13,11 +13,15 @@ export default function CardStackCard({
 }: PropsWithChildren<CardProps>) {
   return (
     <>
-      <div className={card_class}>
-        <div className="pb-4 text-xl font-semibold text-white md:text-2xl">
-          {title}
-        </div>
-        <div className="overflow-hidden text-white">{msg}</div>
+      <div>
+        <a href="/#form">
+          <div className={card_class}>
+            <div className="pb-4 text-xl font-semibold text-white md:text-2xl">
+              {title}
+            </div>
+            <div className="overflow-hidden text-white">{msg}</div>
+          </div>
+        </a>
       </div>
     </>
   );

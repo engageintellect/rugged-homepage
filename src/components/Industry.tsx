@@ -26,7 +26,7 @@ export default function Indusrty({
               // objectFit="cover" // change to suit your needs
               fill
               sizes="100%"
-              className="z-10 rounded-lg object-cover opacity-10 transition-opacity duration-700"
+              className="z-10 rounded-lg object-cover opacity-20 transition-opacity duration-700"
             />
 
             <div className="relative z-20 mx-auto w-2/3">
