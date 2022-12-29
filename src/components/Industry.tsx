@@ -24,8 +24,9 @@ export default function Indusrty({
               src={img}
               alt="Picture of the author"
               // objectFit="cover" // change to suit your needs
-              layout="fill"
-              className="absolute top-0 left-0 z-10 object-cover opacity-25 transition-opacity duration-700 hover:opacity-10" // just an example
+              fill
+              sizes="100%"
+              className="z-10 rounded-lg object-cover opacity-25 transition-opacity duration-700 hover:opacity-10"
             />
 
             <div className="relative mx-auto w-2/3">

@@ -1,14 +1,21 @@
+import Image from "next/image";
+
+import logo from "/public/images/logos/RD-logo.png";
+
 export default function Navbar() {
   return (
     <>
       <div className="navbar sticky top-0 z-10 bg-neutral-900 py-2 text-lg text-white">
         <div className="mx-2 md:mx-10">
           <div className="grid grid-cols-2 items-center xl:grid-cols-3">
-            <div className="text-md flex justify-start md:text-2xl">
-              <a href="/">
-                Rugged<span className="text-blue-400"> </span>Development
-              </a>
-            </div>
+            <a href="/">
+              <div className="text-md flex flex-row items-center justify-start gap-2 md:text-xl">
+                <div className="w-12">
+                  <Image src={logo} alt="Rugged Development" />
+                </div>
+                <div className="hidden md:flex">Rugged Development</div>
+              </div>
+            </a>
 
             <div className="hidden justify-center gap-4 xl:flex">
               {/* <a href="/about">About</a> */}

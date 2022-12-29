@@ -22,7 +22,7 @@ export default function HeroCards() {
           // stiffness: 100,
         }}
       >
-        <div className="bg-neutral-800 p-2 md:bg-neutral-900 md:p-4">
+        <div className="bg-neutral-900 p-2 md:bg-neutral-900 md:p-4">
           <div className="grid grid-cols-1 gap-2 md:grid-cols-3 md:gap-4">
             <Card
               title="About Us"

@@ -140,7 +140,6 @@ const ContactForm = () => {
                   name="phone"
                   placeholder=""
                   className="w-full rounded-md p-2 text-neutral-900 placeholder-neutral-700 outline-none focus:outline-blue-700"
-                  helperText="hello world"
                 />
               </div>
 

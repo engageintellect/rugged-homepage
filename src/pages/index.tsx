@@ -44,9 +44,9 @@ const Home: NextPage = (props) => {
         />
         <Navbar />
 
-        {/* <div className="flex items-center justify-center">
-          <Modal />
-        </div> */}
+        {/* <div className="flex items-center justify-center"> */}
+        {/* <Modal /> */}
+        {/* </div> */}
 
         <Hero
           title="Titlei"
@@ -55,8 +55,8 @@ that will optimize efficiency and increase profitability."
         />
 
         <HeroCards />
-        <TeamSection />
       </div>
+      <TeamSection />
       <CardStack />
       <Industries />
       <Partners />
