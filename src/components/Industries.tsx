@@ -10,6 +10,7 @@ import oil_gas from "/public/images/industries/oil_gas.jpg";
 import transportation from "/public/images/industries/transportation.jpg";
 import utilities from "/public/images/industries/utilities.jpg";
 import ems from "/public/images/industries/ems.jpg";
+import distribution from "/public/images/industries/distribution.jpg";
 
 export default function Industries() {
   return (
@@ -39,6 +40,14 @@ export default function Industries() {
           id="industries"
           className="scroll-hide flex h-1/2 gap-2 overflow-x-auto p-2 md:gap-4 md:p-4"
         >
+          <div id="Distribution & Warehousing">
+            <Indusrty
+              title="Distribution & Warehousing"
+              description="Cultivation, Manufacturing, Distribution, Retail."
+              url="https://www.google.com"
+              img={distribution}
+            />
+          </div>
           <div id="industries">
             <Indusrty
               title="Cannabis"
