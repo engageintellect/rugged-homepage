@@ -8,7 +8,7 @@ import Head from "next/head";
 import Alert from "../components/Alert";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-import TeamSection from "../components/TeamSection";
+import Solutions from "../components/Solutions";
 import CardStack from "../components/CardStack";
 import Footer from "../components/Footer";
 import Partners from "../components/Partners";
@@ -56,7 +56,7 @@ that will optimize efficiency and increase profitability."
 
         <HeroCards />
       </div>
-      <TeamSection />
+      <Solutions />
       <CardStack />
       <Industries />
       <Partners />

@@ -19,7 +19,7 @@ export default function Partner({
     <>
       <a target="_blank" href={url}>
         <div className="">
-          <div className="relative flex h-28 w-28 items-center justify-center rounded-full bg-gradient-to-l from-purple-600 to-blue-600 transition-transform hover:z-30 hover:scale-110 hover:shadow-xl sm:h-36 sm:w-36 md:h-40 md:w-40">
+          <div className="relative flex h-28 w-28 items-center justify-center rounded-full bg-gradient-to-l from-purple-500 to-blue-500 transition-transform hover:z-30 hover:scale-110 hover:shadow-xl sm:h-36 sm:w-36 md:h-40 md:w-40">
             <div className="relative text-lg font-bold text-white">{title}</div>
 
             <div className="absolute z-20 flex h-28 w-28 items-center justify-center rounded-full bg-white transition-opacity duration-300 hover:scale-105 hover:opacity-0 hover:shadow-xl sm:h-36 sm:w-36 md:h-40 md:w-40">

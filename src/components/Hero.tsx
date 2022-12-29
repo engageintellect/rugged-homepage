@@ -32,7 +32,7 @@ export default function Hero({
           </div>
 
           <a href="/">
-            <div className="flex flex-col items-start justify-start bg-gradient-to-l from-neutral-900 via-neutral-700 to-neutral-900 bg-clip-text text-6xl font-extrabold text-transparent md:text-7xl">
+            <div className="flex flex-col items-start justify-start bg-gradient-to-l from-neutral-900 via-neutral-700 to-neutral-900 bg-clip-text text-5xl font-extrabold text-transparent md:text-7xl">
               <div>Rugged</div>
               <div>Development</div>
             </div>

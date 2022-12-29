@@ -26,7 +26,7 @@ export default function Parnters() {
             </a>
           </div>
 
-          <div className="grid grid-cols-3 gap-4">
+          <div className="grid grid-cols-3 gap-4 xl:-translate-x-12 xl:gap-10">
             <div className="xl:-translate-x-10 xl:-translate-y-10">
               <Partner
                 title="Zebra"

@@ -15,12 +15,15 @@ import distribution from "/public/images/industries/distribution.jpg";
 export default function Industries() {
   return (
     <>
-      <div className="bg-neutral-900" id="industries">
+      <div
+        className="bg-neutral-900 xl:flex xl:items-center xl:justify-center"
+        id="industries"
+      >
         <div
-          className="bg-neutral-800 px-2 py-40 md:px-10 xl:px-60"
+          className="w-full bg-neutral-800 xl:rounded-t-lg xl:py-20 xl:shadow-lg"
           id="learn_more"
         >
-          <div className="flex h-96 items-center justify-center">
+          <div className="flex h-96 items-center justify-center px-2 xl:w-[33vw]">
             <WideCard
               title="Industries"
               description="We serve a wide range of industries, we're confident we can cater to the unique needs of your business."
