@@ -30,7 +30,7 @@ export default function CardStack() {
                 card_class={cardClass.card1}
                 title={"Asset Tracking & Inventory Management"}
                 msg={
-                  "Our asset tracking and inventory management solutions are designed to help you optimize your supply chain, reduce costs, and improve customer satisfaction. With our systems, you'll be able to track your assets from end-to-end, ensuring accuracy and transparency throughout your business."
+                  "Our asset tracking and inventory management solutions are ready to help you optimize your supply chain, reduce costs, and improve customer satisfaction. With our systems, you'll be able to track your assets from end-to-end, ensuring accuracy and transparency throughout your business."
                 }
               />
             </div>
@@ -41,7 +41,7 @@ export default function CardStack() {
                 card_class={cardClass.card2}
                 title={"Video Surveillance"}
                 msg={
-                  "Our custom tailored video surveillance solutions are designed to meet the specific needs of your business. Whether you're looking to protect a retail store, warehouse, office, or any other type of commercial property, we have a solution that will work for you."
+                  "Custom tailored video surveillance solutions designed to meet the specific needs of your business. Whether you're looking to protect a retail store, warehouse, office, or any other type of commercial property, we have a solution that will work for you."
                 }
               />
             </div>
@@ -72,7 +72,7 @@ export default function CardStack() {
                 card_class={cardClass.card4}
                 title={"Wearable Technology"}
                 msg={
-                  "Our industrial wearable technology solutions are designed to meet the unique needs of any application. With features like real-time notifications, voice assistants, and hands-free operation, our industrial wearable technology helps you stay connected, productive, and safe on the job. Our solutions are perfect for a wide range of industries, including manufacturing, construction, military, and more."
+                  "Wearable technology solutions designed to meet the unique needs of any application. With features like real-time notifications, voice assistants, and hands-free operation, our industrial wearable technology helps you stay connected, productive, and safe on the job. Our solutions are perfect for a wide range of industries, including manufacturing, construction, military, and more."
                 }
               />
             </div>
