@@ -16,14 +16,14 @@ export default function Industries() {
   return (
     <>
       <div
-        className="bg-neutral-900 xl:flex xl:items-center xl:justify-center xl:bg-neutral-800"
+        className="z-0 bg-neutral-900 xl:flex xl:items-center xl:justify-center xl:bg-neutral-800"
         id="industries"
       >
         <div
-          className="w-full bg-neutral-700 xl:rounded-t-lg xl:bg-neutral-700 xl:py-40 xl:shadow-lg"
+          className="z-10 w-full bg-neutral-700 xl:rounded-t-lg xl:bg-neutral-700 xl:py-40 xl:shadow-lg"
           id="learn_more"
         >
-          <div className="flex h-96 items-center justify-center px-2 xl:w-[33vw]">
+          <div className="mx-auto flex h-96 items-center justify-center px-2 xl:w-[33vw]">
             <WideCard
               title="Industries"
               description="We serve a wide range of industries, we're confident we can cater to the unique needs of your business."

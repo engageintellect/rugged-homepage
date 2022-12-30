@@ -22,17 +22,17 @@ export default function Hero({
 		"
     >
       <div className="text-center text-white">
-        <div className="flex items-center justify-center">
-          <div className="hidden justify-center md:flex">
+        <div className="flex items-center justify-center gap-2">
+          <div className="hidden justify-center bg-transparent drop-shadow-xl md:flex">
             <Image
               src={logo}
               alt="Rugged Development Logo"
-              className="w-40 md:w-64"
+              className="w-40 drop-shadow-xl md:w-64"
             />
           </div>
 
           <a href="/">
-            <div className="flex flex-col items-start justify-start bg-gradient-to-l from-neutral-900 via-neutral-700 to-neutral-900 bg-clip-text text-5xl font-extrabold text-transparent md:text-7xl">
+            <div className="flex flex-col items-center justify-center bg-gradient-to-l from-neutral-900 via-neutral-700 to-neutral-900 bg-clip-text text-5xl font-extrabold text-transparent md:items-start md:text-7xl">
               <div>Rugged</div>
               <div>Development</div>
             </div>
@@ -48,7 +48,7 @@ export default function Hero({
         {/* </div> */}
         {/* </div> */}
         {/* </div> */}
-        <div className="text-md mx-auto py-5 px-5 tracking-tighter sm:w-2/3 md:text-xl xl:text-2xl">
+        <div className="text-md mx-auto w-[80vw] py-5 px-5 tracking-tighter sm:w-[66vw] md:text-xl xl:text-2xl">
           {description}
         </div>
 

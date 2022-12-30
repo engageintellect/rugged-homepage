@@ -23,21 +23,26 @@ export default function HeroCards() {
         }}
       >
         <div className="bg-neutral-900 p-2 md:bg-neutral-900 md:p-4">
-          <div className="grid grid-cols-1 gap-2 md:grid-cols-3 md:gap-4">
+          <div className="grid grid-cols-1 gap-2 md:grid-cols-4 md:gap-4">
             <Card
               title="About Us"
               description="What is T3d , and how can it help me or my team?"
               url="#about"
             />
             <Card
-              title="Our Services"
+              title="Solutions"
               description="Everything you need to get started with T3D."
               url="#industries"
             />
             <Card
-              title="Contact Us"
+              title="Industries"
               description="Get in touch with our team."
-              url="mailto:info@ruggeddevelopment.com"
+              url="#industries"
+            />
+            <Card
+              title="Partners"
+              description="Get in touch with our team."
+              url="#partners"
             />
           </div>
         </div>

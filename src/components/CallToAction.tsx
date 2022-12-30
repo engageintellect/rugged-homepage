@@ -17,17 +17,7 @@ export default function CallToAction() {
               </span>{" "}
               This!
             </div>
-
-            {/* <div>
-              <a target="_blank" href="mailto:info@ruggeddevelopment.com">
-                <button className="rounded-lg bg-blue-800 p-4 text-sm text-white shadow-lg hover:bg-blue-700">
-                  Email Us
-                </button>
-              </a>
-            </div> */}
           </div>
-
-          {/* //! TODO: Make this dynamic/interactive */}
 
           <div className="text-center">
             <div className="w-full py-5 text-lg md:max-w-xl md:text-xl">
