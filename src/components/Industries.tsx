@@ -20,7 +20,7 @@ export default function Industries() {
         id="industries"
       >
         <div
-          className="w-full bg-neutral-700 xl:rounded-t-lg xl:py-40 xl:shadow-lg"
+          className="w-full bg-neutral-700 xl:rounded-t-lg xl:bg-neutral-700 xl:py-40 xl:shadow-lg"
           id="learn_more"
         >
           <div className="flex h-96 items-center justify-center px-2 xl:w-[33vw]">

@@ -37,7 +37,7 @@ export default function HeroCards() {
             <Card
               title="Contact Us"
               description="Get in touch with our team."
-              url="/#form"
+              url="mailto:info@ruggeddevelopment.com"
             />
           </div>
         </div>
