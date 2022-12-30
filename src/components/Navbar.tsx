@@ -21,10 +21,10 @@ export default function Navbar() {
 
             <div className="flex justify-end">
               <a href="mailto:info@ruggeddevelopment.com">
-                <div className="cursor-pointer rounded-full bg-blue-700 px-4 hover:scale-105 hover:bg-blue-600">
+                <div className="cursor-pointer rounded-lg bg-blue-700 px-4 hover:scale-105 hover:bg-blue-600">
                   <div className="flex items-center justify-center gap-2 text-sm">
                     <FaEnvelope className="h-10 text-sm text-white" />
-                    <span>Contact Us</span>
+                    <span className="font-semibold">Contact Us</span>
                   </div>
                 </div>
               </a>
