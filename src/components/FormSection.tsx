@@ -1,6 +1,6 @@
 import Form from "./Form";
 
-export default function CallToAction() {
+export default function FormSection() {
   return (
     <>
       <div
@@ -21,8 +21,9 @@ export default function CallToAction() {
 
           <div className="text-center">
             <div className="w-full py-5 text-lg md:max-w-xl md:text-xl">
-              "Every organization is unique. Our experts are committed to
-              helping you select a solution that matches your specific needs."
+              Let's work together to develop a solution that fits your budget,
+              timeline and objectives. Our experts are committed to helping you
+              select a solution that matches your specific needs."
             </div>
           </div>
           <Form />

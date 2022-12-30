@@ -13,7 +13,7 @@ import CardStack from "../components/CardStack";
 import Footer from "../components/Footer";
 import Partners from "../components/Partners";
 import HeroCards from "../components/HeroCards";
-import CallToAction from "../components/CallToAction";
+import FormSection from "../components/FormSection";
 import TwitterFeed from "../components/TwitterFeed";
 import Industries from "../components/Industries";
 import Modal from "../components/Modal";
@@ -61,9 +61,9 @@ that will optimize efficiency and increase profitability."
       <Industries />
       <Partners />
       <TwitterFeed />
-      <CallToAction />
+      <FormSection />
       <Footer />
-      <Testing />
+      {/* <Testing /> */}
     </>
   );
 };

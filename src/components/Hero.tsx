@@ -2,6 +2,10 @@ import { type PropsWithChildren } from "react";
 
 import Image from "next/image";
 import logo from "/public/images/logos/RD-logo.png";
+import fire from "/public/images/industries/fire.jpg";
+import earth from "/public/images/hero/earth.jpg";
+import servers from "/public/images/hero/servers.jpg";
+import mountains from "/public/images/hero/rugged_mountains.jpg";
 
 type HeroProps = {
   title: string;
@@ -14,14 +18,19 @@ export default function Hero({
 }: PropsWithChildren<HeroProps>) {
   return (
     <div
-      className="bg-hero flex animate-gradient-x items-center justify-center bg-gradient-to-r from-purple-500 via-blue-500 to-purple-500 
+      className="bg-hero relative flex animate-gradient-x items-center justify-center bg-gradient-to-r from-purple-500 via-blue-500 to-purple-500 
 		bg-cover 
 		bg-center 
 		py-32 shadow-lg
     backdrop-blur-3xl
 		"
     >
-      <div className="text-center text-white">
+      <Image
+        src={mountains}
+        alt="Picture of the author"
+        className="absolute inset-0 z-0 h-full w-full object-cover opacity-20"
+      />
+      <div className="z-10 text-center text-white">
         <div className="flex items-center justify-center gap-2">
           <div className="hidden justify-center bg-transparent drop-shadow-xl md:flex">
             <Image
@@ -32,7 +41,7 @@ export default function Hero({
           </div>
 
           <a href="/">
-            <div className="flex flex-col items-center justify-center bg-gradient-to-l from-neutral-900 via-neutral-700 to-neutral-900 bg-clip-text text-5xl font-extrabold text-transparent md:items-start md:text-7xl">
+            <div className="flex flex-col items-center justify-center bg-gradient-to-l from-white via-white to-white bg-clip-text text-5xl font-extrabold text-transparent md:items-start md:text-7xl">
               <div>Rugged</div>
               <div>Development</div>
             </div>
