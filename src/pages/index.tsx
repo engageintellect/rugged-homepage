@@ -17,6 +17,7 @@ import FormSection from "../components/FormSection";
 import TwitterFeed from "../components/TwitterFeed";
 import Industries from "../components/Industries";
 import Modal from "../components/Modal";
+import Slider from "../components/Slider";
 
 import Testing from "../components/Testing";
 

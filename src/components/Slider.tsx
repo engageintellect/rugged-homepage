@@ -1,8 +1,13 @@
 import { motion, Variants } from "framer-motion";
+import { type PropsWithChildren } from "react";
+
+type SliderProps = {
+  component: any;
+};
 
 const cardVariants: Variants = {
   offscreen: {
-    y: 300,
+    y: -100,
   },
   onscreen: {
     y: 0,
@@ -15,20 +20,17 @@ const cardVariants: Variants = {
   },
 };
 
-export default function Slider() {
+export default function Slider({ component }: PropsWithChildren<SliderProps>) {
   return (
     <>
       <motion.div
         className="card-container"
         initial="offscreen"
         whileInView="onscreen"
-        viewport={{ once: true, amount: 0.8 }}
+        viewport={{ once: true, amount: 0 }}
       >
         <motion.div className="" variants={cardVariants}>
-          {/* PAYLOAD */}
-          <>
-            <div className="h-48 bg-red-500">hello there world</div>
-          </>
+          {component}
         </motion.div>
       </motion.div>
     </>

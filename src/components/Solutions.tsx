@@ -1,6 +1,7 @@
 import WideCard from "./WideCard";
 import Image from "next/image";
 import laptop from "/public/images/products/rugged_laptop.jpg";
+import Slider from "./Slider";
 
 export default function TeamSection() {
   return (
@@ -20,11 +21,25 @@ export default function TeamSection() {
         </div>
 
         <div className="relative z-50 flex items-center justify-center bg-transparent xl:translate-y-24">
-          <Image
-            src={laptop}
-            alt="Picture of the author"
-            className=" w-full bg-transparent drop-shadow-xl transition-all duration-200 md:w-3/4"
-          />
+          <div className="md:hidden">
+            <Image
+              src={laptop}
+              alt="Picture of the author"
+              className=" mx-auto w-full bg-transparent drop-shadow-xl transition-all duration-200 md:w-3/4"
+            />
+          </div>
+
+          <div className="hidden md:flex">
+            <Slider
+              component={
+                <Image
+                  src={laptop}
+                  alt="Picture of the author"
+                  className=" mx-auto w-full bg-transparent drop-shadow-xl transition-all duration-200 md:w-3/4"
+                />
+              }
+            ></Slider>
+          </div>
         </div>
       </div>
     </>
