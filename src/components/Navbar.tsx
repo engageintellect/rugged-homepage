@@ -9,7 +9,7 @@ export default function Navbar() {
     <>
       <div className="navbar sticky top-0 z-10 bg-neutral-900 py-2 text-lg text-white">
         <div className="mx-2 md:mx-10">
-          <div className="grid grid-cols-2 items-center xl:grid-cols-3">
+          <div className="grid grid-cols-2 items-center ">
             <a href="/">
               <div className="text-md flex flex-row items-center justify-start gap-2 md:text-xl">
                 <div className="w-12">
@@ -19,12 +19,6 @@ export default function Navbar() {
               </div>
             </a>
 
-            <div className="hidden justify-center gap-4 xl:flex">
-              {/* <a href="/about">About</a> */}
-              {/* <a href="/news">News</a> */}
-              {/* <a href="/contact">Contact Us</a> */}
-              {/* <a href="/form">Contribute</a> */}
-            </div>
             <div className="flex justify-end">
               <a href="mailto:info@ruggeddevelopment.com">
                 <div className="cursor-pointer rounded-full bg-blue-700 px-4 hover:scale-105 hover:bg-blue-600">
