@@ -31,17 +31,17 @@ const ContactForm = () => {
           phone: "",
         }}
         validationSchema={Yup.object({
-          firstName: Yup.string().required("Required"),
-          lastName: Yup.string().required("Required"),
+          firstName: Yup.string().required("First Name Required."),
+          lastName: Yup.string().required("Last Name Required."),
           company: Yup.string(),
           email: Yup.string()
-            .email("Invalid email address")
-            .required("Required"),
+            .email("Invalid E-Mail address")
+            .required("E-Mail Required"),
           phone: Yup.string()
             .matches(/^[0-9]+$/, "Must be only digits")
             .min(10, "Must be exactly 10 digits")
             .max(10, "Must be exactly 10 digits")
-            .required("Required"),
+            .required("Phone Required"),
         })}
         onSubmit={async (values, { setSubmitting, resetForm }) => {
           // Submit the form
@@ -76,70 +76,75 @@ const ContactForm = () => {
             res.data.message ||
               "Thanks for reaching out, we'll be in touch soon!"
           );
-          console.log("formResponse");
           console.log(formResponse);
         }}
       >
         {({ isSubmitting, touched, errors }) => (
           <div className="flex items-center justify-center">
-            <Form className="grid w-full grid-cols-1 gap-2 md:max-w-xl">
+            <Form className="grid w-full grid-cols-1 gap-2">
               <div className="">
                 {(touched.firstName && errors.firstName && (
-                  <label className="text-red-500">{errors.firstName}</label>
-                )) || <label>First Name*</label>}
+                  <label className="text-sm text-red-500">
+                    {errors.firstName}
+                  </label>
+                )) || <label className="text-sm">First Name*</label>}
                 <Field
                   type="text"
                   name="firstName"
                   placeholder=""
-                  className="w-full rounded-md p-2 text-neutral-900 placeholder-neutral-700 outline-none focus:outline-blue-700"
+                  className="w-full rounded-md bg-neutral-700 p-2 text-white placeholder-neutral-700 outline-none transition-colors duration-200 focus:bg-neutral-500"
                 />
               </div>
 
               <div className="">
                 {(touched.lastName && errors.lastName && (
-                  <label className="text-red-500">{errors.lastName}</label>
-                )) || <label>Last Name*</label>}
+                  <label className="text-sm text-red-500">
+                    {errors.lastName}
+                  </label>
+                )) || <label className="text-sm">Last Name*</label>}
                 <Field
                   type="text"
                   name="lastName"
                   placeholder=""
-                  className="w-full rounded-md p-2 text-neutral-900 placeholder-neutral-700 outline-none focus:outline-blue-700"
+                  className="w-full rounded-md bg-neutral-700 p-2 text-white placeholder-neutral-700 outline-none transition-colors duration-200 focus:bg-neutral-500"
                 />
               </div>
 
               <div className="">
                 {(touched.company && errors.company && (
-                  <label className="text-red-500">{errors.company}</label>
-                )) || <label>Company</label>}
+                  <label className="text-sm text-red-500">
+                    {errors.company}
+                  </label>
+                )) || <label className="text-sm">Company</label>}
                 <Field
                   type="text"
                   name="company"
                   placeholder=""
-                  className="w-full rounded-md p-2 text-neutral-900 placeholder-neutral-700 outline-none focus:outline-blue-700"
+                  className="w-full rounded-md bg-neutral-700 p-2 text-white placeholder-neutral-700 outline-none transition-colors duration-200 focus:bg-neutral-500"
                 />
               </div>
 
               <div className="">
                 {(touched.email && errors.email && (
-                  <label className="text-red-500">{errors.email}</label>
-                )) || <label>E-Mail*</label>}
+                  <label className="text-sm text-red-500">{errors.email}</label>
+                )) || <label className="text-sm">E-Mail*</label>}
                 <Field
                   type="email"
                   name="email"
                   placeholder=""
-                  className="w-full rounded-md p-2 text-neutral-900 placeholder-neutral-700 outline-none focus:outline-blue-700"
+                  className="w-full rounded-md bg-neutral-700 p-2 text-white placeholder-neutral-700 outline-none transition-colors duration-200 focus:bg-neutral-500"
                 />
               </div>
 
               <div className="">
                 {(touched.phone && errors.phone && (
-                  <label className="text-red-500">{errors.phone}</label>
-                )) || <label>Phone*</label>}
+                  <label className="text-sm text-red-500">{errors.phone}</label>
+                )) || <label className="text-sm">Phone*</label>}
                 <Field
                   type="text"
                   name="phone"
                   placeholder=""
-                  className="w-full rounded-md p-2 text-neutral-900 placeholder-neutral-700 outline-none focus:outline-blue-700"
+                  className="w-full rounded-md bg-neutral-700 p-2 text-white placeholder-neutral-700 outline-none transition-colors duration-200 focus:bg-neutral-500"
                 />
               </div>
 
@@ -147,7 +152,7 @@ const ContactForm = () => {
                 {/* MAKE FORM FEEDBACK RED IF ERROR, ELSE, MAKE GREEN */}
                 <div className="pb-3">
                   {(formResponse.status == "error" && (
-                    <div className="flex items-center justify-center gap-4 rounded-md bg-red-600 p-2 text-center text-sm">
+                    <div className="flex items-center justify-center gap-2 rounded-md bg-red-600 p-2 text-center text-xs">
                       <div className="pulse animate-pulse">
                         <ExclamationCircleIcon className="w-10 text-white" />
                       </div>
@@ -158,7 +163,7 @@ const ContactForm = () => {
                     </div>
                   )) ||
                     (formResponse.status == "success" && (
-                      <div className="flex items-center justify-center gap-4 rounded-md bg-green-600 p-2 text-center text-sm">
+                      <div className="bg-green-601 flex items-center justify-center gap-2 rounded-md p-2 text-center text-xs">
                         <div className="pulse animate-pulse">
                           <CheckCircleIcon className="w-10 text-white" />
                         </div>
@@ -179,7 +184,7 @@ const ContactForm = () => {
                     onClick={() => displayResponse}
                     type="submit"
                     disabled={isSubmitting}
-                    className="transition-color w-full animate-gradient-x rounded-lg bg-gradient-to-r from-purple-700 to-blue-500 p-4 text-white shadow-xl duration-200 hover:from-purple-500 hover:via-blue-500 hover:to-purple-500 active:scale-95"
+                    className="transition-color w-full animate-gradient-x rounded-lg bg-gradient-to-r from-purple-700 to-blue-500 p-4 text-white shadow-xl outline-none duration-200 hover:from-purple-500 hover:via-blue-500 hover:to-purple-500 focus:outline-none active:scale-95"
                   >
                     <div className="font-bold">Submit</div>
                   </button>

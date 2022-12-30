@@ -29,12 +29,10 @@ export default function CallToAction() {
 
           {/* //! TODO: Make this dynamic/interactive */}
 
-          <div className="flex justify-center">
-            <div className="w-full py-5 md:max-w-xl">
-              <div className="text-center text-xl">
-                "Every organization is unique. Our experts are committed to
-                helping you select a solution that matches your specific needs."
-              </div>
+          <div className="text-center">
+            <div className="w-full py-5 text-lg md:max-w-xl md:text-xl">
+              "Every organization is unique. Our experts are committed to
+              helping you select a solution that matches your specific needs."
             </div>
           </div>
           <Form />
