@@ -26,7 +26,7 @@ export default function Hero({
 		"
     >
       <Image
-        src={mountains}
+        src={servers}
         alt="Picture of the author"
         className="absolute inset-0 z-0 h-full w-full object-cover opacity-20"
       />
@@ -41,7 +41,7 @@ export default function Hero({
           </div>
 
           <a href="/">
-            <div className="flex flex-col items-center justify-center bg-gradient-to-l from-white via-white to-white bg-clip-text text-5xl font-extrabold text-transparent md:items-start md:text-7xl">
+            <div className="flex flex-col items-center justify-center  text-5xl font-extrabold drop-shadow-xl md:items-start md:text-7xl">
               <div>Rugged</div>
               <div>Development</div>
             </div>
@@ -57,7 +57,7 @@ export default function Hero({
         {/* </div> */}
         {/* </div> */}
         {/* </div> */}
-        <div className="text-md mx-auto w-[80vw] py-5 px-5 tracking-tighter sm:w-[66vw] md:text-xl xl:text-2xl">
+        <div className="text-md mx-auto w-[80vw] bg-transparent py-5 px-5 tracking-tighter drop-shadow-lg sm:w-[66vw] md:text-xl xl:text-2xl">
           {description}
         </div>
 

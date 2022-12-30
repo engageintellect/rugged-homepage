@@ -1,7 +1,5 @@
 import WideCard from "./WideCard";
-
 import Image from "next/image";
-
 import laptop from "/public/images/products/rugged_laptop.jpg";
 
 export default function TeamSection() {
