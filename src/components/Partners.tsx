@@ -20,7 +20,7 @@ export default function Parnters() {
         <div className="flex h-96 flex-col items-center justify-center gap-2 py-40 xl:flex-row xl:gap-20">
           <div className="flex justify-center pb-5 text-4xl font-semibold text-white">
             <a href="/">
-              <div className="flex h-full flex-col items-center justify-center overflow-hidden rounded-lg p-4 xl:h-48 xl:transition-transform xl:hover:scale-105">
+              <div className="flex h-full flex-col items-center justify-center overflow-hidden rounded-lg p-4 xl:h-48">
                 <div className="pb-2 text-4xl font-semibold">Our Partners</div>
                 <div className="text-center text-lg text-neutral-300 md:text-xl">
                   "We've partnered with the best brands in the industry."
