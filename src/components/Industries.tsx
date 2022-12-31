@@ -17,11 +17,11 @@ export default function Industries() {
   return (
     <>
       <div
-        className="z-0 bg-neutral-900 xl:flex xl:items-center xl:justify-center xl:bg-neutral-800"
+        className="z-0 bg-neutral-900 xl:flex xl:items-center xl:justify-center xl:bg-neutral-900"
         id="industries"
       >
         <div
-          className="z-10 w-full bg-neutral-700 xl:rounded-t-lg xl:bg-neutral-700 xl:py-40 xl:shadow-lg"
+          className="z-10 w-full bg-neutral-900 xl:rounded-t-lg xl:bg-neutral-700 xl:py-40 xl:shadow-lg"
           id="learn_more"
         >
           <div className="mx-auto flex h-96 items-center justify-center px-2 xl:w-[33vw]">

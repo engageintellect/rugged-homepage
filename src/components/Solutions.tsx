@@ -6,9 +6,9 @@ import Slider from "./Slider";
 export default function TeamSection() {
   return (
     <>
-      <div className="z-0 flex flex-col items-center justify-center bg-neutral-800">
+      <div className="z-0 flex flex-col items-center justify-center bg-neutral-900 xl:bg-neutral-900">
         <div
-          className="flex items-center justify-center bg-neutral-800 px-2 xl:w-[66vw] xl:px-10"
+          className="flex items-center justify-center bg-neutral-900 px-2 xl:w-[66vw] xl:bg-neutral-900 xl:px-10"
           id="about"
         >
           <div className="flex h-96 items-center justify-center xl:-mb-20">
