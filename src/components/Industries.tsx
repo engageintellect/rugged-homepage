@@ -17,7 +17,7 @@ export default function Industries() {
   return (
     <>
       <div
-        className="z-0 bg-neutral-900 xl:flex xl:items-center xl:justify-center xl:bg-neutral-900"
+        className="z-0 bg-neutral-800 xl:flex xl:items-center xl:justify-center xl:bg-neutral-900"
         id="industries"
       >
         <div

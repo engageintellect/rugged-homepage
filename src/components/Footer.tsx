@@ -12,36 +12,47 @@ export default function Footer() {
         <div className="mx-2 md:mx-10">
           <div className="grid grid-cols-2 items-center">
             <div className="text-md flex flex-col justify-start">
-              <a href="/">
+              <a href="/#top">
                 {/* Ne<span className="text-blue-500">x</span>um */}
                 Rugged Development
               </a>
 
-              <div className="flex flex-row gap-4 py-2 text-2xl">
-                <a href={company_info.socials.twitter.url} aria-label="twitter">
+              <div className="flex flex-row gap-4 py-2 text-2xl md:text-3xl xl:text-4xl">
+                <a
+                  href={company_info.socials.twitter.url}
+                  target="_blank"
+                  aria-label="twitter"
+                >
                   <FaTwitter className="text-white" />
                 </a>
 
                 <a
                   href={company_info.socials.facebook.url}
                   aria-label="facebook"
+                  target="_blank"
                 >
-                  <FaFacebook className="text-white" />
+                  <FaFacebook className="text-white" target="_blank" />
                 </a>
 
-                <a href={company_info.socials.youtube.url} aria-label="youtube">
+                <a
+                  href={company_info.socials.youtube.url}
+                  aria-label="youtube"
+                  target="_blank"
+                >
                   <FaYoutube className="text-white" />
                 </a>
 
                 <a
                   href={company_info.socials.linkedin.url}
+                  target="_blank"
                   aria-label="falinkedin"
                 >
-                  <FaLinkedin className="text-white" />
+                  <FaLinkedin className="text-white" target="_blank" />
                 </a>
 
                 <a
                   href={company_info.socials.instagram.url}
+                  target="_blank"
                   aria-label="instagram"
                 >
                   <FaInstagram className="text-white" />
@@ -56,7 +67,10 @@ export default function Footer() {
             </div>
 
             <div className="flex justify-end">
-              <a href="/">
+              <a
+                href="https://github.com/engageintellect/rugged-homepage/deployments"
+                target="_blank"
+              >
                 <div className="flex h-16 w-16 cursor-pointer items-center justify-center rounded-full bg-blue-700 hover:scale-105 hover:bg-blue-600">
                   {app_info.version}
                 </div>

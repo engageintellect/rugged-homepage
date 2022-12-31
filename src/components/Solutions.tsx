@@ -3,13 +3,13 @@ import Image from "next/image";
 import laptop from "/public/images/products/rugged_laptop.jpg";
 import Slider from "./Slider";
 
-export default function TeamSection() {
+export default function Solutions() {
   return (
     <>
       <div className="z-0 flex flex-col items-center justify-center bg-neutral-900 xl:bg-neutral-900">
         <div
           className="flex items-center justify-center bg-neutral-900 px-2 xl:w-[66vw] xl:bg-neutral-900 xl:px-10"
-          id="about"
+          id="solutions"
         >
           <div className="flex h-96 items-center justify-center xl:-mb-20">
             <WideCard

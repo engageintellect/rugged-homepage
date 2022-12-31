@@ -49,11 +49,11 @@ export default function Hero({
           </a>
         </div>
 
-        <div className="text-md mx-auto w-[80vw] bg-transparent py-5 px-5 tracking-tighter drop-shadow-lg sm:w-[66vw] md:text-xl xl:text-2xl">
+        <div className="text-md mx-auto w-[80vw] bg-transparent py-5 px-5 tracking-tighter drop-shadow-lg sm:w-[50vw] md:text-xl xl:text-2xl">
           {description}
         </div>
 
-        <div className="text-md flex items-center justify-center gap-4 font-semibold">
+        <div className="text-md flex items-center justify-center gap-4 font-semibold md:text-xl">
           <a href="/#learn_more">
             <button className="transition-color rounded-lg bg-neutral-900 p-4 text-white shadow-lg duration-200 hover:scale-105 hover:bg-neutral-800">
               Learn More
