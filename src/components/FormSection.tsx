@@ -5,7 +5,7 @@ export default function FormSection() {
     <>
       <div
         id="form"
-        className="flex min-h-screen items-center justify-center bg-neutral-800 p-5 py-20 text-white md:p-20"
+        className="flex min-h-screen items-center justify-center bg-neutral-900 p-5 py-20 text-white md:p-20"
       >
         <div>
           <div className="flex flex-col items-center justify-center gap-4 md:flex-row">

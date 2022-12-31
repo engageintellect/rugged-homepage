@@ -45,20 +45,20 @@ const Home: NextPage = (props) => {
         {/* </div> */}
 
         <Hero
-          title="Titlei"
+          title="Rugged Development"
           description="We supply, deploy, and support innovative technology
 that will optimize efficiency and increase profitability."
         />
 
         <HeroCards />
+        <Solutions />
+        <CardStack />
+        <Industries />
+        <Partners />
+        <TestimonialFeed />
+        <FormSection />
+        <Footer />
       </div>
-      <Solutions />
-      <CardStack />
-      <Industries />
-      <Partners />
-      <TestimonialFeed />
-      <FormSection />
-      <Footer />
     </>
   );
 };

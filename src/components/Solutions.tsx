@@ -20,7 +20,7 @@ export default function TeamSection() {
           </div>
         </div>
 
-        <div className="relative z-50 flex items-center justify-center bg-transparent xl:translate-y-24">
+        <div className="relative z-40 flex items-center justify-center bg-transparent xl:translate-y-24">
           <div className="md:hidden">
             <Image
               src={laptop}

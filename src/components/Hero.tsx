@@ -48,29 +48,20 @@ export default function Hero({
             </div>
           </a>
         </div>
-        {/* {title} */}
-        {/* assName="flex flxt-5xl font-bold tracking-tighter md:my-5 md:text-7xl"> flex */}
-        {/* <div className="flex flex-col justify-center"> */}
-        {/* <div> */}
-        {/* <a href="/"> */}
-        {/* Rugged<span className="text-blue-400"></span> Development */}
-        {/* </a> */}
-        {/* </div> */}
-        {/* </div> */}
-        {/* </div> */}
+
         <div className="text-md mx-auto w-[80vw] bg-transparent py-5 px-5 tracking-tighter drop-shadow-lg sm:w-[66vw] md:text-xl xl:text-2xl">
           {description}
         </div>
 
         <div className="text-md flex items-center justify-center gap-4 font-semibold">
           <a href="/#learn_more">
-            <button className="transition-color rounded-lg bg-purple-700 p-4 text-white shadow-lg duration-200 hover:scale-105 hover:bg-purple-600">
+            <button className="transition-color rounded-lg bg-neutral-900 p-4 text-white shadow-lg duration-200 hover:scale-105 hover:bg-neutral-800">
               Learn More
             </button>
           </a>
 
           <a href="/#form">
-            <button className="transition-color rounded-lg bg-neutral-900 p-4 text-white shadow-lg duration-200 hover:scale-105 hover:bg-neutral-800">
+            <button className="transition-color rounded-lg bg-purple-700 p-4 text-white shadow-lg duration-200 hover:scale-105 hover:bg-purple-600">
               Get a Quote
             </button>
           </a>
