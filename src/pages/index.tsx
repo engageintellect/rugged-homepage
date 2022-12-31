@@ -14,15 +14,11 @@ import Footer from "../components/Footer";
 import Partners from "../components/Partners";
 import HeroCards from "../components/HeroCards";
 import FormSection from "../components/FormSection";
-import TwitterFeed from "../components/TwitterFeed";
+import TestimonialFeed from "../components/TestimonialFeed";
 import Industries from "../components/Industries";
 import Modal from "../components/Modal";
 import Slider from "../components/Slider";
-
 import Testing from "../components/Testing";
-
-// TEST
-// import Testing from "../components/Testing";
 
 const Home: NextPage = (props) => {
   const trpcMessage = trpc.api.alert.useQuery({
@@ -61,10 +57,9 @@ that will optimize efficiency and increase profitability."
       <CardStack />
       <Industries />
       <Partners />
-      <TwitterFeed />
+      <TestimonialFeed />
       <FormSection />
       <Footer />
-      {/* <Testing /> */}
     </>
   );
 };

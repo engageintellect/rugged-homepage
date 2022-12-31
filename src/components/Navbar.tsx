@@ -1,8 +1,7 @@
 import Image from "next/image";
-
 import logo from "/public/images/logos/RD-logo.png";
-
 import { FaTwitter, FaEnvelope } from "react-icons/fa";
+import { company_info } from "../data/data";
 
 export default function Navbar() {
   return (
@@ -20,7 +19,7 @@ export default function Navbar() {
             </a>
 
             <div className="flex justify-end gap-2">
-              <a href="mailto:info@ruggeddevelopment.com">
+              <a href={company_info.email}>
                 <div className="cursor-pointer rounded-lg bg-blue-700 px-4 hover:scale-105 hover:bg-blue-600">
                   <div className="flex items-center justify-center gap-2 text-sm">
                     <FaEnvelope className="h-10 text-sm text-white" />
@@ -28,7 +27,7 @@ export default function Navbar() {
                   </div>
                 </div>
               </a>
-              <a>
+              <a href={company_info.socials.twitter.url}>
                 <div className="cursor-pointer rounded-lg bg-blue-700 px-4 hover:scale-105 hover:bg-blue-600">
                   <FaTwitter className="h-10 text-sm text-white" />
                 </div>

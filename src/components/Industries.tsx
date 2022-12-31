@@ -11,6 +11,7 @@ import transportation from "/public/images/industries/transportation.jpg";
 import utilities from "/public/images/industries/utilities.jpg";
 import ems from "/public/images/industries/ems.jpg";
 import distribution from "/public/images/industries/distribution.jpg";
+import SliderRight from "./SliderRight";
 
 export default function Industries() {
   return (

@@ -9,7 +9,7 @@ type CardProps = {
   url: string;
 };
 
-export default function Tweet({
+export default function Testimonial({
   avatar,
   title,
   position,
@@ -29,7 +29,7 @@ export default function Tweet({
                   className=" h-10 w-10 rounded-full object-cover shadow-lg"
                 />
               ) : (
-                <div className="h-8 w-8 rounded-full bg-gradient-to-r from-blue-500 to-purple-500"></div>
+                <div className="h-10 w-10 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 shadow-lg"></div>
               )}
             </div>
             <div className="flex flex-col">

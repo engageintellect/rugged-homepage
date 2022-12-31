@@ -38,7 +38,7 @@ export default function TeamSection() {
                   className=" mx-auto w-full bg-transparent drop-shadow-xl transition-all duration-200 md:w-3/4"
                 />
               }
-            ></Slider>
+            />
           </div>
         </div>
       </div>
