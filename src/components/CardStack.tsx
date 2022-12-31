@@ -6,6 +6,9 @@ import circut from "/public/images/circut.jpg";
 import fire from "/public/images/industries/fire.jpg";
 import police from "/public/images/industries/police.jpg";
 import utilities from "/public/images/industries/utilities.jpg";
+import barcode_scanning from "/public/images/industries/barcode_printing.jpg";
+import asset_tracking from "/public/images/industries/asset_tracking.jpg";
+import wearable_computing from "/public/images/industries/wearable_computing.jpg";
 
 export default function CardStack() {
   const cardClass = {
@@ -42,7 +45,7 @@ export default function CardStack() {
                 msg={
                   "Our asset tracking and inventory management solutions are ready to help you optimize your supply chain, reduce costs, and improve customer satisfaction. With our systems, you'll be able to track your assets from end-to-end, ensuring accuracy and transparency throughout your business."
                 }
-                img={fire}
+                img={asset_tracking}
               />
             </div>
 
@@ -66,7 +69,7 @@ export default function CardStack() {
                 msg={
                   "Our rugged computing solutions are able to withstand even the toughest environments. Whether you're working in construction, manufacturing, military, or any other challenging industry, we have a solution that will meet your needs. Our rugged computers are built to withstand extreme temperatures, shock, vibration, and other harsh conditions, making them ideal for use in the field or on the go."
                 }
-                img={circut}
+                img={fire}
               />
             </div>
 
@@ -88,7 +91,7 @@ export default function CardStack() {
                 msg={
                   "Wearable technology solutions designed to meet the unique needs of any application. With features like real-time notifications, voice assistants, and hands-free operation, our industrial wearable technology helps you stay connected, productive, and safe on the job. Our solutions are perfect for a wide range of industries, including manufacturing, construction, military, and more."
                 }
-                img={utilities}
+                img={wearable_computing}
               />
             </div>
 
@@ -100,7 +103,7 @@ export default function CardStack() {
                 msg={
                   "With features like real-time data capture, hands-free operation, and long battery life, our rugged RFID and barcode scanning solutions help you stay productive and efficient on the job. Whether you need a handheld scanner for inventory management or a fixed scanner for tracking assets, we have a solution that will meet your needs."
                 }
-                img={mountains}
+                img={barcode_scanning}
               />
             </div>
           </div>
