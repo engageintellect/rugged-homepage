@@ -12,23 +12,23 @@ export const company_info = {
   socials: {
     twitter: {
       name: "Twitter",
-      url: "https://twitter.com/ruggeddev",
+      url: "https://twitter.com/ruggeddevelopmnt",
     },
     facebook: {
       name: "Facebook",
-      url: "https://facebook.com/ruggeddev",
+      url: "https://facebook.com/ruggeddevelopment",
     },
     youtube: {
       name: "Youtube",
-      url: "https://youtube.com/ruggeddev",
+      url: "https://youtube.com/ruggeddevelopment",
     },
     linkedin: {
       name: "Linkedin",
-      url: "https://linkedin.com/ruggeddev",
+      url: "https://linkedin.com/ruggeddevelopment",
     },
     instagram: {
       name: "Instagram",
-      url: "https://instagram.com/ruggeddev",
+      url: "https://instagram.com/ruggeddevelopment",
     },
   }
 }
