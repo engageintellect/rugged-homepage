@@ -2,14 +2,20 @@
 module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
 
+
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Roboto', 'sans-serif']
+      },
+
       animation: {
         "gradient-x": "gradient-x 20s ease infinite",
         "pulse": "pulse 5s ease infinite",
         "gradient-y": "gradient-y 20s ease infinite",
         "gradient-xy": "gradient-xy 20s ease infinite",
       },
+
       keyframes: {
         "gradient-y": {
           "0%, 100%": {
