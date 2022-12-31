@@ -29,6 +29,7 @@ export default function Alert({ title, msg }: PropsWithChildren<AlertProps>) {
             </div>
             <div className="ml-auto flex items-center uppercase">
               <button
+                name="close"
                 onClick={() => closeAlert()}
                 className="rounded-full bg-emerald-700 hover:bg-emerald-500"
               >
