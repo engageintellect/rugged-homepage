@@ -9,7 +9,7 @@ export default function Navbar() {
       <div className="navbar sticky top-0 z-50 bg-neutral-900 py-2 text-lg text-white">
         <div className="mx-2 md:mx-10">
           <div className="grid grid-cols-2 items-center ">
-            <a href="/#top">
+            <a href="/">
               <div className="text-md flex flex-row items-center justify-start gap-2 md:text-xl">
                 <div className="w-12">
                   <Image src={logo} alt="Rugged Development" />

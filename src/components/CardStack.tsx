@@ -28,7 +28,7 @@ export default function CardStack() {
   return (
     <>
       <div className="bg-neutral-800 xl:bg-neutral-800">
-        <div className="xl:py-20 xl:px-40">
+        <div className="mx-auto xl:container xl:py-20">
           <div
             id="card_stack"
             className="scroll-hide flex gap-2 overflow-x-auto p-2 md:gap-4 md:p-4 xl:grid xl:grid-cols-2 xl:p-20"

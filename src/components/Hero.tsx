@@ -42,7 +42,7 @@ export default function Hero({
           </div>
 
           <a href="/">
-            <div className="flex flex-col items-center justify-center  text-5xl font-extrabold drop-shadow-xl md:items-start md:text-7xl">
+            <div className="flex flex-col items-center justify-center text-5xl  font-extrabold drop-shadow-xl md:items-start md:text-7xl xl:container">
               <div>Rugged</div>
               <div>Development</div>
             </div>
