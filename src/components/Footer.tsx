@@ -8,7 +8,7 @@ import { app_info, company_info } from "../data/data";
 export default function Footer() {
   return (
     <>
-      <div className="navbar sticky top-0 z-10 bg-neutral-900 py-10 text-lg text-white">
+      <div className="z-10 bg-neutral-900 py-10 text-lg text-white">
         <div className="mx-2 md:mx-10">
           <div className="grid grid-cols-2 items-center">
             <div className="text-md flex flex-col justify-start">
