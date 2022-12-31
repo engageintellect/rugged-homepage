@@ -18,23 +18,32 @@ export default function Footer() {
               </a>
 
               <div className="flex flex-row gap-4 py-2 text-2xl">
-                <a href={company_info.socials.twitter.url}>
+                <a href={company_info.socials.twitter.url} aria-label="twitter">
                   <FaTwitter className="text-white" />
                 </a>
 
-                <a href={company_info.socials.facebook.url}>
+                <a
+                  href={company_info.socials.facebook.url}
+                  aria-label="facebook"
+                >
                   <FaFacebook className="text-white" />
                 </a>
 
-                <a href={company_info.socials.youtube.url}>
+                <a href={company_info.socials.youtube.url} aria-label="youtube">
                   <FaYoutube className="text-white" />
                 </a>
 
-                <a href={company_info.socials.linkedin.url}>
+                <a
+                  href={company_info.socials.linkedin.url}
+                  aria-label="falinkedin"
+                >
                   <FaLinkedin className="text-white" />
                 </a>
 
-                <a href={company_info.socials.instagram.url}>
+                <a
+                  href={company_info.socials.instagram.url}
+                  aria-label="instagram"
+                >
                   <FaInstagram className="text-white" />
                 </a>
               </div>

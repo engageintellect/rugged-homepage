@@ -16,6 +16,7 @@ export default function Hero({
   // title,
   description,
 }: PropsWithChildren<HeroProps>) {
+  ssr: true;
   return (
     <div
       className="bg-hero relative flex animate-gradient-x items-center justify-center bg-gradient-to-r from-purple-500 via-blue-500 to-purple-500 

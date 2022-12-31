@@ -5,10 +5,6 @@ module.exports = {
 
   theme: {
     extend: {
-      fontFamily: {
-        sans: ['Roboto', 'sans-serif']
-      },
-
       animation: {
         "gradient-x": "gradient-x 20s ease infinite",
         "pulse": "pulse 5s ease infinite",
