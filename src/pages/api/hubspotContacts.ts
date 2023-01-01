@@ -3,7 +3,7 @@ import { type NextApiRequest, type NextApiResponse } from "next";
 // import { prisma } from "../../server/db/client";
 
 const hubspotContacts = async (req: NextApiRequest, res: NextApiResponse) => {
-  const response = await fetch(`https://api.hubapi.com/contacts/v1/contact/email/heran@j.com/profile`, {
+  const response = await fetch(`https://api.hubapi.com/crm/v3/objects/contacts`, {
 		method: 'GET',
 		headers: {
 			'Content-Type': 'application/json',
