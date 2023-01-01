@@ -16,17 +16,17 @@ import SliderRight from "./SliderRight";
 export default function Industries() {
   return (
     <>
-      <div className="mx-auto flex h-96 items-center justify-center px-2 xl:w-[33vw]">
+      <div
+        id="industries"
+        className="mx-auto flex h-96 items-center justify-center px-2 xl:w-[33vw]"
+      >
         <WideCard
           title="Industries"
           description="We serve a wide range of industries, we're confident we can cater to the unique needs of your business."
           url="/#industries"
         />
       </div>
-      <div
-        className="z-0 mx-auto bg-neutral-800 xl:container xl:flex xl:items-center xl:justify-center xl:bg-neutral-900"
-        id="industries"
-      >
+      <div className="z-0 mx-auto bg-neutral-800 xl:container xl:flex xl:items-center xl:justify-center xl:bg-neutral-900">
         <div
           id="industries"
           className="scroll-hide flex h-1/2 snap-x snap-mandatory gap-2 overflow-x-auto p-2 md:gap-4 md:p-4"

@@ -49,7 +49,6 @@ const Home: NextPage = (props) => {
           description="We supply, deploy, and support innovative technology
 that will optimize efficiency and increase profitability."
         />
-
         <HeroCards />
         <Solutions />
         <CardStack />

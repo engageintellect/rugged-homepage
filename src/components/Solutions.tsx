@@ -15,7 +15,7 @@ export default function Solutions() {
             <WideCard
               title="Rugged Solutions"
               description="Every organization is unique. Our experts are committed to helping you select a solution that matches your specific needs – from warehouse equipment to rugged computing and scanning."
-              url="/#solutions"
+              url="/#card_stack"
             />
           </div>
         </div>

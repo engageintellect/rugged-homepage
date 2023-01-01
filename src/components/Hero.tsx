@@ -7,6 +7,14 @@ import earth from "/public/images/hero/earth.jpg";
 import servers from "/public/images/hero/servers.jpg";
 import mountains from "/public/images/hero/rugged_mountains.jpg";
 
+import {
+  FaBookOpen,
+  FaFileInvoice,
+  FaChevronRight,
+  FaAngleRight,
+  FaArrowRight,
+} from "react-icons/fa";
+
 type HeroProps = {
   title: string;
   description: string;
@@ -34,11 +42,13 @@ export default function Hero({
       <div className="z-10 text-center text-white">
         <div className="flex items-center justify-center gap-2">
           <div className="hidden justify-center bg-transparent drop-shadow-xl md:flex">
-            <Image
-              src={logo}
-              alt="Rugged Development Logo"
-              className="w-40 drop-shadow-xl md:w-64"
-            />
+            <a href="/">
+              <Image
+                src={logo}
+                alt="Rugged Development Logo"
+                className="w-40 drop-shadow-xl transition-transform duration-200 hover:scale-105 md:w-64"
+              />
+            </a>
           </div>
 
           <a href="/">
@@ -55,14 +65,16 @@ export default function Hero({
 
         <div className="text-md flex items-center justify-center gap-4 font-semibold md:text-xl">
           <a href="/#solutions">
-            <button className="transition-color rounded-lg bg-neutral-900 p-4 px-6 text-white shadow-lg duration-200 hover:scale-105 hover:bg-neutral-800">
+            <button className="duration-50 rounded-lg bg-neutral-900 p-4 px-6 text-white shadow-lg transition-all hover:scale-105 hover:bg-neutral-800">
               Learn More
+              <FaBookOpen className="ml-2 inline-block" />
             </button>
           </a>
 
           <a href="/#form">
-            <button className="transition-color rounded-lg bg-purple-700 p-4 px-6 text-white shadow-lg duration-200 hover:scale-105 hover:bg-purple-600">
+            <button className="duration-50 rounded-lg bg-purple-700 p-4 px-6 text-white shadow-lg transition-all hover:scale-105 hover:bg-purple-600">
               Get a Quote
+              <FaArrowRight className="ml-2 inline-block" />
             </button>
           </a>
         </div>

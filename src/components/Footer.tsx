@@ -22,40 +22,45 @@ export default function Footer() {
                   href={company_info.socials.twitter.url}
                   target="_blank"
                   aria-label="twitter"
+                  className="hover:text-neutral-500"
                 >
-                  <FaTwitter className="text-white" />
+                  <FaTwitter />
                 </a>
 
                 <a
                   href={company_info.socials.facebook.url}
                   aria-label="facebook"
                   target="_blank"
+                  className="hover:text-neutral-500"
                 >
-                  <FaFacebook className="text-white" target="_blank" />
+                  <FaFacebook />
                 </a>
 
                 <a
                   href={company_info.socials.youtube.url}
                   aria-label="youtube"
                   target="_blank"
+                  className="hover:text-neutral-500"
                 >
-                  <FaYoutube className="text-white" />
+                  <FaYoutube />
                 </a>
 
                 <a
                   href={company_info.socials.linkedin.url}
                   target="_blank"
                   aria-label="falinkedin"
+                  className="hover:text-neutral-500"
                 >
-                  <FaLinkedin className="text-white" target="_blank" />
+                  <FaLinkedin />
                 </a>
 
                 <a
                   href={company_info.socials.instagram.url}
                   target="_blank"
                   aria-label="instagram"
+                  className="hover:text-neutral-500"
                 >
-                  <FaInstagram className="text-white" />
+                  <FaInstagram />
                 </a>
               </div>
 

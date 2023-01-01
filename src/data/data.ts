@@ -5,30 +5,30 @@ export const app_info = {
 
 export const company_info = {
   name: "Rugged Development",
-  phone: "(123)456-7890",
+  phone: "480.935.8510",
   email: "mailto:info@ruggeddevelopment.com",
   url: "https://ruggeddevelopment.com",
 
   socials: {
     twitter: {
       name: "Twitter",
-      url: "https://twitter.com/ruggeddevelopmnt",
+      url: "https://twitter.com/Ruggedevelopmnt",
     },
     facebook: {
       name: "Facebook",
-      url: "https://facebook.com/ruggeddevelopment",
+      url: "https://www.facebook.com/RuggedDevelopment/",
     },
     youtube: {
       name: "Youtube",
-      url: "https://youtube.com/ruggeddevelopment",
+      url: "https://www.youtube.com/channel/UCELSrZ-ufWPa_RA6ZdloNvQ",
     },
     linkedin: {
       name: "Linkedin",
-      url: "https://linkedin.com/ruggeddevelopment",
+      url: "https://www.linkedin.com/showcase/rugged-development-llc/?viewAsMember=true",
     },
     instagram: {
       name: "Instagram",
-      url: "https://instagram.com/ruggeddevelopment",
+      url: "https://www.instagram.com/ruggeddevelopment/",
     },
   }
 }
