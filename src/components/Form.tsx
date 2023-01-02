@@ -190,7 +190,7 @@ const ContactForm = () => {
                     onClick={() => displayResponse}
                     type="submit"
                     disabled={isSubmitting}
-                    className="transition-color group w-full animate-gradient-x rounded-lg bg-gradient-to-r from-purple-700 to-blue-500 p-4 text-white shadow-xl outline-none duration-200 hover:from-purple-500 hover:via-blue-500 hover:to-purple-500 focus:outline-none active:scale-95"
+                    className="transition-color group w-full animate-gradient-x rounded-lg bg-gradient-to-r from-purple-700 to-blue-500 p-4 text-white shadow-xl outline-none duration-200 hover:from-purple-500 hover:to-blue-500 focus:outline-none active:scale-95"
                   >
                     <div className=" font-semibold">
                       Submit

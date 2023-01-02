@@ -1,6 +1,6 @@
 
 export const app_info = {
-  version: "v0.5.0",
+  version: "v0.7.0",
 }
 
 export const company_info = {
