@@ -13,6 +13,7 @@ import {
   FaChevronRight,
   FaAngleRight,
   FaArrowRight,
+  FaBook,
 } from "react-icons/fa";
 
 type HeroProps = {
@@ -63,18 +64,20 @@ export default function Hero({
           {description}
         </div>
 
-        <div className="text-md flex items-center justify-center gap-4 font-semibold md:text-xl">
+        <div className="text-md flex items-center justify-center gap-4 font-semibold md:text-lg">
           <a href="/#solutions">
-            <button className="duration-50 rounded-lg bg-neutral-900 p-4 px-6 text-white shadow-lg transition-all hover:scale-105 hover:bg-neutral-800">
+            <button className="duration-50 group rounded-lg bg-neutral-900 p-4 px-6 text-white shadow-lg transition-all hover:scale-105 hover:bg-neutral-800">
               Learn More
-              <FaBookOpen className="ml-2 inline-block" />
+              <FaBook className="ml-2 inline-block group-hover:hidden" />
+              <FaBookOpen className="ml-2 hidden group-hover:inline-block" />
             </button>
           </a>
 
           <a href="/#form">
-            <button className="duration-50 rounded-lg bg-purple-700 p-4 px-6 text-white shadow-lg transition-all hover:scale-105 hover:bg-purple-600">
+            <button className="duration-50 group rounded-lg bg-purple-700 p-4 px-6 text-white shadow-lg transition-all hover:scale-105 hover:bg-purple-600">
               Get a Quote
-              <FaArrowRight className="ml-2 inline-block" />
+              <FaChevronRight className="ml-2 inline-block group-hover:hidden" />
+              <FaArrowRight className="ml-2 hidden group-hover:inline-block" />
             </button>
           </a>
         </div>

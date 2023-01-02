@@ -5,7 +5,7 @@ import {
   CheckCircleIcon,
   ExclamationCircleIcon,
 } from "@heroicons/react/24/solid";
-import { FaArrowRight } from "react-icons/fa";
+import { FaArrowRight, FaChevronRight } from "react-icons/fa";
 
 const ContactForm = () => {
   const [formSubmitted, setFormSubmitted] = useState(false);
@@ -190,11 +190,12 @@ const ContactForm = () => {
                     onClick={() => displayResponse}
                     type="submit"
                     disabled={isSubmitting}
-                    className="transition-color w-full animate-gradient-x rounded-lg bg-gradient-to-r from-purple-700 to-blue-500 p-4 text-white shadow-xl outline-none duration-200 hover:from-purple-500 hover:via-blue-500 hover:to-purple-500 focus:outline-none active:scale-95"
+                    className="transition-color group w-full animate-gradient-x rounded-lg bg-gradient-to-r from-purple-700 to-blue-500 p-4 text-white shadow-xl outline-none duration-200 hover:from-purple-500 hover:via-blue-500 hover:to-purple-500 focus:outline-none active:scale-95"
                   >
-                    <div className="font-semibold">
+                    <div className=" font-semibold">
                       Submit
-                      <FaArrowRight className="ml-2 inline-block" />
+                      <FaChevronRight className="ml-2 inline-block group-hover:hidden" />
+                      <FaArrowRight className="ml-2 hidden group-hover:inline-block" />
                     </div>
                   </button>
                 </a>
