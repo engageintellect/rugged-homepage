@@ -1,6 +1,8 @@
 import { type PropsWithChildren } from "react";
 import Image from "next/image";
 
+import { FaChevronRight, FaArrowRight } from "react-icons/fa";
+
 type CardProps = {
   title: string;
   msg: string;
@@ -26,16 +28,21 @@ export default function CardStackCard({
                 // objectFit="cover" // change to suit your needs
                 fill
                 sizes="100%"
-                className="z-10 rounded-lg object-cover opacity-20 transition-opacity duration-700"
+                className="z-10 rounded-lg object-cover opacity-30 transition-opacity duration-700"
               />
 
-              <div className="relative z-20 mx-auto p-4 xl:absolute xl:bottom-0 xl:p-10">
+              <div className="relative z-20 mx-auto p-4 xl:absolute xl:top-0 xl:p-10">
                 <div className="z-20">
                   <div className="pb-4 text-xl font-semibold md:text-2xl">
                     {title}
                   </div>
                   <div className="text-sm md:text-lg">{msg}</div>
                 </div>
+              </div>
+
+              <div className="group absolute bottom-0 right-0 z-50 hidden items-center justify-center gap-2 p-10 text-xl text-neutral-300 underline xl:flex">
+                <div>Learn More</div>
+                <FaArrowRight className="-rotate-45 transition-all duration-200 group-hover:rotate-0" />
               </div>
             </div>
           </div>

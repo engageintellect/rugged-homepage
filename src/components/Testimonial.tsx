@@ -19,7 +19,7 @@ export default function Testimonial({
   return (
     <>
       <a href={url} target="_blank">
-        <div className="h-64 w-64 overflow-hidden rounded-xl bg-neutral-800 p-2 text-white shadow-md transition-colors duration-300 hover:bg-neutral-700 md:w-80 xl:w-96">
+        <div className="h-64 w-64 overflow-hidden rounded-xl bg-neutral-800 p-4 text-white shadow-md transition-colors duration-300 hover:bg-neutral-700 md:w-96 xl:w-96">
           <div className="flex items-center">
             <div className="pr-2">
               {avatar ? (

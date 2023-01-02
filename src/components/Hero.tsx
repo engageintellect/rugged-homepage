@@ -64,7 +64,7 @@ export default function Hero({
           {description}
         </div>
 
-        <div className="text-md flex items-center justify-center gap-4 font-semibold md:text-lg">
+        <div className="text-md flex items-center justify-center gap-4 pt-10 font-semibold md:text-lg">
           <a href="/#solutions">
             <button className="duration-50 group rounded-lg bg-neutral-900 p-4 px-6 text-white shadow-lg transition-all hover:bg-neutral-800 active:scale-95">
               Learn More
@@ -76,8 +76,8 @@ export default function Hero({
           <a href="/#form">
             <button className="duration-50 group rounded-lg bg-purple-700 p-4 px-6 text-white shadow-lg transition-all hover:bg-purple-600 active:scale-95">
               Get a Quote
-              <FaChevronRight className="ml-2 inline-block group-hover:hidden" />
-              <FaArrowRight className="ml-2 hidden group-hover:inline-block" />
+              {/* <FaChevronRight className="ml-2 inline-block group-hover:hidden" /> */}
+              <FaArrowRight className="ml-2 inline-block -rotate-45 transition-transform duration-200 group-hover:rotate-90" />
             </button>
           </a>
         </div>

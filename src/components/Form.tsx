@@ -194,8 +194,8 @@ const ContactForm = () => {
                   >
                     <div className=" font-semibold">
                       Submit
-                      <FaChevronRight className="ml-2 inline-block group-hover:hidden" />
-                      <FaArrowRight className="ml-2 hidden group-hover:inline-block" />
+                      {/* <FaChevronRight className="ml-2 inline-block group-hover:hidden" /> */}
+                      <FaArrowRight className="ml-2 inline-block -rotate-45 transition-transform duration-200 group-hover:rotate-90" />
                     </div>
                   </button>
                 </a>

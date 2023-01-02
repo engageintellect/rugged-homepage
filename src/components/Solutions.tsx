@@ -21,25 +21,29 @@ export default function Solutions() {
         </div>
 
         <div className="relative z-40 flex items-center justify-center bg-transparent xl:translate-y-24">
-          <div className="md:hidden">
-            <Image
-              src={laptop}
-              alt="Picture of the author"
-              className=" mx-auto w-full bg-transparent drop-shadow-xl transition-all duration-200 md:w-3/4"
-            />
-          </div>
+          <a href="#card_stack">
+            <div className="md:hidden">
+              <Image
+                src={laptop}
+                alt="laptop"
+                className=" mx-auto w-full bg-transparent drop-shadow-xl transition-all duration-200 md:w-3/4"
+              />
+            </div>
+          </a>
 
-          <div className="hidden md:flex">
-            <Slider
-              component={
-                <Image
-                  src={laptop}
-                  alt="Picture of the author"
-                  className=" mx-auto w-full bg-transparent drop-shadow-xl transition-all duration-200 md:w-3/4"
-                />
-              }
-            />
-          </div>
+          <a href="#card_stack">
+            <div className="hidden transition-transform duration-200 hover:cursor-pointer active:scale-95 md:flex">
+              <Slider
+                component={
+                  <Image
+                    src={laptop}
+                    alt="laptop"
+                    className=" mx-auto w-full bg-transparent drop-shadow-xl transition-all duration-200 md:w-[768px]"
+                  />
+                }
+              />
+            </div>
+          </a>
         </div>
       </div>
     </>

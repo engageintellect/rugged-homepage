@@ -8,8 +8,8 @@ import { app_info, company_info } from "../data/data";
 export default function Footer() {
   return (
     <>
-      <div className="z-10 bg-neutral-900 py-10 text-lg text-white">
-        <div className="mx-2 md:mx-10">
+      <div className="z-10 bg-neutral-800 py-10 text-lg text-white">
+        <div className="mx-2 md:container md:mx-auto">
           <div className="grid grid-cols-2 items-center">
             <div className="text-md flex flex-col justify-start">
               <a href="/#top">
@@ -17,7 +17,7 @@ export default function Footer() {
                 Rugged Development
               </a>
 
-              <div className="flex flex-row gap-4 py-2 text-2xl md:text-3xl xl:text-4xl">
+              <div className="flex flex-row gap-4 py-2 text-2xl">
                 <a
                   href={company_info.socials.twitter.url}
                   target="_blank"
