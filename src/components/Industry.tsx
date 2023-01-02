@@ -32,8 +32,8 @@ export default function Indusrty({
             <div className="relative z-20 mx-auto w-2/3">
               <div className="z-20">
                 <div className="text-xl font-semibold md:text-2xl">{title}</div>
-                <div className="md:text-md text-sm">
-                  Description:{description}
+                <div className="md:text-md text-sm text-neutral-400">
+                  {description}
                 </div>
               </div>
               <div className="md:text-md text-sm">{url}</div>
