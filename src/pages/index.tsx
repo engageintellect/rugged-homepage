@@ -40,10 +40,6 @@ const Home: NextPage = (props) => {
         />
         <Navbar />
 
-        {/* <div className="flex items-center justify-center"> */}
-        {/* <Modal /> */}
-        {/* </div> */}
-
         <Hero
           title="Rugged Development"
           description="We supply, deploy, and support innovative technology
@@ -57,6 +53,7 @@ that will optimize efficiency and increase profitability."
         <TestimonialFeed />
         <FormSection />
         <Footer />
+        <Testing />
       </div>
     </>
   );

@@ -31,7 +31,7 @@ export default function Industries() {
           id="industries"
           className="scroll-hide flex snap-x snap-mandatory gap-2 overflow-x-auto p-2 md:gap-4 md:p-4"
         >
-          <div id="Distribution & Warehousing" className="snap-always">
+          <div id="Distribution & Warehousing" className="snap-center ">
             <Indusrty
               title="Distribution & Warehousing"
               description="Cultivation, Manufacturing, Distribution, Retail."
@@ -39,7 +39,7 @@ export default function Industries() {
               img={distribution}
             />
           </div>
-          <div id="industries" className="snap-always">
+          <div id="industries" className="snap-center">
             <Indusrty
               title="Cannabis"
               description="Cultivation, Manufacturing, Distribution, Retail."
@@ -47,7 +47,7 @@ export default function Industries() {
               img={cannabis}
             />
           </div>
-          <div className="snap-always">
+          <div className="snap-center">
             <Indusrty
               title="Oil & Gas"
               description="Cultivation, Manufacturing, Distribution, Retail."
@@ -55,7 +55,7 @@ export default function Industries() {
               img={oil_gas}
             />
           </div>
-          <div className="snap-always">
+          <div className="snap-center">
             <Indusrty
               title="Transportation & Logistics"
               description="Cultivation, Manufacturing, Distribution, Retail."
@@ -63,7 +63,7 @@ export default function Industries() {
               img={transportation}
             />
           </div>
-          <div className="snap-always">
+          <div className="snap-center">
             <Indusrty
               title="Fire"
               description="Cultivation, Manufacturing, Distribution, Retail."
@@ -71,7 +71,7 @@ export default function Industries() {
               img={fire}
             />
           </div>
-          <div className="snap-always">
+          <div className="snap-center">
             <Indusrty
               title="Police"
               description="Cultivation, Manufacturing, Distribution, Retail."
@@ -79,7 +79,7 @@ export default function Industries() {
               img={police}
             />
           </div>
-          <div className="snap-always">
+          <div className="snap-center">
             <Indusrty
               title="Construction"
               description="Cultivation, Manufacturing, Distribution, Retail."
@@ -88,7 +88,7 @@ export default function Industries() {
             />
           </div>
 
-          <div className="snap-always">
+          <div className="snap-center">
             <Indusrty
               title="Utilities"
               description="Cultivation, Manufacturing, Distribution, Retail."
@@ -96,7 +96,7 @@ export default function Industries() {
               img={utilities}
             />
           </div>
-          <div className="snap-always">
+          <div className="snap-center">
             <Indusrty
               title="EMS"
               description="Cultivation, Manufacturing, Distribution, Retail."

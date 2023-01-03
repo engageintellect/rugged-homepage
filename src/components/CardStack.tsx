@@ -34,11 +34,10 @@ export default function CardStack() {
         <div className="mx-auto xl:container xl:py-20">
           <div
             id="card_stack"
-            className="scroll-hide flex gap-2 overflow-x-auto p-2 md:gap-4 md:p-4 xl:grid xl:grid-cols-2 xl:py-20"
+            className="scroll-hide flex snap-x gap-2 overflow-x-auto p-2 md:gap-4 md:p-4 xl:grid xl:grid-cols-2 xl:py-20"
           >
             {/* CARD 1 */}
-
-            <div>
+            <div className="snap-center">
               <CardStackCard
                 card_class={cardClass.card1}
                 title={"Asset Tracking & Inventory Management"}
@@ -49,7 +48,7 @@ export default function CardStack() {
               />
             </div>
 
-            <div>
+            <div className="snap-center">
               {/* CARD 2 */}
               <CardStackCard
                 card_class={cardClass.card2}
@@ -61,7 +60,7 @@ export default function CardStack() {
               />
             </div>
 
-            <div className="z-40">
+            <div className="z-40 snap-center">
               {/* CARD 3 */}
               <CardStackCard
                 card_class={cardClass.rainbow}
@@ -83,7 +82,7 @@ export default function CardStack() {
               />
             </div>
 
-            <div>
+            <div className="snap-center">
               {/* CARD 4 */}
               <CardStackCard
                 card_class={cardClass.card4}
@@ -95,7 +94,7 @@ export default function CardStack() {
               />
             </div>
 
-            <div>
+            <div className="snap-center">
               {/* CARD 5 */}
               <CardStackCard
                 card_class={cardClass.card5}

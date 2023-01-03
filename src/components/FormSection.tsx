@@ -1,4 +1,4 @@
-import Form from "./Form";
+import FormikForm from "./FormikForm";
 
 export default function FormSection() {
   return (
@@ -26,7 +26,7 @@ export default function FormSection() {
               select a solution that matches your specific needs."
             </div>
           </div>
-          <Form />
+          <FormikForm />
         </div>
       </div>
     </>

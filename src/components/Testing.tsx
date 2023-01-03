@@ -1,6 +1,8 @@
 import { trpc } from "../utils/trpc";
 import { BeakerIcon } from "@heroicons/react/24/solid";
 
+import Modal from "./Modal";
+
 export default function Testing(props) {
   const response = trpc.people.getPeople.useQuery();
   let a = response.data;
@@ -16,6 +18,12 @@ export default function Testing(props) {
             </span>
           </h1>
         </div>
+
+        <Modal
+          title="hello world"
+          description="this is a modal"
+          showModal={false}
+        />
 
         <div className="p-2 text-white">
           {a?.map((item) => {

@@ -30,7 +30,7 @@ export default function Slider({ component }: PropsWithChildren<SliderProps>) {
         viewport={{ once: true, amount: 0 }}
       >
         <motion.div className="" variants={cardVariants}>
-          {component}
+          <div>{component}</div>
         </motion.div>
       </motion.div>
     </>
