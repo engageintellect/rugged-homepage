@@ -1,4 +1,5 @@
 import Testimonial from "./Testimonial";
+import WideCard from "./WideCard";
 
 import JohnManning from "/public/images/avatars/john_manning.jpg";
 import KevinKelly from "/public/images/avatars/kevin_kelly.jpg";
@@ -7,7 +8,17 @@ import Default from "/public/images/avatars/default.jpg";
 
 export default function TestimonialFeed() {
   return (
-    <div className="h-1/2 bg-neutral-900">
+    <div className="bg-neutral-900">
+      <div
+        id="testimonials"
+        className="mx-auto flex h-96 items-center justify-center px-2 xl:w-[33vw]"
+      >
+        <WideCard
+          title="Testimonials"
+          description="Don't just take our word for it, see what our customers have to say about us."
+          url="/#testimonials"
+        />
+      </div>
       <div className="scroll-hide mx-auto flex h-1/2 snap-x gap-2 overflow-x-auto p-2 xl:container xl:gap-4 xl:p-4">
         <Testimonial
           avatar={JohnManning}
