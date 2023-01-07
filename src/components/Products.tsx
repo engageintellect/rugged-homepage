@@ -20,7 +20,11 @@ export default function Products() {
         id="products"
         className="mx-auto flex h-96 items-center justify-center px-2 xl:w-[33vw]"
       >
-        <WideCard title="Products" description="Hello world" url="/#products" />
+        <WideCard
+          title="Products"
+          description="We have carefully curate the most saught after products, by the brands you know and trust."
+          url="/#products"
+        />
       </div>
       <div className="z-0 mx-auto bg-neutral-900 xl:container xl:flex xl:items-center xl:justify-center xl:bg-neutral-900">
         <div

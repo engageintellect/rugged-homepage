@@ -36,7 +36,7 @@ export default function Product({
                   {description}
                 </div>
               </div>
-              <div className="md:text-md text-sm">{url}</div>
+              {/* <div className="md:text-md text-sm">{url}</div> */}
               {/* <div className="md:text-md text-sm">{img}</div> */}
             </div>
           </div>
