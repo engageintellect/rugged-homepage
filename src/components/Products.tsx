@@ -13,6 +13,8 @@ import surveillance from "/public/images/products/surveillance.png";
 import label_printer from "/public/images/products/label_printer.png";
 
 import { products } from "../data/data";
+
+import { FaReact } from "react-icons/fa";
 export default function Products() {
   return (
     <>
@@ -24,6 +26,7 @@ export default function Products() {
           title="Products"
           description="We have carefully curate the most saught after products, by the brands you know and trust."
           url="/#products"
+          icon={<FaReact />}
         />
       </div>
       <div className="z-0 mx-auto bg-neutral-900 xl:container xl:flex xl:items-center xl:justify-center xl:bg-neutral-900">
@@ -31,7 +34,7 @@ export default function Products() {
           id="products"
           className="scroll-hide flex snap-x snap-mandatory gap-2 overflow-x-auto p-2 md:gap-4 md:p-4"
         >
-          <div id="Rugged Laptops & Tablets" className="snap-center ">
+          <div id="Rugged Laptops & Tablets" className="flex snap-center">
             <Product
               title={products.rugged_computing.name}
               description={products.rugged_computing.description}
@@ -39,7 +42,7 @@ export default function Products() {
               img={rugged}
             />
           </div>
-          <div id="barcode_scanning" className="snap-center">
+          <div id="barcode_scanning" className="flex snap-center">
             <Product
               title={products.rugged_tablets.name}
               description={products.rugged_tablets.description}
@@ -47,7 +50,7 @@ export default function Products() {
               img={rugged_tablet}
             />
           </div>
-          <div className="snap-center">
+          <div className="flex snap-center">
             <Product
               title={products.barcode_scanning.name}
               description={products.barcode_scanning.description}
@@ -55,7 +58,7 @@ export default function Products() {
               img={barcode_scanner}
             />
           </div>
-          <div className="snap-center">
+          <div className="flex snap-center">
             <Product
               title={products.mobile_computing.name}
               description={products.mobile_computing.description}
@@ -63,7 +66,7 @@ export default function Products() {
               img={mobile_computing}
             />
           </div>
-          <div className="snap-center">
+          <div className="flex snap-center">
             <Product
               title={products.wearable_computing.name}
               description={products.wearable_computing.description}
@@ -71,7 +74,7 @@ export default function Products() {
               img={wearable_computing}
             />
           </div>
-          <div className="snap-center">
+          <div className="flex snap-center">
             <Product
               title={products.label_printers.name}
               description={products.label_printers.description}
@@ -80,7 +83,7 @@ export default function Products() {
             />
           </div>
 
-          <div className="snap-center">
+          <div className="flex snap-center">
             <Product
               title={products.rfid.name}
               description={products.rfid.description}
@@ -88,7 +91,7 @@ export default function Products() {
               img={rfid}
             />
           </div>
-          <div className="snap-center">
+          <div className="flex snap-center">
             <Product
               title={products.surveillance.name}
               description={products.surveillance.description}

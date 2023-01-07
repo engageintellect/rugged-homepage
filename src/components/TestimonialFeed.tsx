@@ -6,6 +6,8 @@ import KevinKelly from "/public/images/avatars/kevin_kelly.jpg";
 import NolanSpringer from "/public/images/avatars/nolan_springer.jpg";
 import Default from "/public/images/avatars/default.jpg";
 
+import { FaComment } from "react-icons/fa";
+
 export default function TestimonialFeed() {
   return (
     <div className="bg-neutral-900">
@@ -17,6 +19,7 @@ export default function TestimonialFeed() {
           title="Testimonials"
           description="Don't just take our word for it, see what our customers have to say about us."
           url="/#testimonials"
+          icon={<FaComment />}
         />
       </div>
       <div className="scroll-hide mx-auto flex h-1/2 snap-x gap-2 overflow-x-auto p-2 xl:container xl:gap-4 xl:p-4">

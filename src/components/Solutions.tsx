@@ -5,6 +5,8 @@ import Slider from "./Slider";
 
 import logo from "/public/images/logos/RD-logo.png";
 
+import { FaArrowDown } from "react-icons/fa";
+
 export default function Solutions() {
   return (
     <>
@@ -15,9 +17,10 @@ export default function Solutions() {
         <div className="flex items-center justify-center bg-neutral-900 px-2 xl:w-[66vw] xl:bg-neutral-900 xl:px-10">
           <div className="flex h-96 items-center justify-center xl:-mb-20">
             <WideCard
-              title="Rugged Solutions"
+              title="Solutions"
               description="Every organization is unique. Our experts are committed to helping you select a solution that matches your specific needs – from warehouse equipment to rugged computing and scanning."
               url="/#card_stack"
+              icon={<FaArrowDown />}
             />
           </div>
         </div>

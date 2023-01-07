@@ -13,6 +13,8 @@ import ems from "/public/images/industries/ems.jpg";
 import distribution from "/public/images/industries/distribution.jpg";
 import SliderRight from "./SliderRight";
 
+import { FaBuilding } from "react-icons/fa";
+
 export default function Industries() {
   return (
     <>
@@ -24,6 +26,7 @@ export default function Industries() {
           title="Industries"
           description="We serve a wide range of industries, we're confident we can cater to the unique needs of your business."
           url="/#industries"
+          icon={<FaBuilding />}
         />
       </div>
       <div className="z-0 mx-auto bg-neutral-900 xl:container xl:flex xl:items-center xl:justify-center xl:bg-neutral-900">
