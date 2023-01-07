@@ -16,6 +16,7 @@ import HeroCards from "../components/HeroCards";
 import FormSection from "../components/FormSection";
 import TestimonialFeed from "../components/TestimonialFeed";
 import Industries from "../components/Industries";
+import Products from "../components/Products";
 import Modal from "../components/Modal";
 import Slider from "../components/Slider";
 import Testing from "../components/Testing";
@@ -49,6 +50,7 @@ that will optimize efficiency and increase profitability."
         <Solutions />
         <CardStack />
         <Industries />
+        <Products />
         <Partners />
         <TestimonialFeed />
         <FormSection />

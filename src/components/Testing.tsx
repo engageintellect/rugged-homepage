@@ -19,11 +19,13 @@ export default function Testing(props) {
           </h1>
         </div>
 
-        <Modal
-          title="hello world"
-          description="this is a modal"
-          showModal={false}
-        />
+        <div className="flex items-center justify-center">
+          <Modal
+            title="hello world"
+            description="this is a modal"
+            showModal={false}
+          />
+        </div>
 
         <div className="p-2 text-white">
           {a?.map((item) => {

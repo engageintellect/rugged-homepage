@@ -28,7 +28,7 @@ export default function CardStackCard({
                 // objectFit="cover" // change to suit your needs
                 fill
                 sizes="100%"
-                className="z-10 rounded-lg object-cover opacity-30 transition-opacity duration-700"
+                className="z-10 rounded-lg object-cover opacity-10 transition-opacity duration-700"
               />
 
               <div className="relative z-20 mx-auto p-4 xl:absolute xl:top-0 xl:p-10">

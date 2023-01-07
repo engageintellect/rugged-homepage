@@ -19,7 +19,7 @@ export default function Modal({
   if (!modalShow) {
     return (
       <button
-        className=" bg-neutral-900 px-4 py-2 text-white"
+        className="bg-neutral-900 px-4 py-2 text-white"
         onClick={() => setModalShow(true)}
       >
         Open Modal

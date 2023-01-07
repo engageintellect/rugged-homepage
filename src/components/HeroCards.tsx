@@ -23,9 +23,10 @@ export default function HeroCards() {
           }}
         >
           <div className="bg-neutral-900 p-2 md:p-4 xl:bg-neutral-900">
-            <div className="mx-auto grid grid-cols-1 gap-2 md:grid-cols-4 md:gap-4 xl:container">
+            <div className="mx-auto grid grid-cols-1 gap-2 md:grid-cols-5 md:gap-4 xl:container">
               <Card title="About Us" url="/#solutions" />
               <Card title="Solutions" url="/#card_stack" />
+              <Card title="Products" url="/#products" />
               <Card title="Industries" url="/#industries" />
               <Card title="Partners" url="/#partners" />
             </div>
