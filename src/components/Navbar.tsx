@@ -18,9 +18,9 @@ export default function Navbar() {
               </div>
             </a>
 
-            <div className="flex justify-end gap-2">
+            <div className="flex justify-end">
               <a href={company_info.email}>
-                <div className="cursor-pointer rounded-lg bg-blue-700 px-4 hover:scale-105 hover:bg-blue-600">
+                <div className="cursor-pointer rounded-md bg-blue-700 px-4 hover:scale-105 hover:bg-blue-600">
                   <div className="flex items-center justify-center gap-2 text-sm">
                     <span className="font-semibold">Contact Us</span>
                     <FaEnvelope className="h-10 text-sm text-white" />

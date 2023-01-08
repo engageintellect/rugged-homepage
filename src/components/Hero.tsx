@@ -11,6 +11,7 @@ import {
   FaBookOpen,
   FaFileInvoice,
   FaChevronRight,
+  FaChevronDown,
   FaAngleRight,
   FaArrowRight,
   FaBook,
@@ -53,7 +54,7 @@ export default function Hero({
           </div>
 
           <a href="/">
-            <div className="flex flex-col items-center justify-center text-5xl  font-extrabold drop-shadow-xl md:items-start md:text-7xl xl:container">
+            <div className="flex flex-col items-center justify-center text-5xl font-extrabold  drop-shadow-xl sm:text-6xl md:items-start md:text-7xl xl:container">
               <div>Rugged</div>
               <div>Development</div>
             </div>
@@ -66,7 +67,7 @@ export default function Hero({
 
         <div className="text-md flex items-center justify-center gap-4 pt-10 font-semibold">
           <a href="/#solutions">
-            <button className="group rounded-lg bg-neutral-900 p-4 px-6 text-white shadow-lg transition-all duration-200 hover:bg-neutral-800 active:scale-95">
+            <button className="group rounded-md bg-neutral-900 p-4 px-6 text-white shadow-lg transition-all duration-200 hover:bg-neutral-800 active:scale-95">
               Learn More
               <FaBook className="ml-2 inline-block group-hover:hidden" />
               <FaBookOpen className="ml-2 hidden group-hover:inline-block" />
@@ -74,13 +75,21 @@ export default function Hero({
           </a>
 
           <a href="/#form">
-            <button className="group rounded-lg bg-purple-700 p-4 px-6 text-white shadow-lg transition-all duration-200 hover:bg-purple-600 active:scale-95">
+            <button className="group rounded-md bg-purple-700 p-4 px-6 text-white shadow-lg transition-all duration-200 hover:bg-purple-600 active:scale-95">
               Get a Quote
-              {/* <FaChevronRight className="ml-2 inline-block group-hover:hidden" /> */}
               <FaArrowRight className="ml-2 inline-block -rotate-45 transition-transform duration-200 group-hover:rotate-90" />
             </button>
           </a>
         </div>
+      </div>
+
+      <div
+        id="mobile_menu"
+        className="absolute bottom-5 text-neutral-100 md:hidden"
+      >
+        <a href="#mobile_menu">
+          <FaChevronDown className="animate-pulse text-4xl" />
+        </a>
       </div>
     </div>
   );

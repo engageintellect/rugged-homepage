@@ -5,7 +5,7 @@ import Slider from "./Slider";
 
 import logo from "/public/images/logos/RD-logo.png";
 
-import { FaArrowDown } from "react-icons/fa";
+import { FaArrowDown, FaCheckCircle } from "react-icons/fa";
 
 export default function Solutions() {
   return (
@@ -20,31 +20,12 @@ export default function Solutions() {
               title="Solutions"
               description="Every organization is unique. Our experts are committed to helping you select a solution that matches your specific needs – from warehouse equipment to rugged computing and scanning."
               url="/#card_stack"
-              icon={<FaArrowDown />}
+              icon={<FaCheckCircle />}
             />
           </div>
         </div>
 
         <div className="relative z-40 flex items-center justify-center bg-transparent xl:translate-y-24">
-          {/* <a href="#card_stack">
-            <div className="relative md:hidden">
-              <Image
-                src={laptop}
-                alt="laptop"
-                className=" mx-auto w-[400px] bg-transparent drop-shadow-xl transition-all duration-200"
-              />
-
-              <div className="absolute top-8 z-50 flex h-[152px] w-[250px] translate-x-[75px] items-center justify-center rounded-lg bg-gradient-to-r from-purple-500 to-blue-500 p-4"></div>
-              <div className="">
-                <Image
-                  src={logo}
-                  alt="rd"
-                  className="absolute left-[160px] top-20 z-[99] w-20 animate-bounce"
-                />
-              </div>
-            </div>
-          </a> */}
-
           <a href="#card_stack">
             <div className="hidden transition-transform duration-200 hover:cursor-pointer active:scale-95 md:flex">
               <Slider

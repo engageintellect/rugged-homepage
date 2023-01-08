@@ -24,7 +24,7 @@ export default function Products() {
       >
         <WideCard
           title="Products"
-          description="We have carefully curate the most saught after products, by the brands you know and trust."
+          description="We have carefully curated the most saught after products, by the brands you know and trust."
           url="/#products"
           icon={<FaReact />}
         />

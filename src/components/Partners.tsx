@@ -10,6 +10,8 @@ import ruggon from "/public/images/partners/ruggon.png";
 
 import Partner from "./Partner";
 
+import { FaHandshake } from "react-icons/fa";
+
 export default function Parnters() {
   return (
     <>
@@ -21,7 +23,13 @@ export default function Parnters() {
           <div className="flex justify-center pb-5 text-4xl font-semibold text-white">
             <a href="/">
               <div className="flex h-full flex-col items-center justify-center overflow-hidden rounded-lg p-4 xl:h-48">
-                <div className="pb-2 text-4xl font-semibold">Our Partners</div>
+                <div className="flex items-center justify-center gap-2 pb-2 text-4xl font-semibold">
+                  <div>Our Partners</div>
+                  <div>
+                    <FaHandshake />
+                  </div>
+                </div>
+
                 <div className="text-center text-lg text-neutral-300 md:text-xl">
                   "We've partnered with the best brands in the industry."
                 </div>

@@ -12,10 +12,7 @@ export default function Footer() {
         <div className="mx-2 md:container md:mx-auto">
           <div className="grid grid-cols-2 items-center">
             <div className="text-md flex flex-col justify-start">
-              <a href="/#top">
-                {/* Ne<span className="text-blue-500">x</span>um */}
-                Rugged Development
-              </a>
+              <a href="/#top">Rugged Development</a>
 
               <div className="flex flex-row gap-4 py-2 text-2xl">
                 <a

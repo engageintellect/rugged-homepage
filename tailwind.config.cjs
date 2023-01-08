@@ -8,6 +8,7 @@ module.exports = {
       animation: {
         "gradient-x": "gradient-x 20s ease infinite",
         "pulse": "pulse 5s ease infinite",
+        "spin": "spin 5s",
         "bounce": "bounce 1s ease infinite",
         "gradient-y": "gradient-y 20s ease infinite",
         "gradient-xy": "gradient-xy 20s ease infinite",

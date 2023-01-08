@@ -5,7 +5,7 @@ import {
   CheckCircleIcon,
   ExclamationCircleIcon,
 } from "@heroicons/react/24/solid";
-import { FaArrowRight, FaChevronRight } from "react-icons/fa";
+import { FaArrowRight, FaCircleNotch } from "react-icons/fa";
 
 const ContactForm = () => {
   const [formSubmitted, setFormSubmitted] = useState(false);
@@ -156,20 +156,28 @@ const ContactForm = () => {
 
               <div className="my-4">
                 {/* MAKE FORM FEEDBACK RED IF ERROR, ELSE, MAKE GREEN */}
-                <div className="pb-3">
+
+                <div className="pb-3 transition-opacity duration-500">
+                  {formSubmitted && formResponse.status == "" && (
+                    <div className="flex items-center justify-center gap-2 rounded-md bg-neutral-800 p-2 text-center text-xs">
+                      <div>
+                        <FaCircleNotch className="h-10 animate-spin text-xl" />
+                      </div>
+                      <div className="text-lg">Loading...</div>
+                    </div>
+                  )}
                   {(formResponse.status == "error" && (
                     <div className="flex items-center justify-center gap-2 rounded-md bg-red-600 p-2 text-center text-xs">
                       <div className="pulse animate-pulse">
                         <ExclamationCircleIcon className="w-10 text-white" />
                       </div>
-                      <div className="font-bold uppercase"></div>
                       <div>
                         <div>{formResponse.message}</div>
                       </div>
                     </div>
                   )) ||
                     (formResponse.status == "success" && (
-                      <div className="bg-green-601 flex items-center justify-center gap-2 rounded-md p-2 text-center text-xs">
+                      <div className="flex items-center justify-center gap-2 rounded-md bg-green-600 p-2 text-center text-xs">
                         <div className="pulse animate-pulse">
                           <CheckCircleIcon className="w-10 text-white" />
                         </div>
@@ -177,9 +185,7 @@ const ContactForm = () => {
                           <div>{formResponse.message}</div>
                         </div>
                         <a href="/">
-                          <div className="">
-                            <div className="underline">Back to Home</div>
-                          </div>
+                          <div className="underline">Back to Home</div>
                         </a>
                       </div>
                     ))}
@@ -190,11 +196,10 @@ const ContactForm = () => {
                     onClick={() => displayResponse}
                     type="submit"
                     disabled={isSubmitting}
-                    className="transition-color group w-full animate-gradient-x rounded-lg bg-gradient-to-r from-purple-700 to-blue-500 p-4 text-white shadow-xl outline-none duration-200 hover:from-purple-500 hover:to-blue-500 focus:outline-none active:scale-95"
+                    className="transition-color group w-full animate-gradient-x rounded-md bg-gradient-to-r from-purple-700 to-blue-500 p-4 text-white shadow-xl outline-none duration-200 hover:from-purple-500 hover:to-blue-500 focus:outline-none active:scale-95"
                   >
-                    <div className=" font-semibold">
+                    <div className="font-semibold">
                       Submit
-                      {/* <FaChevronRight className="ml-2 inline-block group-hover:hidden" /> */}
                       <FaArrowRight className="ml-2 inline-block -rotate-45 transition-transform duration-200 group-hover:rotate-90" />
                     </div>
                   </button>

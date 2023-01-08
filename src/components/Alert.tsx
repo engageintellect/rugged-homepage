@@ -21,8 +21,8 @@ export default function Alert({ title, msg }: PropsWithChildren<AlertProps>) {
   return (
     <>
       <div>
-        <div className="bg-emerald-700 text-white">
-          <div className="flex items-center px-2 md:container md:mx-auto">
+        <div className="bg-fuchsia-700 text-white">
+          <div className="mx-auto flex items-center px-2 sm:px-4 xl:container xl:px-0">
             <div className="md:text-md text-sm">
               {title}
               <span className="pl-2">{msg}</span>
@@ -31,7 +31,7 @@ export default function Alert({ title, msg }: PropsWithChildren<AlertProps>) {
               <button
                 name="close"
                 onClick={() => closeAlert()}
-                className="rounded-full bg-emerald-700 hover:bg-emerald-500"
+                className="rounded-full hover:bg-fuchsia-500"
               >
                 <XCircleIcon className="w-7 text-white transition-transform duration-200 hover:scale-105" />
               </button>
