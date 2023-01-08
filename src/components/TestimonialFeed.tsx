@@ -58,56 +58,6 @@ export default function TestimonialFeed() {
           description=" I needed a new laptop for my company so that I could be more mobile, after scouring the internet I'm glad I stumbled upon Rugged. I got a re-certified mac air at a fraction of the cost compared to other places. When it comes to future IT purchases ill be going back here for sure!"
           url="https://algolia.com"
         />
-
-        <Testimonial
-          avatar={Default}
-          title="@twitterhandle"
-          position=""
-          description="Airtable is a spreadsheet-database hybrid that lets you organize anything."
-          url="https://airtable.com"
-        />
-        <Testimonial
-          avatar=""
-          title="@twitterhandle"
-          position=""
-          description="Algolia is a hosted search API for web and mobile applications."
-          url="https://algolia.com"
-        />
-        <Testimonial
-          avatar=""
-          title="@twitterhandle"
-          position=""
-          description="Airtable is a spreadsheet-database hybrid that lets you organize anything."
-          url="https://airtable.com"
-        />
-        <Testimonial
-          avatar=""
-          title="@twitterhandle"
-          position=""
-          description="Algolia is a hosted search API for web and mobile applications."
-          url="https://algolia.com"
-        />
-        <Testimonial
-          avatar=""
-          title="@twitterhandle"
-          position=""
-          description="Algolia is a hosted search API for web and mobile applications."
-          url="https://algolia.com"
-        />
-        <Testimonial
-          avatar=""
-          title="@twitterhandle"
-          position=""
-          description="Airtable is a spreadsheet-database hybrid that lets you organize anything."
-          url="https://airtable.com"
-        />
-        <Testimonial
-          avatar=""
-          title="@twitterhandle"
-          position=""
-          description="Algolia is a hosted search API for web and mobile applications."
-          url="https://algolia.com"
-        />
       </div>
     </div>
   );

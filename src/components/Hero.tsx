@@ -29,7 +29,7 @@ export default function Hero({
   ssr: true;
   return (
     <div
-      className="bg-hero relative flex animate-gradient-x items-center justify-center bg-gradient-to-r from-purple-500 via-blue-500 to-purple-500 
+      className="bg-hero relative flex animate-gradient-x items-center justify-center bg-gradient-to-r from-purple-600 via-blue-600 to-purple-600 
 		bg-cover 
 		bg-center 
 		py-32 shadow-lg

@@ -41,7 +41,7 @@ export default function Solutions() {
               <div className="absolute">
                 <Slider
                   component={
-                    <div className="absolute top-16 z-50 flex h-[285px] w-[500px] translate-x-[141px] items-center justify-center rounded-lg bg-gradient-to-r from-purple-500 to-blue-500 p-4">
+                    <div className="absolute top-16 z-50 flex h-[285px] w-[500px] translate-x-[141px] items-center justify-center rounded-lg bg-gradient-to-r from-purple-600 to-blue-600 p-4">
                       <div className="">
                         <Image
                           src={logo}

@@ -17,7 +17,7 @@ export default function Parnters() {
     <>
       <div
         id="partners"
-        className="flex h-1/2 animate-gradient-x items-center justify-center bg-gradient-to-r from-purple-500 via-blue-500 to-purple-500 bg-cover bg-center py-40 px-2 md:px-10 xl:shadow-lg"
+        className="flex h-1/2 animate-gradient-x items-center justify-center bg-gradient-to-r from-purple-600 via-blue-600 to-purple-600 bg-cover bg-center py-40 px-2 md:px-10 xl:shadow-lg"
       >
         <div className="mx-auto flex h-96 flex-col items-center justify-center gap-2 py-40 xl:container xl:flex-row xl:gap-40">
           <div className="flex justify-center pb-5 text-4xl font-semibold text-white">
