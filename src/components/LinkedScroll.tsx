@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect, useState, useRef } from "react";
+import { throttle } from "lodash";
 
 interface LinkedScrollProps {
   children: React.ReactNode;
@@ -10,12 +11,12 @@ const LinkedScroll: React.FC<LinkedScrollProps> = ({ children }) => {
   const [opacity, setOpacity] = useState(0);
 
   useEffect(() => {
-    const handleScroll = () => {
+    const handleScroll = throttle(() => {
       if (!ref.current) return;
       const top = ref.current.getBoundingClientRect().top;
       const opacity = 1 - top / window.innerHeight;
       setOpacity(opacity);
-    };
+    }, 50);
 
     window.addEventListener("scroll", handleScroll);
 
