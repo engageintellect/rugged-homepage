@@ -17,6 +17,7 @@ import Industries from "../components/Industries";
 import Products from "../components/Products";
 import Modal from "../components/Modal";
 import Alert from "../components/Alert";
+import LinkedScroll from "../components/LinkedScroll";
 
 const Home: NextPage = (props) => {
   const trpcMessage = trpc.api.alert.useQuery({
@@ -41,10 +42,21 @@ that will optimize efficiency and increase profitability."
       />
 
       <div className="bg-neutral-900">
-        <HeroCards />
-        <Solutions />
-        <CardStack />
-        <Industries />
+        <LinkedScroll>
+          <HeroCards />
+        </LinkedScroll>
+
+        <LinkedScroll>
+          <Solutions />
+        </LinkedScroll>
+
+        <LinkedScroll>
+          <CardStack />
+        </LinkedScroll>
+
+        <LinkedScroll>
+          <Industries />
+        </LinkedScroll>
         <Products />
         <Partners />
         <TestimonialFeed />
