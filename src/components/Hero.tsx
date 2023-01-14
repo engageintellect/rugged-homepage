@@ -46,9 +46,9 @@ export default function Hero({
       >
         <Image
           priority
-          src={servers}
+          src={earth}
           alt="Picture of the author"
-          className="absolute inset-0 z-0 h-full w-full object-cover opacity-20"
+          className="absolute inset-0 z-0 h-full w-full object-cover opacity-30"
         />
       </motion.div>
       <div className="z-10 text-center text-white">

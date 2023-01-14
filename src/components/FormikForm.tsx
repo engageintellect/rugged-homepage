@@ -48,7 +48,7 @@ const ContactForm = () => {
           // Submit the form
           setSubmitting(false);
           setFormSubmitted(true);
-          console.log(values);
+          // console.log(values);
           resetForm();
 
           const data = {
@@ -70,14 +70,16 @@ const ContactForm = () => {
             body: JSON.stringify(data),
           });
           const res = await response.json();
-          console.log("Form Response");
-          console.log(res);
+
+          if (res.status === "success") {
+            //TODO add form data to database using prisma
+          }
           displayResponse(
             res.data.status || "success",
             res.data.message ||
               "Thanks for reaching out, we'll be in touch soon!"
           );
-          console.log(formResponse);
+          // console.log(formResponse);
         }}
       >
         {({ isSubmitting, touched, errors }) => (
