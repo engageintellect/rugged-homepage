@@ -16,6 +16,7 @@ import {
   FaArrowRight,
   FaBook,
 } from "react-icons/fa";
+import { motion, useScroll, useTransform } from "framer-motion";
 
 type HeroProps = {
   title: string;
@@ -26,6 +27,9 @@ export default function Hero({
   // title,
   description,
 }: PropsWithChildren<HeroProps>) {
+  let { scrollYProgress } = useScroll();
+  let y = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
+
   ssr: true;
   return (
     <div
@@ -36,11 +40,17 @@ export default function Hero({
     backdrop-blur-3xl
 		"
     >
-      <Image
-        src={servers}
-        alt="Picture of the author"
-        className="absolute inset-0 z-0 h-full w-full object-cover opacity-20"
-      />
+      <motion.div
+        style={{ y }}
+        className="absolute inset-0 z-0 h-full w-full object-cover opacity-100"
+      >
+        <Image
+          priority
+          src={servers}
+          alt="Picture of the author"
+          className="absolute inset-0 z-0 h-full w-full object-cover opacity-20"
+        />
+      </motion.div>
       <div className="z-10 text-center text-white">
         <div className="flex items-center justify-center gap-2">
           <div className="hidden justify-center bg-transparent drop-shadow-xl md:flex">
