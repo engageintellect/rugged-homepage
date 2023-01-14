@@ -42,15 +42,16 @@ export default function Hero({
     >
       <motion.div
         style={{ y }}
-        className="absolute inset-0 z-0 h-full w-full object-cover opacity-100"
+        className="absolute z-0 h-full w-full object-cover"
       >
         <Image
           priority
           src={earth}
           alt="Picture of the author"
-          className="absolute inset-0 z-0 h-full w-full object-cover opacity-30"
+          className="h-full w-full object-cover opacity-30"
         />
       </motion.div>
+
       <div className="z-10 text-center text-white">
         <div className="flex items-center justify-center gap-2">
           <div className="hidden justify-center bg-transparent drop-shadow-xl md:flex">
