@@ -1,6 +1,9 @@
+// IMPORT COMPONENTS
 import Image from "next/image";
 import WideCard from "./WideCard";
+import Partner from "./Partner";
 
+// IMPORT IMAGES
 import panasonic from "/public/images/partners/panasonic.png";
 import v5 from "/public/images/partners/v5.png";
 import zebra from "/public/images/partners/zebra.png";
@@ -8,8 +11,7 @@ import getac from "/public/images/partners/getac.png";
 import proclip from "/public/images/partners/procliplogo.png";
 import ruggon from "/public/images/partners/ruggon.png";
 
-import Partner from "./Partner";
-
+// IMPORT ICONS
 import { FaHandshake } from "react-icons/fa";
 
 export default function Parnters() {
@@ -17,10 +19,22 @@ export default function Parnters() {
     <>
       <div
         id="partners"
-        className="flex h-1/2 animate-gradient-x items-center justify-center bg-gradient-to-r from-purple-600 via-blue-600 to-purple-600 bg-cover bg-center py-40 px-2 md:px-10 xl:shadow-lg"
+        className="relative flex h-1/2 animate-gradient-x items-center justify-center bg-gradient-to-r from-purple-600 via-blue-600 to-purple-600 bg-cover bg-center py-40 px-2 md:px-10 xl:shadow-lg"
       >
+        <div className="absolute h-full w-full">
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="h-full w-full object-cover opacity-20"
+          >
+            <source src="/videos/logistics.mp4" type="video/mp4" />
+          </video>
+        </div>
+
         <div className="mx-auto flex h-96 flex-col items-center justify-center gap-2 py-40 xl:container xl:flex-row xl:gap-40">
-          <div className="flex justify-center pb-5 text-4xl font-semibold text-white">
+          <div className="z-20 flex justify-center pb-5 text-4xl font-semibold text-white">
             <a href="/">
               <div className="flex h-full flex-col items-center justify-center overflow-hidden rounded-lg p-4 xl:h-48">
                 <div className="flex items-center justify-center gap-2 pb-2 text-4xl font-semibold">
