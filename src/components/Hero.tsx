@@ -9,10 +9,7 @@ import mountains from "/public/images/hero/rugged_mountains.jpg";
 
 import {
   FaBookOpen,
-  FaFileInvoice,
-  FaChevronRight,
   FaChevronDown,
-  FaAngleRight,
   FaArrowRight,
   FaBook,
 } from "react-icons/fa";
@@ -42,7 +39,7 @@ export default function Hero({
     >
       <motion.div
         style={{ y }}
-        className="blur-xs absolute z-0 h-full w-full object-cover"
+        className="absolute z-0 h-full w-full object-cover"
       >
         {/* <Image
           priority
@@ -56,9 +53,9 @@ export default function Hero({
           loop
           muted
           playsInline
-          className="h-full w-full object-cover opacity-20"
+          className="h-full w-full object-cover opacity-30"
         >
-          <source src="/videos/tower.mp4" type="video/mp4" />
+          <source src="/videos/logistics1.mp4" type="video/mp4" />
         </video>
       </motion.div>
 

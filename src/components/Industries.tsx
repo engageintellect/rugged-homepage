@@ -34,6 +34,14 @@ export default function Industries() {
           id="industries"
           className="scroll-hide flex snap-x snap-mandatory gap-2 overflow-x-auto p-2 md:gap-4 md:p-4"
         >
+          <div className="snap-center">
+            <Indusrty
+              title="Transportation & Logistics"
+              description="Cultivation, Manufacturing, Distribution, Retail."
+              url="https://www.google.com"
+              img={transportation}
+            />
+          </div>
           <div id="Distribution & Warehousing" className="snap-center ">
             <Indusrty
               title="Distribution & Warehousing"
@@ -56,14 +64,6 @@ export default function Industries() {
               description="Cultivation, Manufacturing, Distribution, Retail."
               url="https://www.google.com"
               img={oil_gas}
-            />
-          </div>
-          <div className="snap-center">
-            <Indusrty
-              title="Transportation & Logistics"
-              description="Cultivation, Manufacturing, Distribution, Retail."
-              url="https://www.google.com"
-              img={transportation}
             />
           </div>
           <div className="snap-center">

@@ -18,7 +18,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
       <Navbar />
       <Component {...pageProps} />
       <Footer />
-      <Testing />
+      {/* <Testing /> */}
     </main>
   );
 };

@@ -5,9 +5,21 @@ export default function FormSection() {
     <>
       <div
         id="form"
-        className="flex min-h-screen items-center justify-center bg-neutral-900 p-5 py-20 text-white md:p-20"
+        className="relative flex min-h-screen items-center justify-center bg-neutral-900 p-5 py-20 text-white md:p-20"
       >
-        <div>
+        <div className="absolute h-full w-full">
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="h-full w-full object-cover opacity-10"
+          >
+            <source src="/videos/logistics.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div className="z-20">
           <div className="flex flex-col items-center justify-center gap-4 md:flex-row">
             <div className="text-5xl font-semibold sm:text-6xl md:text-7xl">
               Let's

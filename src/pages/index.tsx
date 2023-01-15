@@ -15,7 +15,6 @@ import FormSection from "../components/FormSection";
 import TestimonialFeed from "../components/TestimonialFeed";
 import Industries from "../components/Industries";
 import Products from "../components/Products";
-import Modal from "../components/Modal";
 import Alert from "../components/Alert";
 
 const Home: NextPage = (props) => {
@@ -36,8 +35,7 @@ const Home: NextPage = (props) => {
       />
       <Hero
         title="Rugged Development"
-        description="We supply, deploy, and support innovative technology
-that will optimize efficiency and increase profitability."
+        description="We supply, deploy, and support technology designed to for the most demanding environments on earth."
       />
 
       <div className="bg-neutral-900">

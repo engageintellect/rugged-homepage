@@ -29,7 +29,7 @@ export default function Parnters() {
             playsInline
             className="h-full w-full object-cover opacity-20"
           >
-            <source src="/videos/logistics.mp4" type="video/mp4" />
+            <source src="/videos/engineering.mp4" type="video/mp4" />
           </video>
         </div>
 
