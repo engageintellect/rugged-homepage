@@ -42,14 +42,24 @@ export default function Hero({
     >
       <motion.div
         style={{ y }}
-        className="absolute z-0 h-full w-full object-cover"
+        className="blur-xs absolute z-0 h-full w-full object-cover"
       >
-        <Image
+        {/* <Image
           priority
           src={earth}
           alt="Picture of the author"
           className="h-full w-full object-cover opacity-30"
-        />
+ /> */}
+
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="h-full w-full object-cover opacity-20"
+        >
+          <source src="/videos/tower.mp4" type="video/mp4" />
+        </video>
       </motion.div>
 
       <div className="z-10 text-center text-white">
