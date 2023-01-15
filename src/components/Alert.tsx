@@ -3,11 +3,16 @@ import { useState } from "react";
 import { XCircleIcon } from "@heroicons/react/24/outline";
 
 type AlertProps = {
-  title: any;
-  msg: any;
+  title: string;
+  msg: string;
+  url?: string;
 };
 
-export default function Alert({ title, msg }: PropsWithChildren<AlertProps>) {
+export default function Alert({
+  title,
+  msg,
+  url,
+}: PropsWithChildren<AlertProps>) {
   const [show, setShow] = useState(true);
 
   const closeAlert = () => {
@@ -25,7 +30,9 @@ export default function Alert({ title, msg }: PropsWithChildren<AlertProps>) {
           <div className="mx-auto flex items-center px-2 sm:px-4 xl:container xl:px-0">
             <div className="md:text-md text-sm">
               {title}
-              <span className="pl-2">{msg}</span>
+              <a href={url || "#form"} className="hover:underline">
+                <span className="pl-2">{msg}</span>
+              </a>
             </div>
             <div className="ml-auto flex items-center uppercase">
               <button

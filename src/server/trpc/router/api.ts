@@ -9,6 +9,7 @@ export const apiRouter = router({
         .object({
           title: z.string().nullish(),
           msg: z.string().nullish(),
+          url: z.string().nullish(),
         })
         .nullish()
     )
@@ -16,6 +17,7 @@ export const apiRouter = router({
       return {
         title: `${input?.title ?? "hello"}`,
         msg: `${input?.msg ?? "world"}`,
+        url: `${input?.url ?? "#form"}`,
       };
     }),
   

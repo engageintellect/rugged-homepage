@@ -53,7 +53,7 @@ export default function Hero({
           loop
           muted
           playsInline
-          className="h-full w-full object-cover opacity-30"
+          className="h-full w-full object-cover opacity-20"
         >
           <source src="/videos/logistics1.mp4" type="video/mp4" />
         </video>
@@ -83,7 +83,7 @@ export default function Hero({
           {description}
         </div>
 
-        <div className="text-md flex items-center justify-center gap-4 pt-10 font-semibold">
+        <div className="text-md flex items-center justify-center gap-4 pt-10 font-semibold md:text-lg xl:text-xl">
           <a href="/#solutions">
             <button className="group rounded-md bg-neutral-900 p-4 px-6 text-white shadow-lg transition-all duration-200 hover:bg-neutral-800 active:scale-95">
               Learn More
