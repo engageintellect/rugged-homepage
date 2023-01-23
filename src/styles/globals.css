@@ -2,9 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  background-color: #171717;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -17,4 +20,3 @@ html {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
-

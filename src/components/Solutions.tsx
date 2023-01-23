@@ -12,9 +12,9 @@ export default function Solutions() {
     <>
       <div
         id="solutions"
-        className="z-0 flex flex-col items-center justify-center bg-neutral-900 xl:bg-neutral-900"
+        className="z-0 flex flex-col items-center justify-center bg-neutral-900"
       >
-        <div className="flex items-center justify-center bg-neutral-900 px-2 xl:w-[66vw] xl:bg-neutral-900 xl:px-10">
+        <div className="flex items-center justify-center bg-neutral-900 px-2 xl:w-[66vw] xl:px-10">
           <div className="flex h-96 items-center justify-center xl:-mb-20">
             <WideCard
               title="Solutions"

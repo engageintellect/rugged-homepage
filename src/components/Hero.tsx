@@ -55,7 +55,7 @@ export default function Hero({
           playsInline
           className="h-full w-full object-cover opacity-20"
         >
-          <source src="/videos/logistics1.mp4" type="video/mp4" />
+          <source src="/videos/tower.mp4" type="video/mp4" />
         </video>
       </motion.div>
 
@@ -72,7 +72,7 @@ export default function Hero({
           </div>
 
           <a href="/">
-            <div className="flex flex-col items-center justify-center text-5xl font-extrabold  drop-shadow-xl sm:text-6xl md:items-start md:text-7xl xl:container">
+            <div className="flex flex-col items-center justify-center text-5xl font-extrabold drop-shadow-xl sm:text-6xl md:items-start md:text-7xl xl:container">
               <div>Rugged</div>
               <div>Development</div>
             </div>

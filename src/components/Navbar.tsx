@@ -6,7 +6,7 @@ import { company_info } from "../data/data";
 export default function Navbar() {
   return (
     <>
-      <div className="navbar sticky top-0 z-50 bg-neutral-900 py-2 text-lg text-white">
+      <div className="navbar sticky top-0 z-50 bg-neutral-900/80 py-2 text-lg text-white shadow-lg backdrop-blur-md">
         <div className="mx-2 md:mx-4 xl:container xl:mx-auto">
           <div className="grid grid-cols-2 items-center ">
             <a href="#top">
