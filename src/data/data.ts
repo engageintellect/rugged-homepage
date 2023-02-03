@@ -140,7 +140,7 @@ export const industries = {
 export const products = {
   rugged_computing: {
     name: "Rugged Computing",
-    description: "Ruggedized computers, displays, and accessories, .",
+    description: "Ruggedized computers, displays, and accessories.",
     url: "https://ruggeddevelopment.com/rugged-computing",
     image:
       "https://ruggeddevelopment.com/wp-content/uploads/2020/06/Rugged-Computing-1.jpg",

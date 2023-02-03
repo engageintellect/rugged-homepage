@@ -6,15 +6,18 @@ type ProductProps = {
   title: string;
   description: string;
   url: string;
+  tags: string[];
   img: any;
 };
 
 export default function Product({
   title,
   description,
+  tags,
   url,
   img,
 }: PropsWithChildren<ProductProps>) {
+  const t = tags;
   return (
     <>
       <div className="transition-color group overflow-hidden text-white shadow-lg duration-300">
@@ -29,18 +32,19 @@ export default function Product({
             </div>
           </div>
 
-          <div className="card-body h-full bg-neutral-700">
-            <h2 className="card-title text-2xl font-extrabold">
+          <div className="animate-all card-body h-full bg-neutral-700 p-5 duration-300 group-hover:bg-neutral-700/70">
+            <h2 className="card-title text-xl font-extrabold">
               {title}
-              <div className="badge-primary badge scale-90">NEW</div>
+              <div className="badge-primary badge scale-90 p-2">NEW!</div>
             </h2>
 
             <div className="card-actions justify-start font-bold text-neutral-200">
-              <div className="badge-outline badge">Fashion</div>
-              <div className="badge-outline badge">Products</div>
+              {tags.map((tag) => (
+                <div className="badge-outline badge badge-sm">{tag}</div>
+              ))}
             </div>
 
-            <div className="my-2 text-neutral-300">
+            <div className="text-md my-2 text-neutral-300">
               <p>{description}</p>
             </div>
           </div>

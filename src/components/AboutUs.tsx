@@ -49,7 +49,7 @@ export default function AboutUs() {
               <div className="absolute">
                 <Slider
                   component={
-                    <div className="absolute top-16 z-50 flex h-[260px] w-[442px] translate-x-[135px] items-center justify-center rounded-md bg-gradient-to-r from-purple-600 to-blue-600 p-4 outline outline-2">
+                    <div className="absolute top-16 z-50 flex h-[260px] w-[442px] translate-x-[135px] items-center justify-center rounded-md border-2 border-neutral-900 bg-gradient-to-r from-purple-600 to-blue-600 p-4">
                       <div className="">
                         <Image
                           src={logo}
