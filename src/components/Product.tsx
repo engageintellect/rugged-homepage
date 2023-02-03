@@ -21,7 +21,7 @@ export default function Product({
   return (
     <>
       <div className="transition-color group overflow-hidden text-white shadow-lg duration-300">
-        <a href="/">
+        <a href={url}>
           <div className="transition-color h-[15rem] w-[20rem] overflow-hidden text-white shadow-lg duration-300 md:h-[20rem] md:w-[25rem]">
             <div className="flex h-full flex-col items-center justify-center bg-neutral-800 transition-all duration-300 group-hover:bg-neutral-800/50">
               <Image

@@ -38,7 +38,7 @@ export default function Products() {
             <Product
               title={products.rugged_computing.name}
               description={products.rugged_computing.description}
-              url="#form"
+              url="/#form"
               tags={["hello", "world"]}
               img={rugged}
             />
@@ -47,7 +47,7 @@ export default function Products() {
             <Product
               title={products.rugged_tablets.name}
               description={products.rugged_tablets.description}
-              url="#form"
+              url="/#form"
               tags={["hello", "world"]}
               img={rugged_tablet}
             />
@@ -56,7 +56,7 @@ export default function Products() {
             <Product
               title={products.barcode_scanning.name}
               description={products.barcode_scanning.description}
-              url="#form"
+              url="/#form"
               tags={["hello", "world"]}
               img={barcode_scanner}
             />
@@ -65,7 +65,7 @@ export default function Products() {
             <Product
               title={products.mobile_computing.name}
               description={products.mobile_computing.description}
-              url="#form"
+              url="/#form"
               tags={["hello", "world"]}
               img={mobile_computing}
             />
@@ -74,7 +74,7 @@ export default function Products() {
             <Product
               title={products.wearable_computing.name}
               description={products.wearable_computing.description}
-              url="#form"
+              url="/#form"
               tags={["hello", "world"]}
               img={wearable_computing}
             />
@@ -83,7 +83,7 @@ export default function Products() {
             <Product
               title={products.label_printers.name}
               description={products.label_printers.description}
-              url="#form"
+              url="/#form"
               tags={["hello", "world"]}
               img={label_printer}
             />
@@ -93,7 +93,7 @@ export default function Products() {
             <Product
               title={products.rfid.name}
               description={products.rfid.description}
-              url="#form"
+              url="/#form"
               tags={["hello", "world"]}
               img={rfid}
             />
@@ -102,7 +102,7 @@ export default function Products() {
             <Product
               title={products.surveillance.name}
               description={products.surveillance.description}
-              url="#form"
+              url="/#form"
               tags={["hello", "world"]}
               img={surveillance}
             />
