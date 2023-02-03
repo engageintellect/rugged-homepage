@@ -2,24 +2,24 @@ import Image from "next/image";
 
 import { type PropsWithChildren } from "react";
 
-type IndustryProps = {
+type SolutionProps = {
   title: string;
   description: string;
   url: string;
   img: any;
 };
 
-export default function Indusrty({
+export default function Solution({
   title,
   description,
   url,
   img,
-}: PropsWithChildren<IndustryProps>) {
+}: PropsWithChildren<SolutionProps>) {
   return (
-    <div className="transition-color group h-[15rem] w-[20rem] overflow-hidden text-white duration-300 md:h-[20rem] md:w-[25rem] xl:h-[25rem] xl:w-[30rem]">
-      <div className="relative flex h-full flex-col items-center justify-center bg-neutral-800 transition-transform duration-300">
-        <a href="/#form">
-          <div>
+    <>
+      <div className="transition-color group h-[25rem] w-[15rem] overflow-hidden text-white shadow-lg duration-300 md:h-[30rem] md:w-[20rem] xl:h-[35rem] xl:w-[25rem]">
+        <div className="relative flex h-full flex-col items-center justify-center transition-all duration-300">
+          <a href="/#form">
             <Image
               src={img}
               alt="Picture of the author"
@@ -33,14 +33,14 @@ export default function Indusrty({
                 <div className="text-xl font-semibold transition-all duration-500 group-hover:scale-105 md:text-2xl">
                   {title}
                 </div>
-                <div className="md:text-md text-sm text-neutral-400">
+                <div className="md:text-md pt- text-sm text-neutral-400">
                   {description}
                 </div>
               </div>
             </div>
-          </div>
-        </a>
+          </a>
+        </div>
       </div>
-    </div>
+    </>
   );
 }

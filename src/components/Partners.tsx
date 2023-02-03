@@ -27,7 +27,7 @@ export default function Parnters() {
             loop
             muted
             playsInline
-            className="h-full w-full object-cover opacity-20"
+            className="blur-xs h-full w-full object-cover opacity-20"
           >
             <source src="/videos/engineering.mp4" type="video/mp4" />
           </video>
@@ -36,8 +36,8 @@ export default function Parnters() {
         <div className="mx-auto flex h-96 flex-col items-center justify-center gap-2 py-40 xl:container xl:flex-row xl:gap-40">
           <div className="z-20 flex justify-center pb-5 text-4xl font-semibold text-white">
             <a href="/">
-              <div className="flex h-full flex-col items-center justify-center overflow-hidden rounded-lg p-4 xl:h-48">
-                <div className="flex items-center justify-center gap-2 pb-2 text-4xl font-semibold">
+              <div className="flex h-full flex-col items-center justify-center overflow-hidden rounded-lg p-4 drop-shadow-lg xl:h-48">
+                <div className="flex items-center justify-center gap-2 pb-2 text-4xl font-semibold xl:text-6xl">
                   <div>Our Partners</div>
                   <div>
                     <FaHandshake />
