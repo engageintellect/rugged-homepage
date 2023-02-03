@@ -7,9 +7,8 @@ import { trpc } from "../utils/trpc";
 import Head from "next/head";
 // import Alert from "../components/Alert";
 import Hero from "../components/Hero";
-import AboutUS from "../components/AboutUs";
-import Solutions from "../components/Solutions";
 import AboutUs from "../components/AboutUs";
+import Solutions from "../components/Solutions";
 import Partners from "../components/Partners";
 import HeroCards from "../components/HeroCards";
 import FormSection from "../components/FormSection";
@@ -36,7 +35,6 @@ const Home: NextPage = (props) => {
         <HeroCards />
         <AboutUs />
         <Solutions />
-        {/* <CardStack /> */}
         <Industries />
         <Products />
         <Partners />
