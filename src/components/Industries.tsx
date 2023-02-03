@@ -18,10 +18,7 @@ import { FaBuilding } from "react-icons/fa";
 export default function Industries() {
   return (
     <>
-      <div
-        id="industries"
-        className="mx-auto flex h-96 items-center justify-center px-2 xl:w-[33vw]"
-      >
+      <div className="mx-auto flex h-96 items-center justify-center px-2 xl:w-[33vw]">
         <WideCard
           title="Industries"
           description="We serve a wide range of industries. We'll help reduce cost and improve operational efficiency to better meet the needs of the future."

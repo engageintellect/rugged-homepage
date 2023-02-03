@@ -12,7 +12,6 @@ import utilities from "/public/images/industries/utilities.jpg";
 import ems from "/public/images/industries/ems.jpg";
 import distribution from "/public/images/industries/distribution.jpg";
 import SliderRight from "./SliderRight";
-
 import mountains from "/public/images/hero/rugged_mountains.jpg";
 import circut from "/public/images/circut.jpg";
 import barcode_scanning from "/public/images/industries/barcode_printing.jpg";
@@ -38,10 +37,7 @@ export default function Solutions() {
           />
         </div>
         <div className="bg-neutral-00 z-0 mx-auto xl:container xl:flex xl:items-center xl:justify-center xl:bg-neutral-800">
-          <div
-            id="industries"
-            className="scroll-hide flex snap-x snap-mandatory gap-2 overflow-x-auto p-2 md:gap-4 md:p-4"
-          >
+          <div className="scroll-hide flex snap-x snap-mandatory gap-2 overflow-x-auto p-2 md:gap-4 md:p-4">
             <div className="snap-center">
               <Solution
                 title={"Asset Tracking & Inventory Management"}
