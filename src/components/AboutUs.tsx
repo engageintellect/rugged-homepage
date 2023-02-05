@@ -4,6 +4,7 @@ import laptop from "/public/images/products/rugged_laptop.jpg";
 import SlideDown from "./SlideDown";
 
 import logo from "/public/images/logos/RD-logo.png";
+import avatar from "/public/images/avatars/avatar.jpg";
 
 import { FaArrowDown, FaCheckCircle } from "react-icons/fa";
 
@@ -30,10 +31,7 @@ export default function AboutUs() {
             <div className="mt-10 mb-28 flex items-center gap-4 xl:mb-10">
               <div className="avatar z-50">
                 <div className="w-12 rounded-full">
-                  <img
-                    src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"
-                    alt="avatar"
-                  />
+                  <Image src={avatar} alt="avatar" />
                 </div>
               </div>
               <div>

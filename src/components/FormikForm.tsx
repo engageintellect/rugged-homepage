@@ -193,19 +193,17 @@ const ContactForm = () => {
                     ))}
                 </div>
 
-                <a>
-                  <button
-                    onClick={() => displayResponse}
-                    type="submit"
-                    disabled={isSubmitting}
-                    className="transition-color group w-full animate-gradient-x rounded-md bg-gradient-to-r from-purple-700 to-blue-500 p-4 text-white shadow-xl outline-none duration-200 hover:from-purple-500 hover:to-blue-500 focus:outline-none active:scale-95"
-                  >
-                    <div className="font-semibold">
-                      Submit
-                      <FaArrowRight className="ml-2 inline-block -rotate-45 transition-transform duration-200 group-hover:rotate-90" />
-                    </div>
-                  </button>
-                </a>
+                <button
+                  onClick={() => displayResponse}
+                  type="submit"
+                  disabled={isSubmitting}
+                  className="transition-color group w-full animate-gradient-x rounded-md bg-gradient-to-r from-purple-700 to-blue-500 p-4 text-white shadow-xl outline-none duration-200 hover:from-purple-500 hover:to-blue-500 focus:outline-none active:scale-95"
+                >
+                  <div className="font-semibold">
+                    Submit
+                    <FaArrowRight className="ml-2 inline-block -rotate-45 transition-transform duration-200 group-hover:rotate-90" />
+                  </div>
+                </button>
 
                 <div className="pt-5">
                   <div className="text-center font-bold">
