@@ -2,14 +2,13 @@
 module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
 
-
   theme: {
     extend: {
       animation: {
         "gradient-x": "gradient-x 20s ease infinite",
-        "pulse": "pulse 5s ease infinite",
-        "spin": "spin 5s",
-        "bounce": "bounce 1s ease infinite",
+        pulse: "pulse 5s ease infinite",
+        spin: "spin 5s",
+        bounce: "bounce 1s ease infinite",
         "gradient-y": "gradient-y 20s ease infinite",
         "gradient-xy": "gradient-xy 20s ease infinite",
       },
@@ -48,5 +47,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };

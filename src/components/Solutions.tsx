@@ -1,60 +1,73 @@
+import Solution from "./Solution";
 import WideCard from "./WideCard";
-import Image from "next/image";
-import laptop from "/public/images/products/rugged_laptop.jpg";
-import Slider from "./Slider";
+import barcode_scanning from "/public/images/industries/barcode_printing.jpg";
+import fire from "/public/images/industries/fire.jpg";
+import asset_tracking from "/public/images/industries/asset_tracking.jpg";
+import wearable_computing from "/public/images/industries/wearable_computing.jpg";
+import cameras from "/public/images/industries/cameras.png";
 
-import logo from "/public/images/logos/RD-logo.png";
-
-import { FaArrowDown, FaCheckCircle } from "react-icons/fa";
+import { FaChartLine } from "react-icons/fa";
 
 export default function Solutions() {
   return (
     <>
-      <div
-        id="solutions"
-        className="z-0 flex flex-col items-center justify-center bg-neutral-900"
-      >
-        <div className="flex items-center justify-center bg-neutral-900 px-2 xl:w-[66vw] xl:px-10">
-          <div className="flex h-96 items-center justify-center xl:-mb-20">
+      <div className="bg-neutral-800 xl:pt-20">
+        <div
+          id="solutions"
+          className="mx-auto flex h-96 items-center justify-center bg-neutral-800 px-2 xl:w-[33vw]"
+        >
+          <div>
             <WideCard
               title="Solutions"
-              description="Every organization is unique. Our experts are committed to helping you select a solution that matches your specific needs – from warehouse equipment to rugged computing and scanning."
-              url="/#card_stack"
-              icon={<FaCheckCircle />}
+              description="We serve a wide range of industries. We'll help reduce cost and improve operational efficiency to better meet the needs of the future."
+              url="/#industries"
+              icon={<FaChartLine />}
             />
           </div>
         </div>
-
-        <div className="relative z-40 flex items-center justify-center bg-transparent xl:translate-y-24">
-          <a href="#card_stack">
-            <div className="hidden transition-transform duration-200 hover:cursor-pointer active:scale-95 md:flex">
-              <Slider
-                component={
-                  <Image
-                    src={laptop}
-                    alt="laptop"
-                    className=" mx-auto w-full bg-transparent drop-shadow-xl transition-all duration-200 md:w-[768px]"
-                  />
-                }
+        <div className="bg-neutral-00 z-0 mx-auto xl:container xl:flex xl:items-center xl:justify-center xl:bg-neutral-800">
+          <div className="scroll-hide flex snap-x snap-mandatory gap-2 overflow-x-auto p-2 md:gap-4 md:p-4">
+            <div className="snap-center">
+              <Solution
+                title={"Asset Tracking & Inventory Management"}
+                description="Cultivation, Manufacturing, Distribution, Retail."
+                url="https://www.google.com"
+                img={asset_tracking}
               />
-
-              <div className="absolute">
-                <Slider
-                  component={
-                    <div className="absolute top-16 z-50 flex h-[285px] w-[500px] translate-x-[141px] items-center justify-center rounded-lg bg-gradient-to-r from-purple-600 to-blue-600 p-4">
-                      <div className="">
-                        <Image
-                          src={logo}
-                          alt="rd"
-                          className="bounce w-20 animate-bounce drop-shadow-lg"
-                        />
-                      </div>
-                    </div>
-                  }
-                />
-              </div>
             </div>
-          </a>
+            <div className="snap-center ">
+              <Solution
+                title={"Video Surveillance"}
+                description="Cultivation, Manufacturing, Distribution, Retail."
+                url="https://www.google.com"
+                img={cameras}
+              />
+            </div>
+            <div className="snap-center">
+              <Solution
+                title={"Rugged Computing"}
+                description="Cultivation, Manufacturing, Distribution, Retail."
+                url="https://www.google.com"
+                img={fire}
+              />
+            </div>
+            <div className="snap-center">
+              <Solution
+                title={"Wearable Technology"}
+                description="Cultivation, Manufacturing, Distribution, Retail."
+                url="https://www.google.com"
+                img={wearable_computing}
+              />
+            </div>
+            <div className="snap-center">
+              <Solution
+                title={"RFID & Barcode Scanning"}
+                description="Cultivation, Manufacturing, Distribution, Retail."
+                url="https://www.google.com"
+                img={barcode_scanning}
+              />
+            </div>
+          </div>
         </div>
       </div>
     </>

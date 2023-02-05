@@ -7,15 +7,17 @@ import { trpc } from "../utils/trpc";
 import Head from "next/head";
 // import Alert from "../components/Alert";
 import Hero from "../components/Hero";
+import AboutUs from "../components/AboutUs";
 import Solutions from "../components/Solutions";
-import CardStack from "../components/CardStack";
 import Partners from "../components/Partners";
 import HeroCards from "../components/HeroCards";
 import FormSection from "../components/FormSection";
 import TestimonialFeed from "../components/TestimonialFeed";
 import Industries from "../components/Industries";
+import Financing from "../components/Financing";
 import Products from "../components/Products";
 import Alert from "../components/Alert";
+import SlideUp from "../components/SlideUp";
 
 const Home: NextPage = (props) => {
   return (
@@ -33,12 +35,13 @@ const Home: NextPage = (props) => {
 
       <div className="bg-neutral-900">
         <HeroCards />
-        <Solutions />
-        <CardStack />
-        <Industries />
-        <Products />
+        <AboutUs />
+        <SlideUp component={<Solutions />} />
+        <SlideUp component={<Industries />} />
+        <SlideUp component={<Products />} />
         <Partners />
-        <TestimonialFeed />
+        <SlideUp component={<TestimonialFeed />} />
+        <Financing />
         <FormSection />
       </div>
     </>

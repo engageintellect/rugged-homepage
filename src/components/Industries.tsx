@@ -1,17 +1,15 @@
 import Indusrty from "./Industry";
 import WideCard from "./WideCard";
 
-import forest from "/public/images/cards/forest.jpg";
 import police from "/public/images/industries/police.jpg";
 import cannabis from "/public/images/industries/cannabis.jpg";
 import construction from "/public/images/industries/construction.jpg";
-import fire from "/public/images/industries/fire.jpg";
+import fire from "/public/images/industries/fire2.jpg";
 import oil_gas from "/public/images/industries/oil_gas.jpg";
 import transportation from "/public/images/industries/transportation.jpg";
 import utilities from "/public/images/industries/utilities.jpg";
 import ems from "/public/images/industries/ems.jpg";
-import distribution from "/public/images/industries/distribution.jpg";
-import SliderRight from "./SliderRight";
+import distribution from "/public/images/industries/warehouse.jpg";
 
 import { FaBuilding } from "react-icons/fa";
 
@@ -19,8 +17,8 @@ export default function Industries() {
   return (
     <>
       <div
-        id="industries"
         className="mx-auto flex h-96 items-center justify-center px-2 xl:w-[33vw]"
+        id="industries"
       >
         <WideCard
           title="Industries"
@@ -30,10 +28,7 @@ export default function Industries() {
         />
       </div>
       <div className="z-0 mx-auto bg-neutral-900 xl:container xl:flex xl:items-center xl:justify-center xl:bg-neutral-900">
-        <div
-          id="industries"
-          className="scroll-hide flex snap-x snap-mandatory gap-2 overflow-x-auto p-2 md:gap-4 md:p-4"
-        >
+        <div className="scroll-hide flex snap-x snap-mandatory gap-2 overflow-x-auto p-2 md:gap-4 md:p-4">
           <div className="snap-center">
             <Indusrty
               title="Transportation & Logistics"

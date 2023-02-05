@@ -79,7 +79,7 @@ export default function Hero({
           </a>
         </div>
 
-        <div className="text-md mx-auto w-[80vw] bg-transparent py-5 px-5 tracking-tighter drop-shadow-lg sm:w-[50vw] md:text-xl xl:text-2xl">
+        <div className="text-md mx-auto max-w-[80vw] bg-transparent py-5 px-5 tracking-tighter drop-shadow-lg sm:max-w-lg md:text-xl xl:text-2xl">
           {description}
         </div>
 
@@ -103,7 +103,7 @@ export default function Hero({
 
       <div
         id="mobile_menu"
-        className="absolute bottom-5 text-neutral-100 md:hidden"
+        className="absolute bottom-5 mb-5 text-neutral-100 md:hidden"
       >
         <a href="#mobile_menu">
           <FaChevronDown className="animate-pulse text-4xl" />
