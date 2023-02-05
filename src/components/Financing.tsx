@@ -22,7 +22,7 @@ export default function Financing({
           <WideCard
             title="Financing"
             description="Get your equipment today and make no payments for up to 6 months."
-            url="/#financing"
+            url="/#form"
             icon={<FaDollarSign />}
           />
         </div>
