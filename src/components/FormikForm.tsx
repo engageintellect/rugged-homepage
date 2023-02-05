@@ -92,6 +92,7 @@ const ContactForm = () => {
                   </label>
                 )) || <label className="text-sm">First Name*</label>}
                 <Field
+                  title="First Name"
                   label="First Name"
                   type="text"
                   name="firstName"
@@ -107,6 +108,7 @@ const ContactForm = () => {
                   </label>
                 )) || <label className="text-sm">Last Name*</label>}
                 <Field
+                  title="Last Name"
                   label="Last Name"
                   type="text"
                   name="lastName"
@@ -122,6 +124,7 @@ const ContactForm = () => {
                   </label>
                 )) || <label className="text-sm">Company</label>}
                 <Field
+                  title="Company"
                   label="Company"
                   type="text"
                   name="company"
@@ -135,6 +138,7 @@ const ContactForm = () => {
                   <label className="text-sm text-red-500">{errors.email}</label>
                 )) || <label className="text-sm">E-Mail*</label>}
                 <Field
+                  title="E-Mail"
                   label="E-Mail"
                   type="email"
                   name="email"
@@ -148,6 +152,7 @@ const ContactForm = () => {
                   <label className="text-sm text-red-500">{errors.phone}</label>
                 )) || <label className="text-sm">Phone*</label>}
                 <Field
+                  title="Phone"
                   label="Phone"
                   type="text"
                   name="phone"
