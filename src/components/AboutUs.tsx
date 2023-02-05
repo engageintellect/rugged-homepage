@@ -12,6 +12,8 @@ import barcode_scanning from "/public/images/industries/barcode_printing.jpg";
 import asset_tracking from "/public/images/industries/asset_tracking.jpg";
 import wearable_computing from "/public/images/industries/wearable_computing.jpg";
 
+import { company_info } from "../data/data";
+
 import logo from "/public/images/logos/RD-logo.png";
 
 import { FaArrowDown, FaCheckCircle } from "react-icons/fa";
@@ -23,8 +25,8 @@ export default function AboutUs() {
         id="about-us"
         className="z-0 flex flex-col items-center justify-center bg-neutral-900"
       >
-        <div className="flex items-center justify-center bg-neutral-900 px-2 xl:w-[66vw] xl:px-10">
-          <div className="flex h-96 items-center justify-center xl:-mb-20">
+        <div className="mt-20 flex items-center justify-center bg-neutral-900 px-2 xl:w-[66vw] xl:px-10">
+          <div className="min-h-96 flex items-center justify-center">
             <WideCard
               title="About Us"
               description="Every organization is unique. Our experts are committed to helping you select a solution that matches your specific needs – from warehouse equipment to rugged computing and scanning."
@@ -33,8 +35,25 @@ export default function AboutUs() {
             />
           </div>
         </div>
+
+        <a href="/#form">
+          <div className="mt-10 mb-20 flex items-center gap-4 xl:mb-10">
+            <div className="avatar z-50">
+              <div className="w-12 rounded-full">
+                <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+              </div>
+            </div>
+            <div>
+              <div className="text-lg font-semibold text-white">
+                Jesse Stefko
+              </div>
+              <div className="text-sm font-thin">VP, Rugged Development.</div>
+            </div>
+          </div>
+        </a>
+
         <div className="relative z-40 flex items-center justify-center bg-transparent xl:translate-y-24">
-          <a href="#solutions">
+          <a href="/#solutions">
             <div className="hidden transition-transform duration-200 hover:cursor-pointer active:scale-95 md:flex">
               <Slider
                 component={
