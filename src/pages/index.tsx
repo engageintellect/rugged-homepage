@@ -14,6 +14,7 @@ import HeroCards from "../components/HeroCards";
 import FormSection from "../components/FormSection";
 import TestimonialFeed from "../components/TestimonialFeed";
 import Industries from "../components/Industries";
+import Financing from "../components/Financing";
 import Products from "../components/Products";
 import Alert from "../components/Alert";
 
@@ -39,6 +40,7 @@ const Home: NextPage = (props) => {
         <Products />
         <Partners />
         <TestimonialFeed />
+        <Financing />
         <FormSection />
       </div>
     </>

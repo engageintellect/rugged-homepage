@@ -25,7 +25,7 @@ export default function Solution({
               alt="Picture of the author"
               fill
               sizes="100%"
-              className="z-10 object-cover opacity-20 transition-all duration-300 group-hover:scale-105 group-hover:opacity-10"
+              className="z-10 object-cover opacity-25 transition-all duration-300 group-hover:scale-105 group-hover:opacity-10"
             />
 
             <div className="relative z-20 mx-auto w-2/3">
@@ -33,7 +33,7 @@ export default function Solution({
                 <div className="text-xl font-semibold transition-all duration-500 group-hover:scale-105 md:text-2xl">
                   {title}
                 </div>
-                <div className="md:text-md pt- text-sm text-neutral-400">
+                <div className="md:text-md pt-2 text-sm text-neutral-300">
                   {description}
                 </div>
               </div>

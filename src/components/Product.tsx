@@ -8,6 +8,7 @@ type ProductProps = {
   url: string;
   tags: string[];
   img: any;
+  isNew?: boolean;
 };
 
 export default function Product({
@@ -16,6 +17,7 @@ export default function Product({
   tags,
   url,
   img,
+  isNew,
 }: PropsWithChildren<ProductProps>) {
   const t = tags;
   return (
@@ -35,12 +37,17 @@ export default function Product({
           <div className="animate-all card-body h-full bg-neutral-700 p-5 duration-300 group-hover:bg-neutral-700/70">
             <h2 className="card-title text-xl font-extrabold">
               {title}
-              <div className="badge-primary badge scale-90 p-2">NEW!</div>
+
+              {isNew && (
+                <div className="badge-secondary badge scale-90 p-2">NEW!</div>
+              )}
             </h2>
 
             <div className="card-actions justify-start font-bold text-neutral-200">
               {tags.map((tag) => (
-                <div className="badge-outline badge badge-sm">{tag}</div>
+                <div className="badge-outline badge badge-sm p-3 font-thin">
+                  {tag}
+                </div>
               ))}
             </div>
 
