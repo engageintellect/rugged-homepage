@@ -1,7 +1,7 @@
 import { type PropsWithChildren } from "react";
 
 import Image from "next/image";
-import logo from "/public/images/logos/RD-logo.png";
+import logo from "/public/images/logos/RD-logo.webp";
 import fire from "/public/images/industries/fire.jpg";
 import earth from "/public/images/hero/earth.jpg";
 import servers from "/public/images/hero/servers.jpg";

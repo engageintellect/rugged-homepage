@@ -3,8 +3,8 @@ import Image from "next/image";
 import laptop from "/public/images/products/rugged_laptop.jpg";
 import SlideDown from "./SlideDown";
 
-import logo from "/public/images/logos/RD-logo.png";
-import avatar from "/public/images/avatars/avatar.jpg";
+import logo from "/public/images/logos/RD-logo.webp";
+import avatar from "/public/images/avatars/avatar.webp";
 
 import { FaArrowDown, FaCheckCircle } from "react-icons/fa";
 

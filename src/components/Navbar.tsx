@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "/public/images/logos/RD-logo.png";
+import logo from "/public/images/logos/RD-logo.webp";
 import { FaTwitter, FaEnvelope } from "react-icons/fa";
 import { company_info } from "../data/data";
 
