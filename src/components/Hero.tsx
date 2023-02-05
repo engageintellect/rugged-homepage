@@ -60,6 +60,7 @@ export default function Hero({
           <div className="hidden justify-center bg-transparent drop-shadow-xl md:flex">
             <a href="/">
               <Image
+                priority={true}
                 src={logo}
                 alt="Rugged Development Logo"
                 className="duration-50 w-40 drop-shadow-xl transition-transform hover:scale-[102%] active:scale-[99%] md:w-64"

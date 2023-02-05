@@ -1,5 +1,3 @@
-import { trpc } from "../utils/trpc";
-
 export default function About() {
   return (
     <div className="countainer min-h-screen bg-neutral-900 text-white">
