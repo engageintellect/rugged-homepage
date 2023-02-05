@@ -17,6 +17,7 @@ import Industries from "../components/Industries";
 import Financing from "../components/Financing";
 import Products from "../components/Products";
 import Alert from "../components/Alert";
+import SlideUp from "../components/SlideUp";
 
 const Home: NextPage = (props) => {
   return (
@@ -35,11 +36,11 @@ const Home: NextPage = (props) => {
       <div className="bg-neutral-900">
         <HeroCards />
         <AboutUs />
-        <Solutions />
-        <Industries />
-        <Products />
+        <SlideUp component={<Solutions />} />
+        <SlideUp component={<Industries />} />
+        <SlideUp component={<Products />} />
         <Partners />
-        <TestimonialFeed />
+        <SlideUp component={<TestimonialFeed />} />
         <Financing />
         <FormSection />
       </div>

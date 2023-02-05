@@ -20,7 +20,7 @@ export default function WideCard({
           <div className="flex flex-col items-center justify-center">
             <div className="pb-2 text-center text-4xl font-semibold xl:text-6xl">
               <div className="flex gap-5">
-                <div>{title}</div>
+                <div className="pb-2">{title}</div>
                 <div>{icon}</div>
               </div>
             </div>

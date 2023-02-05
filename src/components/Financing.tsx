@@ -1,7 +1,6 @@
 import { type PropsWithChildren } from "react";
 import WideCard from "./WideCard";
-import { FaReact } from "react-icons/fa";
-import { FaDollarSign } from "react-icons/fa";
+import { FaMoneyBill } from "react-icons/fa";
 
 type CardProps = {
   title?: string;
@@ -23,7 +22,7 @@ export default function Financing({
             title="Financing"
             description="Get your equipment today and make no payments for up to 6 months."
             url="/#form"
-            icon={<FaDollarSign />}
+            icon={<FaMoneyBill />}
           />
         </div>
       </div>

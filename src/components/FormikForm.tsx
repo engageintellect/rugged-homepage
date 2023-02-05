@@ -206,6 +206,16 @@ const ContactForm = () => {
                     </div>
                   </button>
                 </a>
+
+                <div className="pt-5">
+                  <div className="text-center font-bold">
+                    Disclaimer:
+                    <span className="pl-2 font-thin text-neutral-300">
+                      We will never sell or share your information with anyone
+                      else.
+                    </span>
+                  </div>
+                </div>
               </div>
             </Form>
           </div>

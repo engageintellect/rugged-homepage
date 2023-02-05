@@ -29,23 +29,23 @@ export default function Product({
               <Image
                 src={img}
                 alt="Picture of the author"
-                className="z-10 p-10 opacity-100 drop-shadow-lg transition-all duration-500 group-hover:scale-[105%] group-hover:opacity-100"
+                className="z-10 p-10 opacity-100 drop-shadow-lg transition-all duration-500 group-hover:scale-[110%] group-hover:opacity-100"
               />
             </div>
           </div>
 
           <div className="animate-all card-body h-full bg-neutral-700 p-5 duration-300 group-hover:bg-neutral-700/70">
-            <h2 className="card-title text-xl font-extrabold">
+            <div className="card-title text-2xl font-extrabold duration-500">
               {title}
 
               {isNew && (
-                <div className="badge-secondary badge scale-90 p-2">NEW!</div>
+                <div className="badge-secondary badge scale-90 p-3">NEW!</div>
               )}
-            </h2>
+            </div>
 
             <div className="card-actions justify-start font-bold text-neutral-200">
               {tags.map((tag) => (
-                <div className="badge-outline badge badge-sm p-3 font-thin">
+                <div className="badge-outline badge badge-xs p-3 font-thin hover:bg-neutral-600">
                   {tag}
                 </div>
               ))}

@@ -103,7 +103,7 @@ export default function Hero({
 
       <div
         id="mobile_menu"
-        className="absolute bottom-5 text-neutral-100 md:hidden"
+        className="absolute bottom-5 mb-5 text-neutral-100 md:hidden"
       >
         <a href="#mobile_menu">
           <FaChevronDown className="animate-pulse text-4xl" />

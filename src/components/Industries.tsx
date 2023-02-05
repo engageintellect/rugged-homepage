@@ -1,17 +1,15 @@
 import Indusrty from "./Industry";
 import WideCard from "./WideCard";
 
-import forest from "/public/images/cards/forest.jpg";
 import police from "/public/images/industries/police.jpg";
 import cannabis from "/public/images/industries/cannabis.jpg";
 import construction from "/public/images/industries/construction.jpg";
-import fire from "/public/images/industries/fire.jpg";
+import fire from "/public/images/industries/fire2.jpg";
 import oil_gas from "/public/images/industries/oil_gas.jpg";
 import transportation from "/public/images/industries/transportation.jpg";
 import utilities from "/public/images/industries/utilities.jpg";
 import ems from "/public/images/industries/ems.jpg";
-import distribution from "/public/images/industries/distribution.jpg";
-import SliderRight from "./SliderRight";
+import distribution from "/public/images/industries/warehouse.jpg";
 
 import { FaBuilding } from "react-icons/fa";
 

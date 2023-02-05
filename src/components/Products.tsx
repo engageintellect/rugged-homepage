@@ -1,13 +1,11 @@
 import Product from "./Product";
 import WideCard from "./WideCard";
 
-import SliderRight from "./SliderRight";
-
 import rugged from "/public/images/products/rugged.webp";
 import rugged_tablet from "/public/images/products/rugged_tablet.png";
 import barcode_scanner from "/public/images/products/barcode_scanner.png";
 import mobile_computing from "/public/images/products/mobile_computing.png";
-import rfid from "/public/images/products/rfid.png";
+import rfid from "/public/images/products/rfid.webp";
 import wearable_computing from "/public/images/products/wearable_computing.webp";
 import surveillance from "/public/images/products/surveillance.png";
 import label_printer from "/public/images/products/label_printer.png";

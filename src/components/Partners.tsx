@@ -1,6 +1,4 @@
 // IMPORT COMPONENTS
-import Image from "next/image";
-import WideCard from "./WideCard";
 import Partner from "./Partner";
 
 // IMPORT IMAGES
@@ -27,18 +25,18 @@ export default function Parnters() {
             loop
             muted
             playsInline
-            className="blur-xs h-full w-full object-cover opacity-20"
+            className="blur-xs h-full w-full object-cover opacity-10"
           >
             <source src="/videos/engineering.mp4" type="video/mp4" />
           </video>
         </div>
 
         <div className="mx-auto flex h-96 flex-col items-center justify-center gap-2 py-40 xl:container xl:flex-row xl:gap-40">
-          <div className="z-20 flex justify-center pb-5 text-4xl font-semibold text-white">
+          <div className="z-20 flex justify-center pb-5 text-4xl text-white">
             <a href="/#partners">
               <div className="flex h-full flex-col items-center justify-center overflow-hidden rounded-lg p-4 drop-shadow-lg xl:h-48">
-                <div className="flex items-center justify-center gap-2 pb-2 text-4xl font-semibold xl:text-6xl">
-                  <div>Our Partners</div>
+                <div className="flex items-center justify-center gap-2 pb-2 text-4xl xl:text-6xl">
+                  <div className="font-semibold">Our Partners</div>
                   <div>
                     <FaHandshake />
                   </div>

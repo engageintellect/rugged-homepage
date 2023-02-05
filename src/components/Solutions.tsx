@@ -1,25 +1,12 @@
 import Solution from "./Solution";
 import WideCard from "./WideCard";
-
-import forest from "/public/images/cards/forest.jpg";
-import police from "/public/images/industries/police.jpg";
-import cannabis from "/public/images/industries/cannabis.jpg";
-import construction from "/public/images/industries/construction.jpg";
-import oil_gas from "/public/images/industries/oil_gas.jpg";
-import transportation from "/public/images/industries/transportation.jpg";
-import utilities from "/public/images/industries/utilities.jpg";
-import ems from "/public/images/industries/ems.jpg";
-import distribution from "/public/images/industries/distribution.jpg";
-import SliderRight from "./SliderRight";
-import mountains from "/public/images/hero/rugged_mountains.jpg";
-import circut from "/public/images/circut.jpg";
 import barcode_scanning from "/public/images/industries/barcode_printing.jpg";
 import fire from "/public/images/industries/fire.jpg";
 import asset_tracking from "/public/images/industries/asset_tracking.jpg";
 import wearable_computing from "/public/images/industries/wearable_computing.jpg";
 import cameras from "/public/images/industries/cameras.png";
 
-import { FaBuilding, FaChartLine } from "react-icons/fa";
+import { FaChartLine } from "react-icons/fa";
 
 export default function Solutions() {
   return (

@@ -25,7 +25,7 @@ export default function Indusrty({
               alt="Picture of the author"
               fill
               sizes="100%"
-              className="z-10 object-cover opacity-20 transition-all duration-300 group-hover:scale-105 group-hover:opacity-10"
+              className="z-10 object-cover opacity-25 transition-all duration-300 group-hover:scale-105 group-hover:opacity-10"
             />
 
             <div className="relative z-20 mx-auto w-2/3">

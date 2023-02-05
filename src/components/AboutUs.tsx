@@ -1,18 +1,7 @@
 import WideCard from "./WideCard";
 import Image from "next/image";
 import laptop from "/public/images/products/rugged_laptop.jpg";
-import Slider from "./Slider";
-
-import mountains from "/public/images/hero/rugged_mountains.jpg";
-import circut from "/public/images/circut.jpg";
-import fire from "/public/images/industries/fire.jpg";
-import police from "/public/images/industries/police.jpg";
-import utilities from "/public/images/industries/utilities.jpg";
-import barcode_scanning from "/public/images/industries/barcode_printing.jpg";
-import asset_tracking from "/public/images/industries/asset_tracking.jpg";
-import wearable_computing from "/public/images/industries/wearable_computing.jpg";
-
-import { company_info } from "../data/data";
+import SlideDown from "./SlideDown";
 
 import logo from "/public/images/logos/RD-logo.png";
 
@@ -36,26 +25,28 @@ export default function AboutUs() {
           </div>
         </div>
 
-        <a href="/#form">
-          <div className="mt-10 mb-20 flex items-center gap-4 xl:mb-10">
-            <div className="avatar z-50">
-              <div className="w-12 rounded-full">
-                <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+        <div>
+          <a href="/#form">
+            <div className="mt-10 mb-28 flex items-center gap-4 xl:mb-10">
+              <div className="avatar z-50">
+                <div className="w-12 rounded-full">
+                  <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                </div>
+              </div>
+              <div>
+                <div className="text-lg font-semibold text-white">
+                  Jesse Stefko
+                </div>
+                <div className="text-sm font-thin">VP, Rugged Development.</div>
               </div>
             </div>
-            <div>
-              <div className="text-lg font-semibold text-white">
-                Jesse Stefko
-              </div>
-              <div className="text-sm font-thin">VP, Rugged Development.</div>
-            </div>
-          </div>
-        </a>
+          </a>
+        </div>
 
         <div className="relative z-40 flex items-center justify-center bg-transparent xl:translate-y-24">
           <a href="/#solutions">
             <div className="hidden transition-transform duration-200 hover:cursor-pointer active:scale-95 md:flex">
-              <Slider
+              <SlideDown
                 component={
                   <Image
                     src={laptop}
@@ -66,7 +57,7 @@ export default function AboutUs() {
               />
 
               <div className="absolute">
-                <Slider
+                <SlideDown
                   component={
                     <div className="absolute top-16 z-50 flex h-[260px] w-[442px] translate-x-[135px] items-center justify-center rounded-md border-2 border-neutral-900 bg-gradient-to-r from-purple-600 to-blue-600 p-4">
                       <div className="">

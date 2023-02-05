@@ -7,7 +7,7 @@ type SliderProps = {
 
 const cardVariants: Variants = {
   offscreen: {
-    y: -100,
+    y: 100,
   },
   onscreen: {
     y: 0,
@@ -20,7 +20,7 @@ const cardVariants: Variants = {
   },
 };
 
-export default function Slider({ component }: PropsWithChildren<SliderProps>) {
+export default function SlideUp({ component }: PropsWithChildren<SliderProps>) {
   return (
     <>
       <motion.div
