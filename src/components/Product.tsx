@@ -39,7 +39,7 @@ export default function Product({
               {title}
 
               {isNew && (
-                <div className="badge-secondary badge scale-90 p-3">NEW!</div>
+                <div className="badge-primary badge scale-90 p-3">NEW!</div>
               )}
             </div>
 

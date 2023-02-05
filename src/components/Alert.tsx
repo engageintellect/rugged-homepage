@@ -37,6 +37,7 @@ export default function Alert({
             <div className="ml-auto flex items-center uppercase">
               <button
                 name="close"
+                title="close"
                 onClick={() => closeAlert()}
                 className="rounded-full hover:bg-fuchsia-500"
               >
