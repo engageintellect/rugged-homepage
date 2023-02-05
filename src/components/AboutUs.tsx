@@ -6,7 +6,7 @@ import SlideDown from "./SlideDown";
 import logo from "/public/images/logos/RD-logo.webp";
 import avatar from "/public/images/avatars/avatar.webp";
 
-import { FaArrowDown, FaCheckCircle } from "react-icons/fa";
+import { FaCheckCircle } from "react-icons/fa";
 
 export default function AboutUs() {
   return (

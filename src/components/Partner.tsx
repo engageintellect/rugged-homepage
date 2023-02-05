@@ -28,7 +28,7 @@ export default function Partner({
               <Image
                 src={img}
                 alt="Picture of the author"
-                className="rounded-full object-cover" // just an example
+                className="rounded-full object-cover"
               />
             </div>
           </div>
