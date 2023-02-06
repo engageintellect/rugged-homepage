@@ -5,8 +5,8 @@ This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3
 ## Getting Started
 
 Install dependencies
-`npm i`
-`npm run dev`
+`pnpm i`
+`pnpm run dev`
 
 If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
 
@@ -17,6 +17,8 @@ If you are not familiar with the different technologies used in this project, pl
 - [tRPC](https://trpc.io)
 - [PlanetScale](https://planetscale.com)
 - [Vercel](https://vercel.com)
+- [DaisyUI](https://daisyui.com)
+- [Framer Motion](https://framer.com)
 
 ## Learn More
 
