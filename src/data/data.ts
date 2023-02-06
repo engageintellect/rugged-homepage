@@ -47,6 +47,36 @@ export const testimonials = [
   },
 ];
 
+
+export const solutions = {
+  asset_tracking: {
+    title: "Asset Tracking & Inventory Management",
+    description:"Inventory Control, Asset Utilization, Supply Chain Management",
+  },
+
+  surveillance: {
+    title: "Video Surveillance",
+    description:"Real-Time Monitoring, Security, Data Recording",
+  },
+
+  rugged_computing: {
+    title: "Rugged Computing",
+    description:"Extreme Temperatures, Shock & Vibration Resistance, In-Field Use",
+  },
+
+  wearable_technology: {
+    title: "Wearable Technology",
+    description:"Smart Devices, Continuous Monitoring, User Convenience",
+  },
+
+  rfid: {
+    title: "RFID & Barcode Scanning",
+    description:"Accurate Identification, Enhanced Productivity, Streamlined Operations",
+  },
+}
+
+
+
 export const industries = {
   distribution_warehousing: {
     img: "https://ruggeddevelopment.com/wp-content/uploads/2020/06/Industries-1.jpg",

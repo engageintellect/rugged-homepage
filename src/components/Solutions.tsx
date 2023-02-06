@@ -6,6 +6,8 @@ import asset_tracking from "/public/images/industries/asset_tracking.jpg";
 import wearable_computing from "/public/images/industries/wearable_computing.jpg";
 import cameras from "/public/images/industries/cameras.png";
 
+import { solutions } from "../data/data";
+
 import { FaChartLine } from "react-icons/fa";
 
 export default function Solutions() {
@@ -29,40 +31,40 @@ export default function Solutions() {
           <div className="scroll-hide flex snap-x snap-mandatory gap-2 overflow-x-auto p-2 md:gap-4 md:p-4">
             <div className="snap-center">
               <Solution
-                title={"Asset Tracking & Inventory Management"}
-                description="Cultivation, Manufacturing, Distribution, Retail."
+                title={solutions.asset_tracking.title}
+                description={solutions.asset_tracking.description}
                 url="https://www.google.com"
                 img={asset_tracking}
               />
             </div>
             <div className="snap-center ">
               <Solution
-                title={"Video Surveillance"}
-                description="Cultivation, Manufacturing, Distribution, Retail."
+                title={solutions.surveillance.title}
+                description={solutions.surveillance.description}
                 url="https://www.google.com"
                 img={cameras}
               />
             </div>
             <div className="snap-center">
               <Solution
-                title={"Rugged Computing"}
-                description="Cultivation, Manufacturing, Distribution, Retail."
+                title={solutions.rugged_computing.title}
+                description={solutions.rugged_computing.description}
                 url="https://www.google.com"
                 img={fire}
               />
             </div>
             <div className="snap-center">
               <Solution
-                title={"Wearable Technology"}
-                description="Cultivation, Manufacturing, Distribution, Retail."
+                title={solutions.wearable_computing.title}
+                description={solutions.wearable_technology.description}
                 url="https://www.google.com"
                 img={wearable_computing}
               />
             </div>
             <div className="snap-center">
               <Solution
-                title={"RFID & Barcode Scanning"}
-                description="Cultivation, Manufacturing, Distribution, Retail."
+                title={solutions.rfid.title}
+                description={solutions.rfid.description}
                 url="https://www.google.com"
                 img={barcode_scanning}
               />
