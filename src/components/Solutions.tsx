@@ -55,7 +55,7 @@ export default function Solutions() {
             </div>
             <div className="snap-center">
               <Solution
-                title={solutions.wearable_computing.title}
+                title={solutions.wearable_technology.title}
                 description={solutions.wearable_technology.description}
                 url="https://www.google.com"
                 img={wearable_computing}
