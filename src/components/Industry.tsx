@@ -33,7 +33,7 @@ export default function Indusrty({
                 <div className="text-xl font-semibold transition-all duration-500 group-hover:scale-105 md:text-2xl">
                   {title}
                 </div>
-                <div className="md:text-md text-sm text-neutral-400">
+                <div className="md:text-md text-sm text-neutral-300">
                   {description}
                 </div>
               </div>
