@@ -11,6 +11,8 @@ import utilities from "/public/images/industries/utilities.jpg";
 import ems from "/public/images/industries/ems.jpg";
 import distribution from "/public/images/industries/warehouse.jpg";
 
+import { industries } from "../data/data";
+
 import { FaBuilding } from "react-icons/fa";
 
 export default function Industries() {
@@ -31,56 +33,56 @@ export default function Industries() {
         <div className="scroll-hide flex snap-x snap-mandatory gap-2 overflow-x-auto p-2 md:gap-4 md:p-4">
           <div className="snap-center">
             <Indusrty
-              title="Transportation & Logistics"
-              description="Cultivation, Manufacturing, Distribution, Retail."
+              title={industries.transportation_logistics.title}
+              description={industries.transportation_logistics.description}
               url="https://www.google.com"
               img={transportation}
             />
           </div>
           <div id="Distribution & Warehousing" className="snap-center ">
             <Indusrty
-              title="Distribution & Warehousing"
-              description="Cultivation, Manufacturing, Distribution, Retail."
+              title={industries.distribution_warehousing.title}
+              description={industries.distribution_warehousing.description}
               url="https://www.google.com"
               img={distribution}
             />
           </div>
           <div id="industries" className="snap-center">
             <Indusrty
-              title="Cannabis"
-              description="Cultivation, Manufacturing, Distribution, Retail."
+              title={industries.cannabis.title}
+              description={industries.cannabis.description}
               url="https://www.google.com"
               img={cannabis}
             />
           </div>
           <div className="snap-center">
             <Indusrty
-              title="Oil & Gas"
-              description="Cultivation, Manufacturing, Distribution, Retail."
+              title={industries.oil_gas.title}
+              description={industries.oil_gas.description}
               url="https://www.google.com"
               img={oil_gas}
             />
           </div>
           <div className="snap-center">
             <Indusrty
-              title="Fire"
-              description="Cultivation, Manufacturing, Distribution, Retail."
+              title={industries.fire.title}
+              description={industries.fire.description}
               url="https://www.google.com"
               img={fire}
             />
           </div>
           <div className="snap-center">
             <Indusrty
-              title="Police"
-              description="Cultivation, Manufacturing, Distribution, Retail."
+              title={industries.police.title}
+              description={industries.police.description}
               url="https://www.google.com"
               img={police}
             />
           </div>
           <div className="snap-center">
             <Indusrty
-              title="Construction"
-              description="Cultivation, Manufacturing, Distribution, Retail."
+              title={industries.construction.title}
+              description={industries.construction.description}
               url="https://www.google.com"
               img={construction}
             />
@@ -88,16 +90,16 @@ export default function Industries() {
 
           <div className="snap-center">
             <Indusrty
-              title="Utilities"
-              description="Cultivation, Manufacturing, Distribution, Retail."
+              title={industries.utilities.title}
+              description={industries.utilities.description}
               url="https://www.google.com"
               img={utilities}
             />
           </div>
           <div className="snap-center">
             <Indusrty
-              title="EMS"
-              description="Cultivation, Manufacturing, Distribution, Retail."
+              title={industries.ems.title}
+              description={industries.ems.description}
               url="https://www.google.com"
               img={ems}
             />
