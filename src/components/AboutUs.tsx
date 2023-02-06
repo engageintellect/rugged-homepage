@@ -29,7 +29,7 @@ export default function AboutUs() {
         <div>
           <a href="/#form">
             <div className="mt-10 mb-28 flex items-center gap-4 xl:mb-10">
-              <div className="avatar z-50">
+              <div className="avatar">
                 <div className="w-12 rounded-full">
                   <Image src={avatar} alt="avatar" />
                 </div>
