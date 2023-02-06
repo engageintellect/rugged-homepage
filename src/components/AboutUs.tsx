@@ -3,9 +3,10 @@ import Image from "next/image";
 import laptop from "/public/images/products/rugged_laptop.jpg";
 import SlideDown from "./SlideDown";
 
-import logo from "/public/images/logos/RD-logo.png";
+import logo from "/public/images/logos/RD-logo.webp";
+import avatar from "/public/images/avatars/avatar.webp";
 
-import { FaArrowDown, FaCheckCircle } from "react-icons/fa";
+import { FaCheckCircle } from "react-icons/fa";
 
 export default function AboutUs() {
   return (
@@ -28,9 +29,9 @@ export default function AboutUs() {
         <div>
           <a href="/#form">
             <div className="mt-10 mb-28 flex items-center gap-4 xl:mb-10">
-              <div className="avatar z-20">
+              <div className="avatar">
                 <div className="w-12 rounded-full">
-                  <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                  <Image src={avatar} alt="avatar" />
                 </div>
               </div>
               <div>

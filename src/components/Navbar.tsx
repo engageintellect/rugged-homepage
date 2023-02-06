@@ -1,6 +1,6 @@
 import Image from "next/image";
-import logo from "/public/images/logos/RD-logo.png";
-import { FaTwitter, FaEnvelope } from "react-icons/fa";
+import logo from "/public/images/logos/RD-logo.webp";
+import { FaEnvelope } from "react-icons/fa";
 import { company_info } from "../data/data";
 
 export default function Navbar() {
@@ -20,7 +20,6 @@ export default function Navbar() {
 
             <div className="flex justify-end">
               <a href={company_info.email}>
-                {/* <div className="cursor-pointer rounded-md bg-gradient-to-r from-blue-700 to-purple-500 px-4 hover:scale-105 hover:bg-blue-600"> */}
                 <div className="transition-color group w-full animate-gradient-x rounded-md bg-gradient-to-r from-purple-700 to-blue-500 px-4 text-white shadow-xl outline-none transition-all duration-500 hover:from-purple-900 hover:to-blue-900 focus:outline-none active:scale-95">
                   <div className="flex items-center justify-center gap-2 text-sm">
                     <span className="font-semibold">Contact Us</span>

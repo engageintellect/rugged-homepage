@@ -1,11 +1,7 @@
 import { type PropsWithChildren } from "react";
 
 import Image from "next/image";
-import logo from "/public/images/logos/RD-logo.png";
-import fire from "/public/images/industries/fire.jpg";
-import earth from "/public/images/hero/earth.jpg";
-import servers from "/public/images/hero/servers.jpg";
-import mountains from "/public/images/hero/rugged_mountains.jpg";
+import logo from "/public/images/logos/RD-logo.webp";
 
 import {
   FaBookOpen,
@@ -64,6 +60,7 @@ export default function Hero({
           <div className="hidden justify-center bg-transparent drop-shadow-xl md:flex">
             <a href="/">
               <Image
+                priority={true}
                 src={logo}
                 alt="Rugged Development Logo"
                 className="duration-50 w-40 drop-shadow-xl transition-transform hover:scale-[102%] active:scale-[99%] md:w-64"

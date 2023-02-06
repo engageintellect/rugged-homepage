@@ -1,7 +1,5 @@
 // IMPORTS
 import { type NextPage } from "next";
-// import { signIn, signOut, useSession } from "next-auth/react";
-import { trpc } from "../utils/trpc";
 
 // COMPONENTS
 import Head from "next/head";
@@ -16,7 +14,6 @@ import TestimonialFeed from "../components/TestimonialFeed";
 import Industries from "../components/Industries";
 import Financing from "../components/Financing";
 import Products from "../components/Products";
-import Alert from "../components/Alert";
 import SlideUp from "../components/SlideUp";
 
 const Home: NextPage = (props) => {
