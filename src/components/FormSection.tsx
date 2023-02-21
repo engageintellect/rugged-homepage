@@ -35,7 +35,7 @@ export default function FormSection() {
             <div className="w-full py-5 text-lg md:max-w-xl md:text-xl">
               Let's work together to develop a solution that fits your budget,
               timeline and objectives. Our experts are committed to helping you
-              select a solution that matches your specific needs."
+              select a solution that matches your specific needs.
             </div>
           </div>
           <FormikForm />
