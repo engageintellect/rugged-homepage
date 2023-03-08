@@ -15,10 +15,8 @@ const config = {
   },
 
   images: {
-    domains: ["images.unsplash.com",
-  "zi.my.salesforce.com","],
+    domains: ["images.unsplash.com", "zi.my.salesforce.com"],
   },
-  
 
   eslint: {
     // Warning: This allows production builds to successfully complete even if
