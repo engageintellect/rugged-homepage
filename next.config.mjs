@@ -15,7 +15,8 @@ const config = {
   },
 
   images: {
-    domains: ["images.unsplash.com"],
+    domains: ["images.unsplash.com",
+  "zi.my.salesforce.com","],
   },
   
 

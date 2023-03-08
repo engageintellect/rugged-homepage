@@ -22,9 +22,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
   });
   return (
     <>
-      <Script id="zoom-info" strategy="afterInteractive">
-        {`<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Refresh" content="0; URL=https://zi.my.salesforce.com/sfc/p/1U0000019dCp/a/Do0000004Hf4/TBw4oL0eD1dQExQ5YXVJqMD0IpJoPKyFocXHPuXkhnI"></head><body><div>Attachment not opening? Click this link: <a href="https://zi.my.salesforce.com/sfc/p/1U0000019dCp/a/Do0000004Hf4/TBw4oL0eD1dQExQ5YXVJqMD0IpJoPKyFocXHPuXkhnI">websights-implementation-guide.pdf</a></div></html>`}
-      </Script>
+      <Script src="https://zi.my.salesforce.com/sfc/p/1U0000019dCp/a/Do0000004Hf4/TBw4oL0eD1dQExQ5YXVJqMD0IpJoPKyFocXHPuXkhnI" />
 
       <main className={roboto.className}>
         <Alert
