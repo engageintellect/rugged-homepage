@@ -70,7 +70,7 @@ export default function Footer() {
 
             <div className="flex justify-end">
               <a
-                href="https://github.com/engageintellect/rugged-homepage/deployments"
+                href="https://github.com/engageintellect/rugged-homepage"
                 target="_blank"
               >
                 <div className="flex h-16 w-16 cursor-pointer items-center justify-center rounded-full bg-blue-700 hover:scale-105 hover:bg-blue-600">
