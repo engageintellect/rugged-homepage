@@ -1,7 +1,8 @@
 import WideCard from "./WideCard";
 import Image from "next/image";
 import laptop from "/public/images/products/rugged_laptop.jpg";
-import SlideDown from "./SlideDown";
+import SlideDown from "../components/motion/SlideDown";
+import FadeIn from "../components/motion/FadeIn";
 
 import logo from "/public/images/logos/RD-logo.webp";
 import avatar from "/public/images/avatars/avatar.webp";
@@ -15,35 +16,42 @@ export default function AboutUs() {
         id="about-us"
         className="z-0 flex flex-col items-center justify-center bg-neutral-900"
       >
-        <div className="mt-20 flex items-center justify-center bg-neutral-900 px-2 xl:w-[66vw] xl:px-10">
-          <div className="min-h-96 flex items-center justify-center">
-            <WideCard
-              title="About Us"
-              description="Every organization is unique. Our experts are committed to helping you select a solution that matches your specific needs – from warehouse equipment to rugged computing and scanning."
-              url="/#about-us"
-              icon={<FaCheckCircle />}
-            />
-          </div>
-        </div>
-
-        <div>
-          <a href="/#form">
-            <div className="mt-10 mb-28 flex items-center gap-4 xl:mb-10">
-              <div className="avatar">
-                <div className="w-12 rounded-full">
-                  <Image src={avatar} alt="avatar" />
+        <FadeIn
+          component={
+            <div className="flex flex-col items-center justify-center">
+              <div className="mt-20 flex items-center justify-center bg-neutral-900 px-2 xl:w-[66vw] xl:px-10">
+                <div className="min-h-96 flex items-center justify-center">
+                  <WideCard
+                    title="About Us"
+                    description="Every organization is unique. Our experts are committed to helping you select a solution that matches your specific needs – from warehouse equipment to rugged computing and scanning."
+                    url="/#about-us"
+                    icon={<FaCheckCircle />}
+                  />
                 </div>
               </div>
+
               <div>
-                <div className="text-lg font-semibold text-white">
-                  Jesse Stefko
-                </div>
-                <div className="text-sm font-thin">VP, Rugged Development.</div>
+                <a href="/#form">
+                  <div className="mt-10 mb-28 flex items-center gap-4 xl:mb-10">
+                    <div className="avatar">
+                      <div className="w-12 rounded-full">
+                        <Image src={avatar} alt="avatar" />
+                      </div>
+                    </div>
+                    <div>
+                      <div className="text-lg font-semibold text-white">
+                        Jesse Stefko
+                      </div>
+                      <div className="text-sm font-thin">
+                        VP, Rugged Development.
+                      </div>
+                    </div>
+                  </div>
+                </a>
               </div>
             </div>
-          </a>
-        </div>
-
+          }
+        />
         <div className="relative z-40 flex items-center justify-center bg-transparent xl:translate-y-24">
           <a href="/#solutions">
             <div className="hidden transition-transform duration-200 hover:cursor-pointer active:scale-95 md:flex">

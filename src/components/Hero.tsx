@@ -51,7 +51,7 @@ export default function Hero({
           playsInline
           className="h-full w-full object-cover opacity-20"
         >
-          <source src="/videos/tower.mp4" type="video/mp4" />
+          <source src="/videos/distribution.mp4" type="video/mp4" />
         </video>
       </motion.div>
 

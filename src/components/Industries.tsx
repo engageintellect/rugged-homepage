@@ -24,7 +24,7 @@ export default function Industries() {
       >
         <WideCard
           title="Industries"
-          description="We serve a wide range of industries. We'll help reduce cost and improve operational efficiency to better meet the needs of the future."
+          description="We serve a wide range of industries. We'll help reduce your cost and improve operational efficiency to better meet the needs of the future."
           url="/#industries"
           icon={<FaBuilding />}
         />

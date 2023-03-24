@@ -14,7 +14,8 @@ import TestimonialFeed from "../components/TestimonialFeed";
 import Industries from "../components/Industries";
 import Financing from "../components/Financing";
 import Products from "../components/Products";
-import SlideUp from "../components/SlideUp";
+import SlideUp from "../components/motion/SlideUp";
+import FadeIn from "../components/motion/FadeIn";
 
 const Home: NextPage = (props) => {
   return (
@@ -27,19 +28,19 @@ const Home: NextPage = (props) => {
 
       <Hero
         title="Rugged Development"
-        description="We supply, deploy, and support technology designed to for the most demanding environments on earth."
+        description="We supply, deploy, and support hardware technologies designed to for the most demanding environments on earth."
       />
 
       <div className="bg-neutral-900">
         <HeroCards />
         <AboutUs />
-        <SlideUp component={<Solutions />} />
-        <SlideUp component={<Industries />} />
-        <SlideUp component={<Products />} />
-        <Partners />
-        <SlideUp component={<TestimonialFeed />} />
-        <Financing />
-        <FormSection />
+        <FadeIn component={<Solutions />} />
+        <FadeIn component={<Industries />} />
+        <FadeIn component={<Products />} />
+        <FadeIn component={<Partners />} />
+        <FadeIn component={<TestimonialFeed />} />
+        <FadeIn component={<Financing />} />
+        <FadeIn component={<FormSection />} />
       </div>
     </>
   );
