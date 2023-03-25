@@ -20,6 +20,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
     title: "Rugged Financing:",
     msg: "Financing now available for all products.",
   });
+
   return (
     <>
       <Script src="https://zi.my.salesforce.com/sfc/p/1U0000019dCp/a/Do0000004Hf4/TBw4oL0eD1dQExQ5YXVJqMD0IpJoPKyFocXHPuXkhnI" />
