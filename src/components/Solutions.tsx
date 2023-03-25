@@ -23,7 +23,7 @@ export default function Solutions() {
           <div>
             <WideCard
               title="Solutions"
-              description="We'll work with you put tailor the perfect solution for your specific needs and working environment."
+              description="We'll work with you to tailor the perfect solution for your specific needs and working environment."
               url="/#industries"
               icon={<FaChartLine />}
             />
