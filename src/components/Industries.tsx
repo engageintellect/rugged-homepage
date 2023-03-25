@@ -15,6 +15,8 @@ import { industries } from "../data/data";
 
 import { FaBuilding } from "react-icons/fa";
 
+import SliderX from "./motion/SliderX";
+
 export default function Industries() {
   return (
     <>
@@ -30,80 +32,90 @@ export default function Industries() {
         />
       </div>
       <div className="z-0 mx-auto bg-neutral-900 xl:container xl:flex xl:items-center xl:justify-center xl:bg-neutral-900">
-        <div className="scroll-hide flex snap-x snap-mandatory gap-2 overflow-x-auto p-2 md:gap-4 md:p-4">
-          <div className="snap-center">
-            <Indusrty
-              title={industries.transportation_logistics.title}
-              description={industries.transportation_logistics.description}
-              url="https://www.google.com"
-              img={transportation}
-            />
-          </div>
-          <div id="Distribution & Warehousing" className="snap-center ">
-            <Indusrty
-              title={industries.distribution_warehousing.title}
-              description={industries.distribution_warehousing.description}
-              url="https://www.google.com"
-              img={distribution}
-            />
-          </div>
-          <div id="industries" className="snap-center">
-            <Indusrty
-              title={industries.cannabis.title}
-              description={industries.cannabis.description}
-              url="https://www.google.com"
-              img={cannabis}
-            />
-          </div>
-          <div className="snap-center">
-            <Indusrty
-              title={industries.oil_gas.title}
-              description={industries.oil_gas.description}
-              url="https://www.google.com"
-              img={oil_gas}
-            />
-          </div>
-          <div className="snap-center">
-            <Indusrty
-              title={industries.fire.title}
-              description={industries.fire.description}
-              url="https://www.google.com"
-              img={fire}
-            />
-          </div>
-          <div className="snap-center">
-            <Indusrty
-              title={industries.police.title}
-              description={industries.police.description}
-              url="https://www.google.com"
-              img={police}
-            />
-          </div>
-          <div className="snap-center">
-            <Indusrty
-              title={industries.construction.title}
-              description={industries.construction.description}
-              url="https://www.google.com"
-              img={construction}
-            />
-          </div>
+        <div className="scroll-hide snap-x snap-mandatory overflow-x-auto p-2 md:p-4">
+          <SliderX
+            component={
+              <div className="flex gap-2 md:gap-4">
+                <div className="snap-center">
+                  <Indusrty
+                    title={industries.transportation_logistics.title}
+                    description={
+                      industries.transportation_logistics.description
+                    }
+                    url="https://www.google.com"
+                    img={transportation}
+                  />
+                </div>
+                <div id="Distribution & Warehousing" className="snap-center ">
+                  <Indusrty
+                    title={industries.distribution_warehousing.title}
+                    description={
+                      industries.distribution_warehousing.description
+                    }
+                    url="https://www.google.com"
+                    img={distribution}
+                  />
+                </div>
+                <div id="industries" className="snap-center">
+                  <Indusrty
+                    title={industries.cannabis.title}
+                    description={industries.cannabis.description}
+                    url="https://www.google.com"
+                    img={cannabis}
+                  />
+                </div>
+                <div className="snap-center">
+                  <Indusrty
+                    title={industries.oil_gas.title}
+                    description={industries.oil_gas.description}
+                    url="https://www.google.com"
+                    img={oil_gas}
+                  />
+                </div>
+                <div className="snap-center">
+                  <Indusrty
+                    title={industries.fire.title}
+                    description={industries.fire.description}
+                    url="https://www.google.com"
+                    img={fire}
+                  />
+                </div>
+                <div className="snap-center">
+                  <Indusrty
+                    title={industries.police.title}
+                    description={industries.police.description}
+                    url="https://www.google.com"
+                    img={police}
+                  />
+                </div>
+                <div className="snap-center">
+                  <Indusrty
+                    title={industries.construction.title}
+                    description={industries.construction.description}
+                    url="https://www.google.com"
+                    img={construction}
+                  />
+                </div>
 
-          <div className="snap-center">
-            <Indusrty
-              title={industries.utilities.title}
-              description={industries.utilities.description}
-              url="https://www.google.com"
-              img={utilities}
-            />
-          </div>
-          <div className="snap-center">
-            <Indusrty
-              title={industries.ems.title}
-              description={industries.ems.description}
-              url="https://www.google.com"
-              img={ems}
-            />
-          </div>
+                <div className="snap-center">
+                  <Indusrty
+                    title={industries.utilities.title}
+                    description={industries.utilities.description}
+                    url="https://www.google.com"
+                    img={utilities}
+                  />
+                </div>
+                <div className="snap-center">
+                  <Indusrty
+                    title={industries.ems.title}
+                    description={industries.ems.description}
+                    url="https://www.google.com"
+                    img={ems}
+                  />
+                </div>
+              </div>
+            }
+          />
         </div>
       </div>
     </>

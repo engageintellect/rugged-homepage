@@ -10,6 +10,8 @@ import { solutions } from "../data/data";
 
 import { FaChartLine } from "react-icons/fa";
 
+import SliderX from "./motion/SliderX";
+
 export default function Solutions() {
   return (
     <>
@@ -27,48 +29,55 @@ export default function Solutions() {
             />
           </div>
         </div>
+
         <div className="bg-neutral-00 z-0 mx-auto xl:container xl:flex xl:items-center xl:justify-center xl:bg-neutral-800">
-          <div className="scroll-hide flex snap-x snap-mandatory gap-2 overflow-x-auto p-2 md:gap-4 md:p-4">
-            <div className="snap-center">
-              <Solution
-                title={solutions.asset_tracking.title}
-                description={solutions.asset_tracking.description}
-                url="https://www.google.com"
-                img={asset_tracking}
-              />
-            </div>
-            <div className="snap-center ">
-              <Solution
-                title={solutions.surveillance.title}
-                description={solutions.surveillance.description}
-                url="https://www.google.com"
-                img={cameras}
-              />
-            </div>
-            <div className="snap-center">
-              <Solution
-                title={solutions.rugged_computing.title}
-                description={solutions.rugged_computing.description}
-                url="https://www.google.com"
-                img={fire}
-              />
-            </div>
-            <div className="snap-center">
-              <Solution
-                title={solutions.wearable_technology.title}
-                description={solutions.wearable_technology.description}
-                url="https://www.google.com"
-                img={wearable_computing}
-              />
-            </div>
-            <div className="snap-center">
-              <Solution
-                title={solutions.rfid.title}
-                description={solutions.rfid.description}
-                url="https://www.google.com"
-                img={barcode_scanning}
-              />
-            </div>
+          <div className="scroll-hide snap-x snap-mandatory overflow-x-auto p-2 md:p-4">
+            <SliderX
+              component={
+                <div className="flex gap-2 md:gap-4">
+                  <div className="snap-center">
+                    <Solution
+                      title={solutions.asset_tracking.title}
+                      description={solutions.asset_tracking.description}
+                      url="https://www.google.com"
+                      img={asset_tracking}
+                    />
+                  </div>
+                  <div className="snap-center ">
+                    <Solution
+                      title={solutions.surveillance.title}
+                      description={solutions.surveillance.description}
+                      url="https://www.google.com"
+                      img={cameras}
+                    />
+                  </div>
+                  <div className="snap-center">
+                    <Solution
+                      title={solutions.rugged_computing.title}
+                      description={solutions.rugged_computing.description}
+                      url="https://www.google.com"
+                      img={fire}
+                    />
+                  </div>
+                  <div className="snap-center">
+                    <Solution
+                      title={solutions.wearable_technology.title}
+                      description={solutions.wearable_technology.description}
+                      url="https://www.google.com"
+                      img={wearable_computing}
+                    />
+                  </div>
+                  <div className="snap-center">
+                    <Solution
+                      title={solutions.rfid.title}
+                      description={solutions.rfid.description}
+                      url="https://www.google.com"
+                      img={barcode_scanning}
+                    />
+                  </div>
+                </div>
+              }
+            />
           </div>
         </div>
       </div>

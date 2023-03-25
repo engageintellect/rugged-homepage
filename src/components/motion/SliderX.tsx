@@ -7,29 +7,27 @@ type SliderProps = {
 
 const cardVariants: Variants = {
   offscreen: {
-    x: 100,
+    x: -100,
   },
   onscreen: {
-    y: 0,
+    x: 0,
     rotate: 0,
     transition: {
       type: "spring",
       bounce: 0.1,
-      duration: 1,
+      duration: 1.5,
     },
   },
 };
 
-export default function SliderRight({
-  component,
-}: PropsWithChildren<SliderProps>) {
+export default function SliderX({ component }: PropsWithChildren<SliderProps>) {
   return (
     <>
       <motion.div
         className="card-container"
         initial="offscreen"
         whileInView="onscreen"
-        viewport={{ once: true, amount: 0 }}
+        viewport={{ once: false, amount: 0 }}
       >
         <motion.div className="" variants={cardVariants}>
           {component}
